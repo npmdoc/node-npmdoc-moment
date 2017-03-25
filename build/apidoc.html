@@ -46,351 +46,687 @@
     font-weight: bold;
 }
 </style>
-<h1>api-documentation for
+<h1>api documentation for
     <a
-        
+
         href="http://momentjs.com"
-        
-    >moment (v2.17.1)</a>
+
+    >moment (v2.18.1)</a>
 </h1>
+<h4>Parse, validate, manipulate, and display dates</h4>
 <div class="apidocSectionDiv"><a
     href="#apidoc.tableOfContents"
     id="apidoc.tableOfContents"
 ><h1>table of contents</h1></a><ol>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.moment">module moment</a><ol>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">moment.</span>suppressDeprecationWarnings</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.ISO_8601">
             function <span class="apidocSignatureSpan">moment.</span>ISO_8601
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.RFC_2822">
+            function <span class="apidocSignatureSpan">moment.</span>RFC_2822
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.calendarFormat">
             function <span class="apidocSignatureSpan">moment.</span>calendarFormat
             <span class="apidocSignatureSpan">(myMoment, now)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.createFromInputFallback">
             function <span class="apidocSignatureSpan">moment.</span>createFromInputFallback
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.defineLocale">
             function <span class="apidocSignatureSpan">moment.</span>defineLocale
             <span class="apidocSignatureSpan">(name, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.duration">
             function <span class="apidocSignatureSpan">moment.</span>duration
             <span class="apidocSignatureSpan">(input, key)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.invalid">
             function <span class="apidocSignatureSpan">moment.</span>invalid
             <span class="apidocSignatureSpan">(flags)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.isDate">
             function <span class="apidocSignatureSpan">moment.</span>isDate
             <span class="apidocSignatureSpan">(input)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.isDuration">
             function <span class="apidocSignatureSpan">moment.</span>isDuration
             <span class="apidocSignatureSpan">(obj)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.isMoment">
             function <span class="apidocSignatureSpan">moment.</span>isMoment
             <span class="apidocSignatureSpan">(obj)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.lang">
             function <span class="apidocSignatureSpan">moment.</span>lang
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.langData">
             function <span class="apidocSignatureSpan">moment.</span>langData
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.locale">
             function <span class="apidocSignatureSpan">moment.</span>locale
             <span class="apidocSignatureSpan">(key, values)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.localeData">
             function <span class="apidocSignatureSpan">moment.</span>localeData
             <span class="apidocSignatureSpan">(key)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.locales">
             function <span class="apidocSignatureSpan">moment.</span>locales
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.max">
             function <span class="apidocSignatureSpan">moment.</span>max
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.min">
             function <span class="apidocSignatureSpan">moment.</span>min
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.months">
             function <span class="apidocSignatureSpan">moment.</span>months
             <span class="apidocSignatureSpan">(format, index)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.monthsShort">
             function <span class="apidocSignatureSpan">moment.</span>monthsShort
             <span class="apidocSignatureSpan">(format, index)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.normalizeUnits">
             function <span class="apidocSignatureSpan">moment.</span>normalizeUnits
             <span class="apidocSignatureSpan">(units)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.now">
             function <span class="apidocSignatureSpan">moment.</span>now
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.parseTwoDigitYear">
             function <span class="apidocSignatureSpan">moment.</span>parseTwoDigitYear
             <span class="apidocSignatureSpan">(input)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.parseZone">
             function <span class="apidocSignatureSpan">moment.</span>parseZone
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.relativeTimeRounding">
             function <span class="apidocSignatureSpan">moment.</span>relativeTimeRounding
             <span class="apidocSignatureSpan">(roundingFunction)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.relativeTimeThreshold">
             function <span class="apidocSignatureSpan">moment.</span>relativeTimeThreshold
             <span class="apidocSignatureSpan">(threshold, limit)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.unix">
             function <span class="apidocSignatureSpan">moment.</span>unix
             <span class="apidocSignatureSpan">(input)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.updateLocale">
             function <span class="apidocSignatureSpan">moment.</span>updateLocale
             <span class="apidocSignatureSpan">(name, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.updateOffset">
             function <span class="apidocSignatureSpan">moment.</span>updateOffset
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.utc">
             function <span class="apidocSignatureSpan">moment.</span>utc
             <span class="apidocSignatureSpan">(input, format, locale, strict)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.weekdays">
             function <span class="apidocSignatureSpan">moment.</span>weekdays
             <span class="apidocSignatureSpan">(localeSorted, format, index)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.weekdaysMin">
             function <span class="apidocSignatureSpan">moment.</span>weekdaysMin
             <span class="apidocSignatureSpan">(localeSorted, format, index)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.moment.weekdaysShort">
             function <span class="apidocSignatureSpan">moment.</span>weekdaysShort
             <span class="apidocSignatureSpan">(localeSorted, format, index)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.</span>deprecationHandler</span>
-            
+
         </li>
-        
+
         <li>
-            
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.</span>duration.fn</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.</span>fn</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.</span>momentProperties</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">moment.</span>defaultFormat</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">moment.</span>defaultFormatUtc</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">moment.</span>version</span>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.moment.duration">module moment.duration</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.duration">
+            function <span class="apidocSignatureSpan">moment.</span>duration
+            <span class="apidocSignatureSpan">(input, key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.invalid">
+            function <span class="apidocSignatureSpan">moment.duration.</span>invalid
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.duration.</span>fn</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.moment.duration.fn">module moment.duration.fn</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn._bubble">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>_bubble
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.abs">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>abs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.add">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>add
+            <span class="apidocSignatureSpan">(input, value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.as">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>as
+            <span class="apidocSignatureSpan">(units)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asDays">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asDays
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asHours">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asHours
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asMilliseconds">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asMilliseconds
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asMinutes">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asMinutes
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asMonths">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asMonths
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asSeconds">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asSeconds
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asWeeks">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asWeeks
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asYears">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>asYears
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.days">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>days
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.get">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>get
+            <span class="apidocSignatureSpan">(units)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.hours">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>hours
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.humanize">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>humanize
+            <span class="apidocSignatureSpan">(withSuffix)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.isValid">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>isValid
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.lang">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>lang
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.locale">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>locale
+            <span class="apidocSignatureSpan">(key)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.localeData">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>localeData
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.milliseconds">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>milliseconds
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.minutes">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>minutes
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.months">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>months
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.seconds">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>seconds
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.subtract">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>subtract
+            <span class="apidocSignatureSpan">(input, value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.toISOString">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>toISOString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.toIsoString">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>toIsoString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.toJSON">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>toJSON
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.toString">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.valueOf">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>valueOf
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.weeks">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>weeks
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.years">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>years
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.moment" id="apidoc.module.moment">module moment</a></h1>
-    
-    
-    
-    
+
+
+
+
     <h2>
         <a href="#apidoc.element.moment.ISO_8601" id="apidoc.element.moment.ISO_8601">
         function <span class="apidocSignatureSpan">moment.</span>ISO_8601
@@ -401,9 +737,22 @@
     <li>description and source-code<pre class="apidocCodePre">ISO_8601 = function () {}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.RFC_2822" id="apidoc.element.moment.RFC_2822">
+        function <span class="apidocSignatureSpan">moment.</span>RFC_2822
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">RFC_2822 = function () {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
     <h2>
         <a href="#apidoc.element.moment.calendarFormat" id="apidoc.element.moment.calendarFormat">
         function <span class="apidocSignatureSpan">moment.</span>calendarFormat
@@ -422,9 +771,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.createFromInputFallback" id="apidoc.element.moment.createFromInputFallback">
         function <span class="apidocSignatureSpan">moment.</span>createFromInputFallback
@@ -459,9 +808,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.defineLocale" id="apidoc.element.moment.defineLocale">
         function <span class="apidocSignatureSpan">moment.</span>defineLocale
@@ -517,9 +866,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.duration" id="apidoc.element.moment.duration">
         function <span class="apidocSignatureSpan">moment.</span>duration
@@ -604,9 +953,9 @@
 ## [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.invalid" id="apidoc.element.moment.invalid">
         function <span class="apidocSignatureSpan">moment.</span>invalid
@@ -627,9 +976,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.isDate" id="apidoc.element.moment.isDate">
         function <span class="apidocSignatureSpan">moment.</span>isDate
@@ -642,9 +991,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.isDuration" id="apidoc.element.moment.isDuration">
         function <span class="apidocSignatureSpan">moment.</span>isDuration
@@ -657,9 +1006,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.isMoment" id="apidoc.element.moment.isMoment">
         function <span class="apidocSignatureSpan">moment.</span>isMoment
@@ -672,9 +1021,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.lang" id="apidoc.element.moment.lang">
         function <span class="apidocSignatureSpan">moment.</span>lang
@@ -709,9 +1058,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.langData" id="apidoc.element.moment.langData">
         function <span class="apidocSignatureSpan">moment.</span>langData
@@ -746,9 +1095,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.locale" id="apidoc.element.moment.locale">
         function <span class="apidocSignatureSpan">moment.</span>locale
@@ -776,9 +1125,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.localeData" id="apidoc.element.moment.localeData">
         function <span class="apidocSignatureSpan">moment.</span>localeData
@@ -810,9 +1159,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.locales" id="apidoc.element.moment.locales">
         function <span class="apidocSignatureSpan">moment.</span>locales
@@ -825,9 +1174,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.max" id="apidoc.element.moment.max">
         function <span class="apidocSignatureSpan">moment.</span>max
@@ -842,9 +1191,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.min" id="apidoc.element.moment.min">
         function <span class="apidocSignatureSpan">moment.</span>min
@@ -859,9 +1208,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.months" id="apidoc.element.moment.months">
         function <span class="apidocSignatureSpan">moment.</span>months
@@ -874,9 +1223,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.monthsShort" id="apidoc.element.moment.monthsShort">
         function <span class="apidocSignatureSpan">moment.</span>monthsShort
@@ -889,9 +1238,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.normalizeUnits" id="apidoc.element.moment.normalizeUnits">
         function <span class="apidocSignatureSpan">moment.</span>normalizeUnits
@@ -904,9 +1253,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.now" id="apidoc.element.moment.now">
         function <span class="apidocSignatureSpan">moment.</span>now
@@ -919,9 +1268,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.parseTwoDigitYear" id="apidoc.element.moment.parseTwoDigitYear">
         function <span class="apidocSignatureSpan">moment.</span>parseTwoDigitYear
@@ -934,9 +1283,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.parseZone" id="apidoc.element.moment.parseZone">
         function <span class="apidocSignatureSpan">moment.</span>parseZone
@@ -949,9 +1298,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.relativeTimeRounding" id="apidoc.element.moment.relativeTimeRounding">
         function <span class="apidocSignatureSpan">moment.</span>relativeTimeRounding
@@ -971,9 +1320,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.relativeTimeThreshold" id="apidoc.element.moment.relativeTimeThreshold">
         function <span class="apidocSignatureSpan">moment.</span>relativeTimeThreshold
@@ -989,13 +1338,16 @@
         return thresholds[threshold];
     }
     thresholds[threshold] = limit;
+    if (threshold === &#x27;s&#x27;) {
+        thresholds.ss = limit - 1;
+    }
     return true;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.unix" id="apidoc.element.moment.unix">
         function <span class="apidocSignatureSpan">moment.</span>unix
@@ -1008,9 +1360,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.updateLocale" id="apidoc.element.moment.updateLocale">
         function <span class="apidocSignatureSpan">moment.</span>updateLocale
@@ -1046,9 +1398,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.updateOffset" id="apidoc.element.moment.updateOffset">
         function <span class="apidocSignatureSpan">moment.</span>updateOffset
@@ -1059,9 +1411,9 @@
     <li>description and source-code<pre class="apidocCodePre">updateOffset = function () {}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.utc" id="apidoc.element.moment.utc">
         function <span class="apidocSignatureSpan">moment.</span>utc
@@ -1074,9 +1426,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.weekdays" id="apidoc.element.moment.weekdays">
         function <span class="apidocSignatureSpan">moment.</span>weekdays
@@ -1089,9 +1441,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.weekdaysMin" id="apidoc.element.moment.weekdaysMin">
         function <span class="apidocSignatureSpan">moment.</span>weekdaysMin
@@ -1104,9 +1456,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.moment.weekdaysShort" id="apidoc.element.moment.weekdaysShort">
         function <span class="apidocSignatureSpan">moment.</span>weekdaysShort
@@ -1119,20 +1471,937 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.moment.duration" id="apidoc.module.moment.duration">module moment.duration</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.duration" id="apidoc.element.moment.duration.duration">
+        function <span class="apidocSignatureSpan">moment.</span>duration
+        <span class="apidocSignatureSpan">(input, key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createDuration(input, key) {
+    var duration = input,
+        // matching against regexp is expensive, do it on demand
+        match = null,
+        sign,
+        ret,
+        diffRes;
+
+    if (isDuration(input)) {
+        duration = {
+            ms : input._milliseconds,
+            d  : input._days,
+            M  : input._months
+        };
+    } else if (isNumber(input)) {
+        duration = {};
+        if (key) {
+            duration[key] = input;
+        } else {
+            duration.milliseconds = input;
+        }
+    } else if (!!(match = aspNetRegex.exec(input))) {
+        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        duration = {
+            y  : 0,
+            d  : toInt(match[DATE])                         * sign,
+            h  : toInt(match[HOUR])                         * sign,
+            m  : toInt(match[MINUTE])                       * sign,
+            s  : toInt(match[SECOND])                       * sign,
+            ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
+        };
+    } else if (!!(match = isoRegex.exec(input))) {
+        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        duration = {
+            y : parseIso(match[2], sign),
+            M : parseIso(match[3], sign),
+            w : parseIso(match[4], sign),
+            d : parseIso(match[5], sign),
+            h : parseIso(match[6], sign),
+            m : parseIso(match[7], sign),
+            s : parseIso(match[8], sign)
+        };
+    } else if (duration == null) {// checks for null or undefined
+        duration = {};
+    } else if (typeof duration === &#x27;object&#x27; &#x26;&#x26; (&#x27;from&#x27; in duration || &#x27;to&#x27; in duration)) {
+        diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
+
+        duration = {};
+        duration.ms = diffRes.milliseconds;
+        duration.M = diffRes.months;
+    }
+
+    ret = new Duration(duration);
+
+    if (isDuration(input) &#x26;&#x26; hasOwnProp(input, &#x27;_locale&#x27;)) {
+        ret._locale = input._locale;
+    }
+
+    return ret;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+ * Changed language ordinal method to return the number + ordinal instead of just the ordinal.
+
+ * Changed two digit year parsing cutoff to match strptime.
+
+ * Removed `moment#sod` and `moment#eod` in favor of `moment#startOf` and `moment#endOf`.
+
+ * Removed `moment.humanizeDuration()` in favor of `moment.<span class="apidocCodeKeywordSpan">duration</span>().humanize()`.
+
+ * Removed the lang data objects from the top level namespace.
+
+ * Duplicate `Date` passed to `moment()` instead of referencing it.
+
+## [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.invalid" id="apidoc.element.moment.duration.invalid">
+        function <span class="apidocSignatureSpan">moment.duration.</span>invalid
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createInvalid$1() {
+    return createDuration(NaN);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.moment.duration.fn" id="apidoc.module.moment.duration.fn">module moment.duration.fn</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn._bubble" id="apidoc.element.moment.duration.fn._bubble">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>_bubble
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function bubble() {
+    var milliseconds = this._milliseconds;
+    var days         = this._days;
+    var months       = this._months;
+    var data         = this._data;
+    var seconds, minutes, hours, years, monthsFromDays;
+
+    // if we have a mix of positive and negative values, bubble down first
+    // check: https://github.com/moment/moment/issues/2166
+    if (!((milliseconds &#x3e;= 0 &#x26;&#x26; days &#x3e;= 0 &#x26;&#x26; months &#x3e;= 0) ||
+            (milliseconds &#x3c;= 0 &#x26;&#x26; days &#x3c;= 0 &#x26;&#x26; months &#x3c;= 0))) {
+        milliseconds += absCeil(monthsToDays(months) + days) * 864e5;
+        days = 0;
+        months = 0;
+    }
+
+    // The following code bubbles up values, see the tests for
+    // examples of what that means.
+    data.milliseconds = milliseconds % 1000;
+
+    seconds           = absFloor(milliseconds / 1000);
+    data.seconds      = seconds % 60;
+
+    minutes           = absFloor(seconds / 60);
+    data.minutes      = minutes % 60;
+
+    hours             = absFloor(minutes / 60);
+    data.hours        = hours % 24;
+
+    days += absFloor(hours / 24);
+
+    // convert days to months
+    monthsFromDays = absFloor(daysToMonths(days));
+    months += monthsFromDays;
+    days -= absCeil(monthsToDays(monthsFromDays));
+
+    // 12 months -&#x3e; 1 year
+    years = absFloor(months / 12);
+    months %= 12;
+
+    data.days   = days;
+    data.months = months;
+    data.years  = years;
+
+    return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.abs" id="apidoc.element.moment.duration.fn.abs">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>abs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function abs() {
+    var data           = this._data;
+
+    this._milliseconds = mathAbs(this._milliseconds);
+    this._days         = mathAbs(this._days);
+    this._months       = mathAbs(this._months);
+
+    data.milliseconds  = mathAbs(data.milliseconds);
+    data.seconds       = mathAbs(data.seconds);
+    data.minutes       = mathAbs(data.minutes);
+    data.hours         = mathAbs(data.hours);
+    data.months        = mathAbs(data.months);
+    data.years         = mathAbs(data.years);
+
+    return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.add" id="apidoc.element.moment.duration.fn.add">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>add
+        <span class="apidocSignatureSpan">(input, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function add$1(input, value) {
+    return addSubtract$1(this, input, value, 1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.as" id="apidoc.element.moment.duration.fn.as">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>as
+        <span class="apidocSignatureSpan">(units)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function as(units) {
+    if (!this.isValid()) {
+        return NaN;
+    }
+    var days;
+    var months;
+    var milliseconds = this._milliseconds;
+
+    units = normalizeUnits(units);
+
+    if (units === &#x27;month&#x27; || units === &#x27;year&#x27;) {
+        days   = this._days   + milliseconds / 864e5;
+        months = this._months + daysToMonths(days);
+        return units === &#x27;month&#x27; ? months : months / 12;
+    } else {
+        // handle milliseconds separately because of floating point math errors (issue #1867)
+        days = this._days + Math.round(monthsToDays(this._months));
+        switch (units) {
+            case &#x27;week&#x27;   : return days / 7     + milliseconds / 6048e5;
+            case &#x27;day&#x27;    : return days         + milliseconds / 864e5;
+            case &#x27;hour&#x27;   : return days * 24    + milliseconds / 36e5;
+            case &#x27;minute&#x27; : return days * 1440  + milliseconds / 6e4;
+            case &#x27;second&#x27; : return days * 86400 + milliseconds / 1000;
+            // Math.floor prevents floating point math errors here
+            case &#x27;millisecond&#x27;: return Math.floor(days * 864e5) + milliseconds;
+            default: throw new Error(&#x27;Unknown unit &#x27; + units);
+        }
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asDays" id="apidoc.element.moment.duration.fn.asDays">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asDays
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asDays = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asHours" id="apidoc.element.moment.duration.fn.asHours">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asHours
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asHours = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asMilliseconds" id="apidoc.element.moment.duration.fn.asMilliseconds">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asMilliseconds
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asMilliseconds = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asMinutes" id="apidoc.element.moment.duration.fn.asMinutes">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asMinutes
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asMinutes = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asMonths" id="apidoc.element.moment.duration.fn.asMonths">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asMonths
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asMonths = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asSeconds" id="apidoc.element.moment.duration.fn.asSeconds">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asSeconds
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asSeconds = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asWeeks" id="apidoc.element.moment.duration.fn.asWeeks">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asWeeks
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asWeeks = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.asYears" id="apidoc.element.moment.duration.fn.asYears">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>asYears
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">asYears = function () {
+    return this.as(alias);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.days" id="apidoc.element.moment.duration.fn.days">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>days
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">days = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.get" id="apidoc.element.moment.duration.fn.get">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>get
+        <span class="apidocSignatureSpan">(units)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function get$2(units) {
+    units = normalizeUnits(units);
+    return this.isValid() ? this[units + &#x27;s&#x27;]() : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.hours" id="apidoc.element.moment.duration.fn.hours">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>hours
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hours = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.humanize" id="apidoc.element.moment.duration.fn.humanize">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>humanize
+        <span class="apidocSignatureSpan">(withSuffix)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function humanize(withSuffix) {
+    if (!this.isValid()) {
+        return this.localeData().invalidDate();
+    }
+
+    var locale = this.localeData();
+    var output = relativeTime$1(this, !withSuffix, locale);
+
+    if (withSuffix) {
+        output = locale.pastFuture(+this, output);
+    }
+
+    return locale.postformat(output);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+ * Changed language ordinal method to return the number + ordinal instead of just the ordinal.
+
+ * Changed two digit year parsing cutoff to match strptime.
+
+ * Removed `moment#sod` and `moment#eod` in favor of `moment#startOf` and `moment#endOf`.
+
+ * Removed `moment.humanizeDuration()` in favor of `moment.duration().<span class="apidocCodeKeywordSpan">humanize</span>()`.
+
+ * Removed the lang data objects from the top level namespace.
+
+ * Duplicate `Date` passed to `moment()` instead of referencing it.
+
+## [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.isValid" id="apidoc.element.moment.duration.fn.isValid">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>isValid
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isValid$1() {
+    return this._isValid;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.lang" id="apidoc.element.moment.duration.fn.lang">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>lang
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lang = function () {
+    if (hooks.deprecationHandler != null) {
+        hooks.deprecationHandler(null, msg);
+    }
+    if (firstTime) {
+        var args = [];
+        var arg;
+        for (var i = 0; i &#x3c; arguments.length; i++) {
+            arg = &#x27;&#x27;;
+            if (typeof arguments[i] === &#x27;object&#x27;) {
+                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+                for (var key in arguments[0]) {
+                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                }
+                arg = arg.slice(0, -2); // Remove trailing comma and space
+            } else {
+                arg = arguments[i];
+            }
+            args.push(arg);
+        }
+        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        firstTime = false;
+    }
+    return fn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.locale" id="apidoc.element.moment.duration.fn.locale">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>locale
+        <span class="apidocSignatureSpan">(key)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function locale(key) {
+    var newLocaleData;
+
+    if (key === undefined) {
+        return this._locale._abbr;
+    } else {
+        newLocaleData = getLocale(key);
+        if (newLocaleData != null) {
+            this._locale = newLocaleData;
+        }
+        return this;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.localeData" id="apidoc.element.moment.duration.fn.localeData">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>localeData
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function localeData() {
+    return this._locale;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.milliseconds" id="apidoc.element.moment.duration.fn.milliseconds">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>milliseconds
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">milliseconds = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.minutes" id="apidoc.element.moment.duration.fn.minutes">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>minutes
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minutes = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.months" id="apidoc.element.moment.duration.fn.months">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>months
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">months = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.seconds" id="apidoc.element.moment.duration.fn.seconds">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>seconds
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">seconds = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.subtract" id="apidoc.element.moment.duration.fn.subtract">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>subtract
+        <span class="apidocSignatureSpan">(input, value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function subtract$1(input, value) {
+    return addSubtract$1(this, input, value, -1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.toISOString" id="apidoc.element.moment.duration.fn.toISOString">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>toISOString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toISOString$1() {
+    // for ISO strings we do not use the normal bubbling rules:
+    //  * milliseconds bubble up until they become hours
+    //  * days do not bubble at all
+    //  * months bubble up until they become years
+    // This is because there is no context-free conversion between hours and days
+    // (think of clock changes)
+    // and also not between days and months (28-31 days per month)
+    if (!this.isValid()) {
+        return this.localeData().invalidDate();
+    }
+
+    var seconds = abs$1(this._milliseconds) / 1000;
+    var days         = abs$1(this._days);
+    var months       = abs$1(this._months);
+    var minutes, hours, years;
+
+    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    minutes           = absFloor(seconds / 60);
+    hours             = absFloor(minutes / 60);
+    seconds %= 60;
+    minutes %= 60;
+
+    // 12 months -&#x3e; 1 year
+    years  = absFloor(months / 12);
+    months %= 12;
+
+
+    // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
+    var Y = years;
+    var M = months;
+    var D = days;
+    var h = hours;
+    var m = minutes;
+    var s = seconds;
+    var total = this.asSeconds();
+
+    if (!total) {
+        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // but not other JS (goog.date)
+        return &#x27;P0D&#x27;;
+    }
+
+    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
+        &#x27;P&#x27; +
+        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
+        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
+        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
+        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
+        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
+        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
+        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.toIsoString" id="apidoc.element.moment.duration.fn.toIsoString">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>toIsoString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toIsoString = function () {
+    if (hooks.deprecationHandler != null) {
+        hooks.deprecationHandler(null, msg);
+    }
+    if (firstTime) {
+        var args = [];
+        var arg;
+        for (var i = 0; i &#x3c; arguments.length; i++) {
+            arg = &#x27;&#x27;;
+            if (typeof arguments[i] === &#x27;object&#x27;) {
+                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+                for (var key in arguments[0]) {
+                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                }
+                arg = arg.slice(0, -2); // Remove trailing comma and space
+            } else {
+                arg = arguments[i];
+            }
+            args.push(arg);
+        }
+        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        firstTime = false;
+    }
+    return fn.apply(this, arguments);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.toJSON" id="apidoc.element.moment.duration.fn.toJSON">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>toJSON
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toISOString$1() {
+    // for ISO strings we do not use the normal bubbling rules:
+    //  * milliseconds bubble up until they become hours
+    //  * days do not bubble at all
+    //  * months bubble up until they become years
+    // This is because there is no context-free conversion between hours and days
+    // (think of clock changes)
+    // and also not between days and months (28-31 days per month)
+    if (!this.isValid()) {
+        return this.localeData().invalidDate();
+    }
+
+    var seconds = abs$1(this._milliseconds) / 1000;
+    var days         = abs$1(this._days);
+    var months       = abs$1(this._months);
+    var minutes, hours, years;
+
+    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    minutes           = absFloor(seconds / 60);
+    hours             = absFloor(minutes / 60);
+    seconds %= 60;
+    minutes %= 60;
+
+    // 12 months -&#x3e; 1 year
+    years  = absFloor(months / 12);
+    months %= 12;
+
+
+    // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
+    var Y = years;
+    var M = months;
+    var D = days;
+    var h = hours;
+    var m = minutes;
+    var s = seconds;
+    var total = this.asSeconds();
+
+    if (!total) {
+        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // but not other JS (goog.date)
+        return &#x27;P0D&#x27;;
+    }
+
+    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
+        &#x27;P&#x27; +
+        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
+        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
+        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
+        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
+        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
+        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
+        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.toString" id="apidoc.element.moment.duration.fn.toString">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toISOString$1() {
+    // for ISO strings we do not use the normal bubbling rules:
+    //  * milliseconds bubble up until they become hours
+    //  * days do not bubble at all
+    //  * months bubble up until they become years
+    // This is because there is no context-free conversion between hours and days
+    // (think of clock changes)
+    // and also not between days and months (28-31 days per month)
+    if (!this.isValid()) {
+        return this.localeData().invalidDate();
+    }
+
+    var seconds = abs$1(this._milliseconds) / 1000;
+    var days         = abs$1(this._days);
+    var months       = abs$1(this._months);
+    var minutes, hours, years;
+
+    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    minutes           = absFloor(seconds / 60);
+    hours             = absFloor(minutes / 60);
+    seconds %= 60;
+    minutes %= 60;
+
+    // 12 months -&#x3e; 1 year
+    years  = absFloor(months / 12);
+    months %= 12;
+
+
+    // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
+    var Y = years;
+    var M = months;
+    var D = days;
+    var h = hours;
+    var m = minutes;
+    var s = seconds;
+    var total = this.asSeconds();
+
+    if (!total) {
+        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // but not other JS (goog.date)
+        return &#x27;P0D&#x27;;
+    }
+
+    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
+        &#x27;P&#x27; +
+        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
+        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
+        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
+        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
+        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
+        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
+        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.valueOf" id="apidoc.element.moment.duration.fn.valueOf">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>valueOf
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function valueOf$1() {
+    if (!this.isValid()) {
+        return NaN;
+    }
+    return (
+        this._milliseconds +
+        this._days * 864e5 +
+        (this._months % 12) * 2592e6 +
+        toInt(this._months / 12) * 31536e6
+    );
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.weeks" id="apidoc.element.moment.duration.fn.weeks">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>weeks
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function weeks() {
+    return absFloor(this.days() / 7);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.moment.duration.fn.years" id="apidoc.element.moment.duration.fn.years">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>years
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">years = function () {
+    return this.isValid() ? this._data[name] : NaN;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
 </div>
 
 <div class="apidocFooterDiv">
