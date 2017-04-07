@@ -864,7 +864,24 @@
         return null;
     }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+   typeof exports === &#x27;object&#x27; &#x26;&#x26; typeof module !== &#x27;undefined&#x27;
+   &#x26;&#x26; typeof require === &#x27;function&#x27; ? factory(require(&#x27;../moment&#x27;)) :
+   typeof define === &#x27;function&#x27; &#x26;&#x26; define.amd ? define([&#x27;../moment&#x27;], factory) :
+   factory(global.moment)
+}(this, (function (moment) { &#x27;use strict&#x27;;
+
+
+var af = moment.<span class="apidocCodeKeywordSpan">defineLocale</span>(&#x27;af&#x27;, {
+months : &#x27;Januarie_Februarie_Maart_April_Mei_Junie_Julie_Augustus_September_Oktober_November_Desember&#x27;.split(&#x27;_&#
+x27;),
+monthsShort : &#x27;Jan_Feb_Mrt_Apr_Mei_Jun_Jul_Aug_Sep_Okt_Nov_Des&#x27;.split(&#x27;_&#x27;),
+weekdays : &#x27;Sondag_Maandag_Dinsdag_Woensdag_Donderdag_Vrydag_Saterdag&#x27;.split(&#x27;_&#x27;),
+weekdaysShort : &#x27;Son_Maa_Din_Woe_Don_Vry_Sat&#x27;.split(&#x27;_&#x27;),
+weekdaysMin : &#x27;So_Ma_Di_Wo_Do_Vr_Sa&#x27;.split(&#x27;_&#x27;),
+meridiemParse: /vm|nm/i,
+isPM : function (input) {
+...</pre></li>
     </ul>
 
 
@@ -1905,7 +1922,24 @@
     <li>description and source-code<pre class="apidocCodePre">hours = function () {
     return this.isValid() ? this._data[name] : NaN;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    LLL : &#x27;[el] D MMMM [de] YYYY [a les] H:mm&#x27;,
+    lll : &#x27;D MMM YYYY, H:mm&#x27;,
+    LLLL : &#x27;[el] dddd D MMMM [de] YYYY [a les] H:mm&#x27;,
+    llll : &#x27;ddd D MMM YYYY, H:mm&#x27;
+},
+calendar : {
+    sameDay : function () {
+        return &#x27;[avui a &#x27; + ((this.<span class="apidocCodeKeywordSpan">hours</span>() !== 1) ? &#x27;les&#x27; : &#x27
+;la&#x27;) + &#x27;] LT&#x27;;
+    },
+    nextDay : function () {
+        return &#x27;[demà a &#x27; + ((this.hours() !== 1) ? &#x27;les&#x27; : &#x27;la&#x27;) + &#x27;] LT&#x27;;
+    },
+    nextWeek : function () {
+        return &#x27;dddd [a &#x27; + ((this.hours() !== 1) ? &#x27;les&#x27; : &#x27;la&#x27;) + &#x27;] LT&#x27;;
+    },
+...</pre></li>
     </ul>
 
 
