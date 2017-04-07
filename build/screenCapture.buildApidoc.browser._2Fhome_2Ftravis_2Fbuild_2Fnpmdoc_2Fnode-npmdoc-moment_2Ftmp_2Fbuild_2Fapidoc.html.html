@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="http://momentjs.com"
-
-    >moment (v2.18.1)</a>
+    <a href="http://momentjs.com">moment (v2.18.1)</a>
 </h1>
 <h4>Parse, validate, manipulate, and display dates</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.moment">module moment</a><ol>
 
@@ -761,13 +754,13 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function getCalendarFormat(myMoment, now) {
-    var diff = myMoment.diff(now, &#x27;days&#x27;, true);
-    return diff &#x3c; -6 ? &#x27;sameElse&#x27; :
-            diff &#x3c; -1 ? &#x27;lastWeek&#x27; :
-            diff &#x3c; 0 ? &#x27;lastDay&#x27; :
-            diff &#x3c; 1 ? &#x27;sameDay&#x27; :
-            diff &#x3c; 2 ? &#x27;nextDay&#x27; :
-            diff &#x3c; 7 ? &#x27;nextWeek&#x27; : &#x27;sameElse&#x27;;
+    var diff = myMoment.diff(now, 'days', true);
+    return diff &lt; -6 ? 'sameElse' :
+            diff &lt; -1 ? 'lastWeek' :
+            diff &lt; 0 ? 'lastDay' :
+            diff &lt; 1 ? 'sameDay' :
+            diff &lt; 2 ? 'nextDay' :
+            diff &lt; 7 ? 'nextWeek' : 'sameElse';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -788,12 +781,12 @@
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = '';
+            if (typeof arguments[i] === 'object') {
+                arg += '\n[' + i + '] ';
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + ': ' + arguments[0][key] + ', ';
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -801,7 +794,7 @@
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -823,11 +816,11 @@
         var parentConfig = baseConfig;
         config.abbr = name;
         if (locales[name] != null) {
-            deprecateSimple(&#x27;defineLocaleOverride&#x27;,
-                    &#x27;use moment.updateLocale(localeName, config) to change &#x27; +
-                    &#x27;an existing locale. moment.defineLocale(localeName, &#x27; +
-                    &#x27;config) should only be used for creating a new locale &#x27; +
-                    &#x27;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&#x27;);
+            deprecateSimple('defineLocaleOverride',
+                    'use moment.updateLocale(localeName, config) to change ' +
+                    'an existing locale. moment.defineLocale(localeName, ' +
+                    'config) should only be used for creating a new locale ' +
+                    'See http://momentjs.com/guides/#/warnings/define-locale/ for more info.');
             parentConfig = locales[name]._config;
         } else if (config.parentLocale != null) {
             if (locales[config.parentLocale] != null) {
@@ -853,7 +846,7 @@
 
         // backwards compat for now: also set the locale
         // make sure we set the locale AFTER all child locales have been
-        // created, so we won&#x27;t end up with the child locale set.
+        // created, so we won't end up with the child locale set.
         getSetGlobalLocale(name);
 
 
@@ -865,20 +858,20 @@
     }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-   typeof exports === &#x27;object&#x27; &#x26;&#x26; typeof module !== &#x27;undefined&#x27;
-   &#x26;&#x26; typeof require === &#x27;function&#x27; ? factory(require(&#x27;../moment&#x27;)) :
-   typeof define === &#x27;function&#x27; &#x26;&#x26; define.amd ? define([&#x27;../moment&#x27;], factory) :
+   typeof exports === 'object' &amp;&amp; typeof module !== 'undefined'
+   &amp;&amp; typeof require === 'function' ? factory(require('../moment')) :
+   typeof define === 'function' &amp;&amp; define.amd ? define(['../moment'], factory) :
    factory(global.moment)
-}(this, (function (moment) { &#x27;use strict&#x27;;
+}(this, (function (moment) { 'use strict';
 
 
-var af = moment.<span class="apidocCodeKeywordSpan">defineLocale</span>(&#x27;af&#x27;, {
-months : &#x27;Januarie_Februarie_Maart_April_Mei_Junie_Julie_Augustus_September_Oktober_November_Desember&#x27;.split(&#x27;_&#
+var af = moment.<span class="apidocCodeKeywordSpan">defineLocale</span>('af', {
+months : 'Januarie_Februarie_Maart_April_Mei_Junie_Julie_Augustus_September_Oktober_November_Desember'.split('_&amp;#
 x27;),
-monthsShort : &#x27;Jan_Feb_Mrt_Apr_Mei_Jun_Jul_Aug_Sep_Okt_Nov_Des&#x27;.split(&#x27;_&#x27;),
-weekdays : &#x27;Sondag_Maandag_Dinsdag_Woensdag_Donderdag_Vrydag_Saterdag&#x27;.split(&#x27;_&#x27;),
-weekdaysShort : &#x27;Son_Maa_Din_Woe_Don_Vry_Sat&#x27;.split(&#x27;_&#x27;),
-weekdaysMin : &#x27;So_Ma_Di_Wo_Do_Vr_Sa&#x27;.split(&#x27;_&#x27;),
+monthsShort : 'Jan_Feb_Mrt_Apr_Mei_Jun_Jul_Aug_Sep_Okt_Nov_Des'.split('_'),
+weekdays : 'Sondag_Maandag_Dinsdag_Woensdag_Donderdag_Vrydag_Saterdag'.split('_'),
+weekdaysShort : 'Son_Maa_Din_Woe_Don_Vry_Sat'.split('_'),
+weekdaysMin : 'So_Ma_Di_Wo_Do_Vr_Sa'.split('_'),
 meridiemParse: /vm|nm/i,
 isPM : function (input) {
 ...</pre></li>
@@ -915,7 +908,7 @@ isPM : function (input) {
             duration.milliseconds = input;
         }
     } else if (!!(match = aspNetRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === '-') ? -1 : 1;
         duration = {
             y  : 0,
             d  : toInt(match[DATE])                         * sign,
@@ -925,7 +918,7 @@ isPM : function (input) {
             ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
         };
     } else if (!!(match = isoRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === '-') ? -1 : 1;
         duration = {
             y : parseIso(match[2], sign),
             M : parseIso(match[3], sign),
@@ -937,7 +930,7 @@ isPM : function (input) {
         };
     } else if (duration == null) {// checks for null or undefined
         duration = {};
-    } else if (typeof duration === &#x27;object&#x27; &#x26;&#x26; (&#x27;from&#x27; in duration || &#x27;to&#x27; in duration)) {
+    } else if (typeof duration === 'object' &amp;&amp; ('from' in duration || 'to' in duration)) {
         diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
 
         duration = {};
@@ -947,7 +940,7 @@ isPM : function (input) {
 
     ret = new Duration(duration);
 
-    if (isDuration(input) &#x26;&#x26; hasOwnProp(input, &#x27;_locale&#x27;)) {
+    if (isDuration(input) &amp;&amp; hasOwnProp(input, '_locale')) {
         ret._locale = input._locale;
     }
 
@@ -1004,7 +997,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isDate(input) {
-    return input instanceof Date || Object.prototype.toString.call(input) === &#x27;[object Date]&#x27;;
+    return input instanceof Date || Object.prototype.toString.call(input) === '[object Date]';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1034,7 +1027,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isMoment(obj) {
-    return obj instanceof Moment || (obj != null &#x26;&#x26; obj._isAMomentObject != null);
+    return obj instanceof Moment || (obj != null &amp;&amp; obj._isAMomentObject != null);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1055,12 +1048,12 @@ isPM : function (input) {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = '';
+            if (typeof arguments[i] === 'object') {
+                arg += '\n[' + i + '] ';
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + ': ' + arguments[0][key] + ', ';
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -1068,7 +1061,7 @@ isPM : function (input) {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -1092,12 +1085,12 @@ isPM : function (input) {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = '';
+            if (typeof arguments[i] === 'object') {
+                arg += '\n[' + i + '] ';
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + ': ' + arguments[0][key] + ', ';
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -1105,7 +1098,7 @@ isPM : function (input) {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -1155,7 +1148,7 @@ isPM : function (input) {
     <li>description and source-code<pre class="apidocCodePre">function getLocale(key) {
     var locale;
 
-    if (key &#x26;&#x26; key._locale &#x26;&#x26; key._locale._abbr) {
+    if (key &amp;&amp; key._locale &amp;&amp; key._locale._abbr) {
         key = key._locale._abbr;
     }
 
@@ -1204,7 +1197,7 @@ isPM : function (input) {
     <li>description and source-code<pre class="apidocCodePre">function max() {
     var args = [].slice.call(arguments, 0);
 
-    return pickBy(&#x27;isAfter&#x27;, args);
+    return pickBy('isAfter', args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1221,7 +1214,7 @@ isPM : function (input) {
     <li>description and source-code<pre class="apidocCodePre">function min() {
     var args = [].slice.call(arguments, 0);
 
-    return pickBy(&#x27;isBefore&#x27;, args);
+    return pickBy('isBefore', args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1236,7 +1229,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listMonths(format, index) {
-    return listMonthsImpl(format, index, &#x27;months&#x27;);
+    return listMonthsImpl(format, index, 'months');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1251,7 +1244,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listMonthsShort(format, index) {
-    return listMonthsImpl(format, index, &#x27;monthsShort&#x27;);
+    return listMonthsImpl(format, index, 'monthsShort');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1266,7 +1259,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function normalizeUnits(units) {
-    return typeof units === &#x27;string&#x27; ? aliases[units] || aliases[units.toLowerCase()] : undefined;
+    return typeof units === 'string' ? aliases[units] || aliases[units.toLowerCase()] : undefined;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1296,7 +1289,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">parseTwoDigitYear = function (input) {
-    return toInt(input) + (toInt(input) &#x3e; 68 ? 1900 : 2000);
+    return toInt(input) + (toInt(input) &gt; 68 ? 1900 : 2000);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1329,7 +1322,7 @@ isPM : function (input) {
     if (roundingFunction === undefined) {
         return round;
     }
-    if (typeof(roundingFunction) === &#x27;function&#x27;) {
+    if (typeof(roundingFunction) === 'function') {
         round = roundingFunction;
         return true;
     }
@@ -1355,7 +1348,7 @@ isPM : function (input) {
         return thresholds[threshold];
     }
     thresholds[threshold] = limit;
-    if (threshold === &#x27;s&#x27;) {
+    if (threshold === 's') {
         thresholds.ss = limit - 1;
     }
     return true;
@@ -1454,7 +1447,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listWeekdays(localeSorted, format, index) {
-    return listWeekdaysImpl(localeSorted, format, index, &#x27;weekdays&#x27;);
+    return listWeekdaysImpl(localeSorted, format, index, 'weekdays');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1469,7 +1462,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listWeekdaysMin(localeSorted, format, index) {
-    return listWeekdaysImpl(localeSorted, format, index, &#x27;weekdaysMin&#x27;);
+    return listWeekdaysImpl(localeSorted, format, index, 'weekdaysMin');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1484,7 +1477,7 @@ isPM : function (input) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listWeekdaysShort(localeSorted, format, index) {
-    return listWeekdaysImpl(localeSorted, format, index, &#x27;weekdaysShort&#x27;);
+    return listWeekdaysImpl(localeSorted, format, index, 'weekdaysShort');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1539,7 +1532,7 @@ isPM : function (input) {
             duration.milliseconds = input;
         }
     } else if (!!(match = aspNetRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === '-') ? -1 : 1;
         duration = {
             y  : 0,
             d  : toInt(match[DATE])                         * sign,
@@ -1549,7 +1542,7 @@ isPM : function (input) {
             ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
         };
     } else if (!!(match = isoRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === '-') ? -1 : 1;
         duration = {
             y : parseIso(match[2], sign),
             M : parseIso(match[3], sign),
@@ -1561,7 +1554,7 @@ isPM : function (input) {
         };
     } else if (duration == null) {// checks for null or undefined
         duration = {};
-    } else if (typeof duration === &#x27;object&#x27; &#x26;&#x26; (&#x27;from&#x27; in duration || &#x27;to&#x27; in duration)) {
+    } else if (typeof duration === 'object' &amp;&amp; ('from' in duration || 'to' in duration)) {
         diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
 
         duration = {};
@@ -1571,7 +1564,7 @@ isPM : function (input) {
 
     ret = new Duration(duration);
 
-    if (isDuration(input) &#x26;&#x26; hasOwnProp(input, &#x27;_locale&#x27;)) {
+    if (isDuration(input) &amp;&amp; hasOwnProp(input, '_locale')) {
         ret._locale = input._locale;
     }
 
@@ -1635,8 +1628,8 @@ isPM : function (input) {
 
     // if we have a mix of positive and negative values, bubble down first
     // check: https://github.com/moment/moment/issues/2166
-    if (!((milliseconds &#x3e;= 0 &#x26;&#x26; days &#x3e;= 0 &#x26;&#x26; months &#x3e;= 0) ||
-            (milliseconds &#x3c;= 0 &#x26;&#x26; days &#x3c;= 0 &#x26;&#x26; months &#x3c;= 0))) {
+    if (!((milliseconds &gt;= 0 &amp;&amp; days &gt;= 0 &amp;&amp; months &gt;= 0) ||
+            (milliseconds &lt;= 0 &amp;&amp; days &lt;= 0 &amp;&amp; months &lt;= 0))) {
         milliseconds += absCeil(monthsToDays(months) + days) * 864e5;
         days = 0;
         months = 0;
@@ -1662,7 +1655,7 @@ isPM : function (input) {
     months += monthsFromDays;
     days -= absCeil(monthsToDays(monthsFromDays));
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years = absFloor(months / 12);
     months %= 12;
 
@@ -1737,22 +1730,22 @@ isPM : function (input) {
 
     units = normalizeUnits(units);
 
-    if (units === &#x27;month&#x27; || units === &#x27;year&#x27;) {
+    if (units === 'month' || units === 'year') {
         days   = this._days   + milliseconds / 864e5;
         months = this._months + daysToMonths(days);
-        return units === &#x27;month&#x27; ? months : months / 12;
+        return units === 'month' ? months : months / 12;
     } else {
         // handle milliseconds separately because of floating point math errors (issue #1867)
         days = this._days + Math.round(monthsToDays(this._months));
         switch (units) {
-            case &#x27;week&#x27;   : return days / 7     + milliseconds / 6048e5;
-            case &#x27;day&#x27;    : return days         + milliseconds / 864e5;
-            case &#x27;hour&#x27;   : return days * 24    + milliseconds / 36e5;
-            case &#x27;minute&#x27; : return days * 1440  + milliseconds / 6e4;
-            case &#x27;second&#x27; : return days * 86400 + milliseconds / 1000;
+            case 'week'   : return days / 7     + milliseconds / 6048e5;
+            case 'day'    : return days         + milliseconds / 864e5;
+            case 'hour'   : return days * 24    + milliseconds / 36e5;
+            case 'minute' : return days * 1440  + milliseconds / 6e4;
+            case 'second' : return days * 86400 + milliseconds / 1000;
             // Math.floor prevents floating point math errors here
-            case &#x27;millisecond&#x27;: return Math.floor(days * 864e5) + milliseconds;
-            default: throw new Error(&#x27;Unknown unit &#x27; + units);
+            case 'millisecond': return Math.floor(days * 864e5) + milliseconds;
+            default: throw new Error('Unknown unit ' + units);
         }
     }
 }</pre></li>
@@ -1905,7 +1898,7 @@ isPM : function (input) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function get$2(units) {
     units = normalizeUnits(units);
-    return this.isValid() ? this[units + &#x27;s&#x27;]() : NaN;
+    return this.isValid() ? this[units + 's']() : NaN;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1923,21 +1916,21 @@ isPM : function (input) {
     return this.isValid() ? this._data[name] : NaN;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    LLL : &#x27;[el] D MMMM [de] YYYY [a les] H:mm&#x27;,
-    lll : &#x27;D MMM YYYY, H:mm&#x27;,
-    LLLL : &#x27;[el] dddd D MMMM [de] YYYY [a les] H:mm&#x27;,
-    llll : &#x27;ddd D MMM YYYY, H:mm&#x27;
+    LLL : '[el] D MMMM [de] YYYY [a les] H:mm',
+    lll : 'D MMM YYYY, H:mm',
+    LLLL : '[el] dddd D MMMM [de] YYYY [a les] H:mm',
+    llll : 'ddd D MMM YYYY, H:mm'
 },
 calendar : {
     sameDay : function () {
-        return &#x27;[avui a &#x27; + ((this.<span class="apidocCodeKeywordSpan">hours</span>() !== 1) ? &#x27;les&#x27; : &#x27
-;la&#x27;) + &#x27;] LT&#x27;;
+        return '[avui a ' + ((this.<span class="apidocCodeKeywordSpan">hours</span>() !== 1) ? 'les' : '
+;la') + '] LT';
     },
     nextDay : function () {
-        return &#x27;[demà a &#x27; + ((this.hours() !== 1) ? &#x27;les&#x27; : &#x27;la&#x27;) + &#x27;] LT&#x27;;
+        return '[demÃ&nbsp; a ' + ((this.hours() !== 1) ? 'les' : 'la') + '] LT';
     },
     nextWeek : function () {
-        return &#x27;dddd [a &#x27; + ((this.hours() !== 1) ? &#x27;les&#x27; : &#x27;la&#x27;) + &#x27;] LT&#x27;;
+        return 'dddd [a ' + ((this.hours() !== 1) ? 'les' : 'la') + '] LT';
     },
 ...</pre></li>
     </ul>
@@ -2014,12 +2007,12 @@ calendar : {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = '';
+            if (typeof arguments[i] === 'object') {
+                arg += '\n[' + i + '] ';
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + ': ' + arguments[0][key] + ', ';
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -2027,7 +2020,7 @@ calendar : {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -2176,13 +2169,13 @@ calendar : {
     var months       = abs$1(this._months);
     var minutes, hours, years;
 
-    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    // 3600 seconds -&gt; 60 minutes -&gt; 1 hour
     minutes           = absFloor(seconds / 60);
     hours             = absFloor(minutes / 60);
     seconds %= 60;
     minutes %= 60;
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years  = absFloor(months / 12);
     months %= 12;
 
@@ -2197,20 +2190,20 @@ calendar : {
     var total = this.asSeconds();
 
     if (!total) {
-        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // this is the same as C#'s (Noda) and python (isodate)...
         // but not other JS (goog.date)
-        return &#x27;P0D&#x27;;
+        return 'P0D';
     }
 
-    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
-        &#x27;P&#x27; +
-        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
-        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
-        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
-        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
-        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
-        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
-        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+    return (total &lt; 0 ? '-' : '') +
+        'P' +
+        (Y ? Y + 'Y' : '') +
+        (M ? M + 'M' : '') +
+        (D ? D + 'D' : '') +
+        ((h || m || s) ? 'T' : '') +
+        (h ? h + 'H' : '') +
+        (m ? m + 'M' : '') +
+        (s ? s + 'S' : '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2231,12 +2224,12 @@ calendar : {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = '';
+            if (typeof arguments[i] === 'object') {
+                arg += '\n[' + i + '] ';
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + ': ' + arguments[0][key] + ', ';
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -2244,7 +2237,7 @@ calendar : {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -2278,13 +2271,13 @@ calendar : {
     var months       = abs$1(this._months);
     var minutes, hours, years;
 
-    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    // 3600 seconds -&gt; 60 minutes -&gt; 1 hour
     minutes           = absFloor(seconds / 60);
     hours             = absFloor(minutes / 60);
     seconds %= 60;
     minutes %= 60;
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years  = absFloor(months / 12);
     months %= 12;
 
@@ -2299,20 +2292,20 @@ calendar : {
     var total = this.asSeconds();
 
     if (!total) {
-        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // this is the same as C#'s (Noda) and python (isodate)...
         // but not other JS (goog.date)
-        return &#x27;P0D&#x27;;
+        return 'P0D';
     }
 
-    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
-        &#x27;P&#x27; +
-        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
-        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
-        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
-        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
-        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
-        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
-        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+    return (total &lt; 0 ? '-' : '') +
+        'P' +
+        (Y ? Y + 'Y' : '') +
+        (M ? M + 'M' : '') +
+        (D ? D + 'D' : '') +
+        ((h || m || s) ? 'T' : '') +
+        (h ? h + 'H' : '') +
+        (m ? m + 'M' : '') +
+        (s ? s + 'S' : '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2343,13 +2336,13 @@ calendar : {
     var months       = abs$1(this._months);
     var minutes, hours, years;
 
-    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    // 3600 seconds -&gt; 60 minutes -&gt; 1 hour
     minutes           = absFloor(seconds / 60);
     hours             = absFloor(minutes / 60);
     seconds %= 60;
     minutes %= 60;
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years  = absFloor(months / 12);
     months %= 12;
 
@@ -2364,20 +2357,20 @@ calendar : {
     var total = this.asSeconds();
 
     if (!total) {
-        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // this is the same as C#'s (Noda) and python (isodate)...
         // but not other JS (goog.date)
-        return &#x27;P0D&#x27;;
+        return 'P0D';
     }
 
-    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
-        &#x27;P&#x27; +
-        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
-        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
-        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
-        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
-        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
-        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
-        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+    return (total &lt; 0 ? '-' : '') +
+        'P' +
+        (Y ? Y + 'Y' : '') +
+        (M ? M + 'M' : '') +
+        (D ? D + 'D' : '') +
+        ((h || m || s) ? 'T' : '') +
+        (h ? h + 'H' : '') +
+        (m ? m + 'M' : '') +
+        (s ? s + 'S' : '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2444,3 +2437,4 @@ calendar : {
     ]
 </div>
 </div>
+</body></html>
