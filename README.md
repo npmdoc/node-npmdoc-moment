@@ -1,6 +1,6 @@
 # npmdoc-moment
 
-#### api documentation for  [moment (v2.18.1)](http://momentjs.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-moment.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-moment) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-moment.svg)](https://travis-ci.org/npmdoc/node-npmdoc-moment)
+#### basic api documentation for  [moment (v2.18.1)](http://momentjs.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-moment.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-moment) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-moment.svg)](https://travis-ci.org/npmdoc/node-npmdoc-moment)
 
 #### Parse, validate, manipulate, and display dates
 
@@ -156,7 +156,8 @@
         ]
     },
     "typings": "./moment.d.ts",
-    "version": "2.18.1"
+    "version": "2.18.1",
+    "bin": {}
 }
 ```
 
