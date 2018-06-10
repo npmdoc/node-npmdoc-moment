@@ -1,0 +1,2534 @@
+<svg height="24414" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="24414" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:28:18.838Z - npm-testing /home/travis/build/npmdoc/node-np\</tspan>
+<tspan x="10" y="58">mdoc-moment</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">buildApp - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-moment/tmp/build/t\</tspan>
+<tspan x="10" y="122">est-report.json</tspan>
+
+<tspan x="10" y="138">&gt; server listening on http-port 35725</tspan>
+
+<tspan x="10" y="154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/pack\</tspan>
+<tspan x="10" y="170">age.json</tspan>
+
+<tspan x="10" y="186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/CHAN\</tspan>
+<tspan x="10" y="202">GELOG.md</tspan>
+
+<tspan x="10" y="218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/ende\</tspan>
+<tspan x="10" y="234">r.js</tspan>
+
+<tspan x="10" y="250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/.git\</tspan>
+<tspan x="10" y="266">ignore</tspan>
+
+<tspan x="10" y="282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/LICE\</tspan>
+<tspan x="10" y="298">NSE</tspan>
+
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/mome\</tspan>
+<tspan x="10" y="330">nt.d.ts</tspan>
+
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/mome\</tspan>
+<tspan x="10" y="362">nt.js</tspan>
+
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/pack\</tspan>
+<tspan x="10" y="394">age.js</tspan>
+
+<tspan x="10" y="410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/pack\</tspan>
+<tspan x="10" y="426">age.json</tspan>
+
+<tspan x="10" y="442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/READ\</tspan>
+<tspan x="10" y="458">ME.md</tspan>
+
+<tspan x="10" y="474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="490">le/af.js</tspan>
+
+<tspan x="10" y="506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="522">le/ar-dz.js</tspan>
+
+<tspan x="10" y="538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="554">le/ar.js</tspan>
+
+<tspan x="10" y="570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="586">le/ar-kw.js</tspan>
+
+<tspan x="10" y="602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="618">le/ar-ly.js</tspan>
+
+<tspan x="10" y="634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="650">le/ar-ma.js</tspan>
+
+<tspan x="10" y="666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="682">le/ar-sa.js</tspan>
+
+<tspan x="10" y="698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="714">le/ar-tn.js</tspan>
+
+<tspan x="10" y="730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="746">le/az.js</tspan>
+
+<tspan x="10" y="762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="778">le/be.js</tspan>
+
+<tspan x="10" y="794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="810">le/bg.js</tspan>
+
+<tspan x="10" y="826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="842">le/bm.js</tspan>
+
+<tspan x="10" y="858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="874">le/bn.js</tspan>
+
+<tspan x="10" y="890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="906">le/bo.js</tspan>
+
+<tspan x="10" y="922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="938">le/br.js</tspan>
+
+<tspan x="10" y="954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="970">le/bs.js</tspan>
+
+<tspan x="10" y="986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1002">le/ca.js</tspan>
+
+<tspan x="10" y="1018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1034">le/cs.js</tspan>
+
+<tspan x="10" y="1050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1066">le/cv.js</tspan>
+
+<tspan x="10" y="1082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1098">le/cy.js</tspan>
+
+<tspan x="10" y="1114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1130">le/da.js</tspan>
+
+<tspan x="10" y="1146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1162">le/de-at.js</tspan>
+
+<tspan x="10" y="1178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1194">le/de-ch.js</tspan>
+
+<tspan x="10" y="1210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1226">le/de.js</tspan>
+
+<tspan x="10" y="1242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1258">le/dv.js</tspan>
+
+<tspan x="10" y="1274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1290">le/el.js</tspan>
+
+<tspan x="10" y="1306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1322">le/en-au.js</tspan>
+
+<tspan x="10" y="1338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1354">le/en-ca.js</tspan>
+
+<tspan x="10" y="1370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1386">le/en-gb.js</tspan>
+
+<tspan x="10" y="1402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1418">le/en-ie.js</tspan>
+
+<tspan x="10" y="1434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1450">le/en-il.js</tspan>
+
+<tspan x="10" y="1466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1482">le/en-nz.js</tspan>
+
+<tspan x="10" y="1498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1514">le/eo.js</tspan>
+
+<tspan x="10" y="1530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1546">le/es-do.js</tspan>
+
+<tspan x="10" y="1562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1578">le/es.js</tspan>
+
+<tspan x="10" y="1594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1610">le/es-us.js</tspan>
+
+<tspan x="10" y="1626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1642">le/et.js</tspan>
+
+<tspan x="10" y="1658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1674">le/eu.js</tspan>
+
+<tspan x="10" y="1690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1706">le/fa.js</tspan>
+
+<tspan x="10" y="1722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1738">le/fi.js</tspan>
+
+<tspan x="10" y="1754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1770">le/fo.js</tspan>
+
+<tspan x="10" y="1786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1802">le/fr-ca.js</tspan>
+
+<tspan x="10" y="1818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1834">le/fr-ch.js</tspan>
+
+<tspan x="10" y="1850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1866">le/fr.js</tspan>
+
+<tspan x="10" y="1882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1898">le/fy.js</tspan>
+
+<tspan x="10" y="1914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1930">le/gd.js</tspan>
+
+<tspan x="10" y="1946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1962">le/gl.js</tspan>
+
+<tspan x="10" y="1978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="1994">le/gom-latn.js</tspan>
+
+<tspan x="10" y="2010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2026">le/gu.js</tspan>
+
+<tspan x="10" y="2042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2058">le/he.js</tspan>
+
+<tspan x="10" y="2074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2090">le/hi.js</tspan>
+
+<tspan x="10" y="2106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2122">le/hr.js</tspan>
+
+<tspan x="10" y="2138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2154">le/hu.js</tspan>
+
+<tspan x="10" y="2170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2186">le/hy-am.js</tspan>
+
+<tspan x="10" y="2202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2218">le/id.js</tspan>
+
+<tspan x="10" y="2234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2250">le/is.js</tspan>
+
+<tspan x="10" y="2266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2282">le/it.js</tspan>
+
+<tspan x="10" y="2298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2314">le/ja.js</tspan>
+
+<tspan x="10" y="2330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2346">le/jv.js</tspan>
+
+<tspan x="10" y="2362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2378">le/ka.js</tspan>
+
+<tspan x="10" y="2394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2410">le/kk.js</tspan>
+
+<tspan x="10" y="2426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2442">le/km.js</tspan>
+
+<tspan x="10" y="2458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2474">le/kn.js</tspan>
+
+<tspan x="10" y="2490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2506">le/ko.js</tspan>
+
+<tspan x="10" y="2522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2538">le/ky.js</tspan>
+
+<tspan x="10" y="2554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2570">le/lb.js</tspan>
+
+<tspan x="10" y="2586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2602">le/lo.js</tspan>
+
+<tspan x="10" y="2618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2634">le/lt.js</tspan>
+
+<tspan x="10" y="2650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2666">le/lv.js</tspan>
+
+<tspan x="10" y="2682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2698">le/me.js</tspan>
+
+<tspan x="10" y="2714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2730">le/mi.js</tspan>
+
+<tspan x="10" y="2746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2762">le/mk.js</tspan>
+
+<tspan x="10" y="2778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2794">le/ml.js</tspan>
+
+<tspan x="10" y="2810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2826">le/mn.js</tspan>
+
+<tspan x="10" y="2842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2858">le/mr.js</tspan>
+
+<tspan x="10" y="2874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2890">le/ms.js</tspan>
+
+<tspan x="10" y="2906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2922">le/ms-my.js</tspan>
+
+<tspan x="10" y="2938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2954">le/mt.js</tspan>
+
+<tspan x="10" y="2970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="2986">le/my.js</tspan>
+
+<tspan x="10" y="3002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3018">le/nb.js</tspan>
+
+<tspan x="10" y="3034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3050">le/ne.js</tspan>
+
+<tspan x="10" y="3066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3082">le/nl-be.js</tspan>
+
+<tspan x="10" y="3098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3114">le/nl.js</tspan>
+
+<tspan x="10" y="3130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3146">le/nn.js</tspan>
+
+<tspan x="10" y="3162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3178">le/pa-in.js</tspan>
+
+<tspan x="10" y="3194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3210">le/pl.js</tspan>
+
+<tspan x="10" y="3226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3242">le/pt-br.js</tspan>
+
+<tspan x="10" y="3258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3274">le/pt.js</tspan>
+
+<tspan x="10" y="3290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3306">le/ro.js</tspan>
+
+<tspan x="10" y="3322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3338">le/ru.js</tspan>
+
+<tspan x="10" y="3354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3370">le/sd.js</tspan>
+
+<tspan x="10" y="3386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3402">le/se.js</tspan>
+
+<tspan x="10" y="3418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3434">le/si.js</tspan>
+
+<tspan x="10" y="3450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3466">le/sk.js</tspan>
+
+<tspan x="10" y="3482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3498">le/sl.js</tspan>
+
+<tspan x="10" y="3514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3530">le/sq.js</tspan>
+
+<tspan x="10" y="3546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3562">le/sr-cyrl.js</tspan>
+
+<tspan x="10" y="3578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3594">le/sr.js</tspan>
+
+<tspan x="10" y="3610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3626">le/ss.js</tspan>
+
+<tspan x="10" y="3642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3658">le/sv.js</tspan>
+
+<tspan x="10" y="3674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3690">le/sw.js</tspan>
+
+<tspan x="10" y="3706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3722">le/ta.js</tspan>
+
+<tspan x="10" y="3738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3754">le/te.js</tspan>
+
+<tspan x="10" y="3770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3786">le/tet.js</tspan>
+
+<tspan x="10" y="3802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3818">le/tg.js</tspan>
+
+<tspan x="10" y="3834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3850">le/th.js</tspan>
+
+<tspan x="10" y="3866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3882">le/tlh.js</tspan>
+
+<tspan x="10" y="3898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3914">le/tl-ph.js</tspan>
+
+<tspan x="10" y="3930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3946">le/tr.js</tspan>
+
+<tspan x="10" y="3962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="3978">le/tzl.js</tspan>
+
+<tspan x="10" y="3994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4010">le/tzm.js</tspan>
+
+<tspan x="10" y="4026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4042">le/tzm-latn.js</tspan>
+
+<tspan x="10" y="4058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4074">le/ug-cn.js</tspan>
+
+<tspan x="10" y="4090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4106">le/uk.js</tspan>
+
+<tspan x="10" y="4122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4138">le/ur.js</tspan>
+
+<tspan x="10" y="4154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4170">le/uz.js</tspan>
+
+<tspan x="10" y="4186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4202">le/uz-latn.js</tspan>
+
+<tspan x="10" y="4218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4234">le/vi.js</tspan>
+
+<tspan x="10" y="4250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4266">le/x-pseudo.js</tspan>
+
+<tspan x="10" y="4282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4298">le/yo.js</tspan>
+
+<tspan x="10" y="4314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4330">le/zh-cn.js</tspan>
+
+<tspan x="10" y="4346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4362">le/zh-hk.js</tspan>
+
+<tspan x="10" y="4378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="4394">le/zh-tw.js</tspan>
+
+<tspan x="10" y="4410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4426">moment.js</tspan>
+
+<tspan x="10" y="4442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4458">locale/af.js</tspan>
+
+<tspan x="10" y="4474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4490">locale/ar-dz.js</tspan>
+
+<tspan x="10" y="4506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4522">locale/ar.js</tspan>
+
+<tspan x="10" y="4538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4554">locale/ar-kw.js</tspan>
+
+<tspan x="10" y="4570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4586">locale/ar-ly.js</tspan>
+
+<tspan x="10" y="4602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4618">locale/ar-ma.js</tspan>
+
+<tspan x="10" y="4634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4650">locale/ar-sa.js</tspan>
+
+<tspan x="10" y="4666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4682">locale/ar-tn.js</tspan>
+
+<tspan x="10" y="4698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4714">locale/az.js</tspan>
+
+<tspan x="10" y="4730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4746">locale/be.js</tspan>
+
+<tspan x="10" y="4762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4778">locale/bg.js</tspan>
+
+<tspan x="10" y="4794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4810">locale/bm.js</tspan>
+
+<tspan x="10" y="4826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4842">locale/bn.js</tspan>
+
+<tspan x="10" y="4858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4874">locale/bo.js</tspan>
+
+<tspan x="10" y="4890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4906">locale/br.js</tspan>
+
+<tspan x="10" y="4922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4938">locale/bs.js</tspan>
+
+<tspan x="10" y="4954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="4970">locale/ca.js</tspan>
+
+<tspan x="10" y="4986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5002">locale/cs.js</tspan>
+
+<tspan x="10" y="5018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5034">locale/cv.js</tspan>
+
+<tspan x="10" y="5050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5066">locale/cy.js</tspan>
+
+<tspan x="10" y="5082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5098">locale/da.js</tspan>
+
+<tspan x="10" y="5114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5130">locale/de-at.js</tspan>
+
+<tspan x="10" y="5146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5162">locale/de-ch.js</tspan>
+
+<tspan x="10" y="5178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5194">locale/de.js</tspan>
+
+<tspan x="10" y="5210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5226">locale/dv.js</tspan>
+
+<tspan x="10" y="5242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5258">locale/el.js</tspan>
+
+<tspan x="10" y="5274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5290">locale/en-au.js</tspan>
+
+<tspan x="10" y="5306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5322">locale/en-ca.js</tspan>
+
+<tspan x="10" y="5338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5354">locale/en-gb.js</tspan>
+
+<tspan x="10" y="5370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5386">locale/en-ie.js</tspan>
+
+<tspan x="10" y="5402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5418">locale/en-il.js</tspan>
+
+<tspan x="10" y="5434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5450">locale/en-nz.js</tspan>
+
+<tspan x="10" y="5466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5482">locale/eo.js</tspan>
+
+<tspan x="10" y="5498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5514">locale/es-do.js</tspan>
+
+<tspan x="10" y="5530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5546">locale/es.js</tspan>
+
+<tspan x="10" y="5562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5578">locale/es-us.js</tspan>
+
+<tspan x="10" y="5594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5610">locale/et.js</tspan>
+
+<tspan x="10" y="5626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5642">locale/eu.js</tspan>
+
+<tspan x="10" y="5658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5674">locale/fa.js</tspan>
+
+<tspan x="10" y="5690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5706">locale/fi.js</tspan>
+
+<tspan x="10" y="5722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5738">locale/fo.js</tspan>
+
+<tspan x="10" y="5754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5770">locale/fr-ca.js</tspan>
+
+<tspan x="10" y="5786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5802">locale/fr-ch.js</tspan>
+
+<tspan x="10" y="5818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5834">locale/fr.js</tspan>
+
+<tspan x="10" y="5850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5866">locale/fy.js</tspan>
+
+<tspan x="10" y="5882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5898">locale/gd.js</tspan>
+
+<tspan x="10" y="5914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5930">locale/gl.js</tspan>
+
+<tspan x="10" y="5946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5962">locale/gom-latn.js</tspan>
+
+<tspan x="10" y="5978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="5994">locale/gu.js</tspan>
+
+<tspan x="10" y="6010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6026">locale/he.js</tspan>
+
+<tspan x="10" y="6042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6058">locale/hi.js</tspan>
+
+<tspan x="10" y="6074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6090">locale/hr.js</tspan>
+
+<tspan x="10" y="6106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6122">locale/hu.js</tspan>
+
+<tspan x="10" y="6138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6154">locale/hy-am.js</tspan>
+
+<tspan x="10" y="6170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6186">locale/id.js</tspan>
+
+<tspan x="10" y="6202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6218">locale/is.js</tspan>
+
+<tspan x="10" y="6234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6250">locale/it.js</tspan>
+
+<tspan x="10" y="6266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6282">locale/ja.js</tspan>
+
+<tspan x="10" y="6298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6314">locale/jv.js</tspan>
+
+<tspan x="10" y="6330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6346">locale/ka.js</tspan>
+
+<tspan x="10" y="6362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6378">locale/kk.js</tspan>
+
+<tspan x="10" y="6394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6410">locale/km.js</tspan>
+
+<tspan x="10" y="6426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6442">locale/kn.js</tspan>
+
+<tspan x="10" y="6458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6474">locale/ko.js</tspan>
+
+<tspan x="10" y="6490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6506">locale/ky.js</tspan>
+
+<tspan x="10" y="6522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6538">locale/lb.js</tspan>
+
+<tspan x="10" y="6554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6570">locale/lo.js</tspan>
+
+<tspan x="10" y="6586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6602">locale/lt.js</tspan>
+
+<tspan x="10" y="6618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6634">locale/lv.js</tspan>
+
+<tspan x="10" y="6650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6666">locale/me.js</tspan>
+
+<tspan x="10" y="6682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6698">locale/mi.js</tspan>
+
+<tspan x="10" y="6714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6730">locale/mk.js</tspan>
+
+<tspan x="10" y="6746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6762">locale/ml.js</tspan>
+
+<tspan x="10" y="6778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6794">locale/mn.js</tspan>
+
+<tspan x="10" y="6810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6826">locale/mr.js</tspan>
+
+<tspan x="10" y="6842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6858">locale/ms.js</tspan>
+
+<tspan x="10" y="6874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6890">locale/ms-my.js</tspan>
+
+<tspan x="10" y="6906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6922">locale/mt.js</tspan>
+
+<tspan x="10" y="6938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6954">locale/my.js</tspan>
+
+<tspan x="10" y="6970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="6986">locale/nb.js</tspan>
+
+<tspan x="10" y="7002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7018">locale/ne.js</tspan>
+
+<tspan x="10" y="7034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7050">locale/nl-be.js</tspan>
+
+<tspan x="10" y="7066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7082">locale/nl.js</tspan>
+
+<tspan x="10" y="7098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7114">locale/nn.js</tspan>
+
+<tspan x="10" y="7130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7146">locale/pa-in.js</tspan>
+
+<tspan x="10" y="7162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7178">locale/pl.js</tspan>
+
+<tspan x="10" y="7194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7210">locale/pt-br.js</tspan>
+
+<tspan x="10" y="7226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7242">locale/pt.js</tspan>
+
+<tspan x="10" y="7258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7274">locale/ro.js</tspan>
+
+<tspan x="10" y="7290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7306">locale/ru.js</tspan>
+
+<tspan x="10" y="7322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7338">locale/sd.js</tspan>
+
+<tspan x="10" y="7354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7370">locale/se.js</tspan>
+
+<tspan x="10" y="7386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7402">locale/si.js</tspan>
+
+<tspan x="10" y="7418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7434">locale/sk.js</tspan>
+
+<tspan x="10" y="7450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7466">locale/sl.js</tspan>
+
+<tspan x="10" y="7482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7498">locale/sq.js</tspan>
+
+<tspan x="10" y="7514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7530">locale/sr-cyrl.js</tspan>
+
+<tspan x="10" y="7546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7562">locale/sr.js</tspan>
+
+<tspan x="10" y="7578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7594">locale/ss.js</tspan>
+
+<tspan x="10" y="7610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7626">locale/sv.js</tspan>
+
+<tspan x="10" y="7642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7658">locale/sw.js</tspan>
+
+<tspan x="10" y="7674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7690">locale/ta.js</tspan>
+
+<tspan x="10" y="7706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7722">locale/te.js</tspan>
+
+<tspan x="10" y="7738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7754">locale/tet.js</tspan>
+
+<tspan x="10" y="7770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7786">locale/tg.js</tspan>
+
+<tspan x="10" y="7802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7818">locale/th.js</tspan>
+
+<tspan x="10" y="7834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7850">locale/tlh.js</tspan>
+
+<tspan x="10" y="7866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7882">locale/tl-ph.js</tspan>
+
+<tspan x="10" y="7898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7914">locale/tr.js</tspan>
+
+<tspan x="10" y="7930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7946">locale/tzl.js</tspan>
+
+<tspan x="10" y="7962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="7978">locale/tzm.js</tspan>
+
+<tspan x="10" y="7994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8010">locale/tzm-latn.js</tspan>
+
+<tspan x="10" y="8026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8042">locale/ug-cn.js</tspan>
+
+<tspan x="10" y="8058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8074">locale/uk.js</tspan>
+
+<tspan x="10" y="8090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8106">locale/ur.js</tspan>
+
+<tspan x="10" y="8122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8138">locale/uz.js</tspan>
+
+<tspan x="10" y="8154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8170">locale/uz-latn.js</tspan>
+
+<tspan x="10" y="8186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8202">locale/vi.js</tspan>
+
+<tspan x="10" y="8218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8234">locale/x-pseudo.js</tspan>
+
+<tspan x="10" y="8250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8266">locale/yo.js</tspan>
+
+<tspan x="10" y="8282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8298">locale/zh-cn.js</tspan>
+
+<tspan x="10" y="8314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8330">locale/zh-hk.js</tspan>
+
+<tspan x="10" y="8346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="8362">locale/zh-tw.js</tspan>
+
+<tspan x="10" y="8378">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment ...</tspan>
+
+<tspan x="10" y="8394">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment</tspan>
+
+<tspan x="10" y="8410">apidocCreate - libFile ender.js</tspan>
+
+<tspan x="10" y="8426">apidocCreate - libFile package.js</tspan>
+
+<tspan x="10" y="8442">apidocCreate - libFile locale/af.js</tspan>
+
+<tspan x="10" y="8458">apidocCreate - libFile locale/ar-dz.js</tspan>
+
+<tspan x="10" y="8474">apidocCreate - libFile locale/ar.js</tspan>
+
+<tspan x="10" y="8490">apidocCreate - libFile locale/ar-kw.js</tspan>
+
+<tspan x="10" y="8506">apidocCreate - libFile locale/ar-ly.js</tspan>
+
+<tspan x="10" y="8522">apidocCreate - libFile locale/ar-ma.js</tspan>
+
+<tspan x="10" y="8538">apidocCreate - libFile locale/ar-sa.js</tspan>
+
+<tspan x="10" y="8554">apidocCreate - libFile locale/ar-tn.js</tspan>
+
+<tspan x="10" y="8570">apidocCreate - libFile locale/az.js</tspan>
+
+<tspan x="10" y="8586">apidocCreate - libFile locale/be.js</tspan>
+
+<tspan x="10" y="8602">apidocCreate - libFile locale/bg.js</tspan>
+
+<tspan x="10" y="8618">apidocCreate - libFile locale/bm.js</tspan>
+
+<tspan x="10" y="8634">apidocCreate - libFile locale/bn.js</tspan>
+
+<tspan x="10" y="8650">apidocCreate - libFile locale/bo.js</tspan>
+
+<tspan x="10" y="8666">apidocCreate - libFile locale/br.js</tspan>
+
+<tspan x="10" y="8682">apidocCreate - libFile locale/bs.js</tspan>
+
+<tspan x="10" y="8698">apidocCreate - libFile locale/ca.js</tspan>
+
+<tspan x="10" y="8714">apidocCreate - libFile locale/cs.js</tspan>
+
+<tspan x="10" y="8730">apidocCreate - libFile locale/cv.js</tspan>
+
+<tspan x="10" y="8746">apidocCreate - libFile locale/cy.js</tspan>
+
+<tspan x="10" y="8762">apidocCreate - libFile locale/da.js</tspan>
+
+<tspan x="10" y="8778">apidocCreate - libFile locale/de-at.js</tspan>
+
+<tspan x="10" y="8794">apidocCreate - libFile locale/de-ch.js</tspan>
+
+<tspan x="10" y="8810">apidocCreate - libFile locale/de.js</tspan>
+
+<tspan x="10" y="8826">apidocCreate - libFile locale/dv.js</tspan>
+
+<tspan x="10" y="8842">apidocCreate - libFile locale/el.js</tspan>
+
+<tspan x="10" y="8858">apidocCreate - libFile locale/en-au.js</tspan>
+
+<tspan x="10" y="8874">apidocCreate - libFile locale/en-ca.js</tspan>
+
+<tspan x="10" y="8890">apidocCreate - libFile locale/en-gb.js</tspan>
+
+<tspan x="10" y="8906">apidocCreate - libFile locale/en-ie.js</tspan>
+
+<tspan x="10" y="8922">apidocCreate - libFile locale/en-il.js</tspan>
+
+<tspan x="10" y="8938">apidocCreate - libFile locale/en-nz.js</tspan>
+
+<tspan x="10" y="8954">apidocCreate - libFile locale/eo.js</tspan>
+
+<tspan x="10" y="8970">apidocCreate - libFile locale/es-do.js</tspan>
+
+<tspan x="10" y="8986">apidocCreate - libFile locale/es.js</tspan>
+
+<tspan x="10" y="9002">apidocCreate - libFile locale/es-us.js</tspan>
+
+<tspan x="10" y="9018">apidocCreate - libFile locale/et.js</tspan>
+
+<tspan x="10" y="9034">apidocCreate - libFile locale/eu.js</tspan>
+
+<tspan x="10" y="9050">apidocCreate - libFile locale/fa.js</tspan>
+
+<tspan x="10" y="9066">apidocCreate - libFile locale/fi.js</tspan>
+
+<tspan x="10" y="9082">apidocCreate - libFile locale/fo.js</tspan>
+
+<tspan x="10" y="9098">apidocCreate - libFile locale/fr-ca.js</tspan>
+
+<tspan x="10" y="9114">apidocCreate - libFile locale/fr-ch.js</tspan>
+
+<tspan x="10" y="9130">apidocCreate - libFile locale/fr.js</tspan>
+
+<tspan x="10" y="9146">apidocCreate - libFile locale/fy.js</tspan>
+
+<tspan x="10" y="9162">apidocCreate - libFile locale/gd.js</tspan>
+
+<tspan x="10" y="9178">apidocCreate - libFile locale/gl.js</tspan>
+
+<tspan x="10" y="9194">apidocCreate - libFile locale/gom-latn.js</tspan>
+
+<tspan x="10" y="9210">apidocCreate - libFile locale/gu.js</tspan>
+
+<tspan x="10" y="9226">apidocCreate - libFile locale/he.js</tspan>
+
+<tspan x="10" y="9242">apidocCreate - libFile locale/hi.js</tspan>
+
+<tspan x="10" y="9258">apidocCreate - libFile locale/hr.js</tspan>
+
+<tspan x="10" y="9274">apidocCreate - libFile locale/hu.js</tspan>
+
+<tspan x="10" y="9290">apidocCreate - libFile locale/hy-am.js</tspan>
+
+<tspan x="10" y="9306">apidocCreate - libFile locale/id.js</tspan>
+
+<tspan x="10" y="9322">apidocCreate - libFile locale/is.js</tspan>
+
+<tspan x="10" y="9338">apidocCreate - libFile locale/it.js</tspan>
+
+<tspan x="10" y="9354">apidocCreate - libFile locale/ja.js</tspan>
+
+<tspan x="10" y="9370">apidocCreate - libFile locale/jv.js</tspan>
+
+<tspan x="10" y="9386">apidocCreate - libFile locale/ka.js</tspan>
+
+<tspan x="10" y="9402">apidocCreate - libFile locale/kk.js</tspan>
+
+<tspan x="10" y="9418">apidocCreate - libFile locale/km.js</tspan>
+
+<tspan x="10" y="9434">apidocCreate - libFile locale/kn.js</tspan>
+
+<tspan x="10" y="9450">apidocCreate - libFile locale/ko.js</tspan>
+
+<tspan x="10" y="9466">apidocCreate - libFile locale/ky.js</tspan>
+
+<tspan x="10" y="9482">apidocCreate - libFile locale/lb.js</tspan>
+
+<tspan x="10" y="9498">apidocCreate - libFile locale/lo.js</tspan>
+
+<tspan x="10" y="9514">apidocCreate - libFile locale/lt.js</tspan>
+
+<tspan x="10" y="9530">apidocCreate - libFile locale/lv.js</tspan>
+
+<tspan x="10" y="9546">apidocCreate - libFile locale/me.js</tspan>
+
+<tspan x="10" y="9562">apidocCreate - libFile locale/mi.js</tspan>
+
+<tspan x="10" y="9578">apidocCreate - libFile locale/mk.js</tspan>
+
+<tspan x="10" y="9594">apidocCreate - libFile locale/ml.js</tspan>
+
+<tspan x="10" y="9610">apidocCreate - libFile locale/mn.js</tspan>
+
+<tspan x="10" y="9626">apidocCreate - libFile locale/mr.js</tspan>
+
+<tspan x="10" y="9642">apidocCreate - libFile locale/ms.js</tspan>
+
+<tspan x="10" y="9658">apidocCreate - libFile locale/ms-my.js</tspan>
+
+<tspan x="10" y="9674">apidocCreate - libFile locale/mt.js</tspan>
+
+<tspan x="10" y="9690">apidocCreate - libFile locale/my.js</tspan>
+
+<tspan x="10" y="9706">apidocCreate - libFile locale/nb.js</tspan>
+
+<tspan x="10" y="9722">apidocCreate - libFile locale/ne.js</tspan>
+
+<tspan x="10" y="9738">apidocCreate - libFile locale/nl-be.js</tspan>
+
+<tspan x="10" y="9754">apidocCreate - libFile locale/nl.js</tspan>
+
+<tspan x="10" y="9770">apidocCreate - libFile locale/nn.js</tspan>
+
+<tspan x="10" y="9786">apidocCreate - libFile locale/pa-in.js</tspan>
+
+<tspan x="10" y="9802">apidocCreate - libFile locale/pl.js</tspan>
+
+<tspan x="10" y="9818">apidocCreate - libFile locale/pt-br.js</tspan>
+
+<tspan x="10" y="9834">apidocCreate - libFile locale/pt.js</tspan>
+
+<tspan x="10" y="9850">apidocCreate - libFile locale/ro.js</tspan>
+
+<tspan x="10" y="9866">apidocCreate - libFile locale/ru.js</tspan>
+
+<tspan x="10" y="9882">apidocCreate - libFile locale/sd.js</tspan>
+
+<tspan x="10" y="9898">apidocCreate - libFile locale/se.js</tspan>
+
+<tspan x="10" y="9914">apidocCreate - libFile locale/si.js</tspan>
+
+<tspan x="10" y="9930">apidocCreate - libFile locale/sk.js</tspan>
+
+<tspan x="10" y="9946">apidocCreate - libFile locale/sl.js</tspan>
+
+<tspan x="10" y="9962">apidocCreate - libFile locale/sq.js</tspan>
+
+<tspan x="10" y="9978">apidocCreate - libFile locale/sr-cyrl.js</tspan>
+
+<tspan x="10" y="9994">apidocCreate - libFile locale/sr.js</tspan>
+
+<tspan x="10" y="10010">apidocCreate - libFile locale/ss.js</tspan>
+
+<tspan x="10" y="10026">apidocCreate - libFile locale/sv.js</tspan>
+
+<tspan x="10" y="10042">apidocCreate - libFile locale/sw.js</tspan>
+
+<tspan x="10" y="10058">apidocCreate - libFile locale/ta.js</tspan>
+
+<tspan x="10" y="10074">apidocCreate - libFile locale/te.js</tspan>
+
+<tspan x="10" y="10090">apidocCreate - libFile locale/tet.js</tspan>
+
+<tspan x="10" y="10106">apidocCreate - libFile locale/tg.js</tspan>
+
+<tspan x="10" y="10122">apidocCreate - libFile locale/th.js</tspan>
+
+<tspan x="10" y="10138">apidocCreate - libFile locale/tlh.js</tspan>
+
+<tspan x="10" y="10154">apidocCreate - libFile locale/tl-ph.js</tspan>
+
+<tspan x="10" y="10170">apidocCreate - libFile locale/tr.js</tspan>
+
+<tspan x="10" y="10186">apidocCreate - libFile locale/tzl.js</tspan>
+
+<tspan x="10" y="10202">apidocCreate - libFile locale/tzm.js</tspan>
+
+<tspan x="10" y="10218">apidocCreate - libFile locale/tzm-latn.js</tspan>
+
+<tspan x="10" y="10234">apidocCreate - libFile locale/ug-cn.js</tspan>
+
+<tspan x="10" y="10250">apidocCreate - libFile locale/uk.js</tspan>
+
+<tspan x="10" y="10266">apidocCreate - libFile locale/ur.js</tspan>
+
+<tspan x="10" y="10282">apidocCreate - libFile locale/uz.js</tspan>
+
+<tspan x="10" y="10298">apidocCreate - libFile locale/uz-latn.js</tspan>
+
+<tspan x="10" y="10314">apidocCreate - libFile locale/vi.js</tspan>
+
+<tspan x="10" y="10330">apidocCreate - libFile locale/x-pseudo.js</tspan>
+
+<tspan x="10" y="10346">apidocCreate - libFile locale/yo.js</tspan>
+
+<tspan x="10" y="10362">apidocCreate - libFile locale/zh-cn.js</tspan>
+
+<tspan x="10" y="10378">apidocCreate - libFile locale/zh-hk.js</tspan>
+
+<tspan x="10" y="10394">apidocCreate - libFile locale/zh-tw.js</tspan>
+
+<tspan x="10" y="10410">apidocCreate - libFile src/moment.js</tspan>
+
+<tspan x="10" y="10426">apidocCreate - libFile src/lib/create/check-overflow.js</tspan>
+
+<tspan x="10" y="10442">apidocCreate - libFile src/lib/create/date-from-array.js</tspan>
+
+<tspan x="10" y="10458">apidocCreate - libFile src/lib/create/from-anything.js</tspan>
+
+<tspan x="10" y="10474">apidocCreate - libFile src/lib/create/from-array.js</tspan>
+
+<tspan x="10" y="10490">apidocCreate - libFile src/lib/create/from-object.js</tspan>
+
+<tspan x="10" y="10506">apidocCreate - libFile src/lib/create/from-string-and-array.js</tspan>
+
+<tspan x="10" y="10522">apidocCreate - libFile src/lib/create/from-string-and-format.js</tspan>
+
+<tspan x="10" y="10538">apidocCreate - libFile src/lib/create/from-string.js</tspan>
+
+<tspan x="10" y="10554">apidocCreate - libFile src/lib/create/local.js</tspan>
+
+<tspan x="10" y="10570">apidocCreate - libFile src/lib/create/parsing-flags.js</tspan>
+
+<tspan x="10" y="10586">apidocCreate - libFile src/lib/create/utc.js</tspan>
+
+<tspan x="10" y="10602">apidocCreate - libFile src/lib/create/valid.js</tspan>
+
+<tspan x="10" y="10618">apidocCreate - libFile src/lib/duration/abs.js</tspan>
+
+<tspan x="10" y="10634">apidocCreate - libFile src/lib/duration/add-subtract.js</tspan>
+
+<tspan x="10" y="10650">apidocCreate - libFile src/lib/duration/as.js</tspan>
+
+<tspan x="10" y="10666">apidocCreate - libFile src/lib/duration/bubble.js</tspan>
+
+<tspan x="10" y="10682">apidocCreate - libFile src/lib/duration/clone.js</tspan>
+
+<tspan x="10" y="10698">apidocCreate - libFile src/lib/duration/create.js</tspan>
+
+<tspan x="10" y="10714">apidocCreate - libFile src/lib/duration/duration.js</tspan>
+
+<tspan x="10" y="10730">apidocCreate - libFile src/lib/duration/get.js</tspan>
+
+<tspan x="10" y="10746">apidocCreate - libFile src/lib/duration/humanize.js</tspan>
+
+<tspan x="10" y="10762">apidocCreate - libFile src/lib/duration/iso-string.js</tspan>
+
+<tspan x="10" y="10778">apidocCreate - libFile src/lib/duration/prototype.js</tspan>
+
+<tspan x="10" y="10794">apidocCreate - libFile src/lib/duration/valid.js</tspan>
+
+<tspan x="10" y="10810">apidocCreate - libFile src/lib/format/format.js</tspan>
+
+<tspan x="10" y="10826">apidocCreate - libFile src/lib/locale/base-config.js</tspan>
+
+<tspan x="10" y="10842">apidocCreate - libFile src/lib/locale/calendar.js</tspan>
+
+<tspan x="10" y="10858">apidocCreate - libFile src/lib/locale/en.js</tspan>
+
+<tspan x="10" y="10874">apidocCreate - libFile src/lib/locale/formats.js</tspan>
+
+<tspan x="10" y="10890">apidocCreate - libFile src/lib/locale/invalid.js</tspan>
+
+<tspan x="10" y="10906">apidocCreate - libFile src/lib/locale/lists.js</tspan>
+
+<tspan x="10" y="10922">apidocCreate - libFile src/lib/locale/locale.js</tspan>
+
+<tspan x="10" y="10938">apidocCreate - libFile src/lib/locale/locales.js</tspan>
+
+<tspan x="10" y="10954">apidocCreate - libFile src/lib/locale/ordinal.js</tspan>
+
+<tspan x="10" y="10970">apidocCreate - libFile src/lib/locale/pre-post-format.js</tspan>
+
+<tspan x="10" y="10986">apidocCreate - libFile src/lib/locale/prototype.js</tspan>
+
+<tspan x="10" y="11002">apidocCreate - libFile src/lib/locale/relative.js</tspan>
+
+<tspan x="10" y="11018">apidocCreate - libFile src/lib/locale/set.js</tspan>
+
+<tspan x="10" y="11034">apidocCreate - libFile src/lib/moment/add-subtract.js</tspan>
+
+<tspan x="10" y="11050">apidocCreate - libFile src/lib/moment/calendar.js</tspan>
+
+<tspan x="10" y="11066">apidocCreate - libFile src/lib/moment/clone.js</tspan>
+
+<tspan x="10" y="11082">apidocCreate - libFile src/lib/moment/compare.js</tspan>
+
+<tspan x="10" y="11098">apidocCreate - libFile src/lib/moment/creation-data.js</tspan>
+
+<tspan x="10" y="11114">apidocCreate - libFile src/lib/moment/diff.js</tspan>
+
+<tspan x="10" y="11130">apidocCreate - libFile src/lib/moment/format.js</tspan>
+
+<tspan x="10" y="11146">apidocCreate - libFile src/lib/moment/from.js</tspan>
+
+<tspan x="10" y="11162">apidocCreate - libFile src/lib/moment/get-set.js</tspan>
+
+<tspan x="10" y="11178">apidocCreate - libFile src/lib/moment/locale.js</tspan>
+
+<tspan x="10" y="11194">apidocCreate - libFile src/lib/moment/moment.js</tspan>
+
+<tspan x="10" y="11210">apidocCreate - libFile src/lib/moment/now.js</tspan>
+
+<tspan x="10" y="11226">apidocCreate - libFile src/lib/moment/prototype.js</tspan>
+
+<tspan x="10" y="11242">apidocCreate - libFile src/lib/moment/start-end-of.js</tspan>
+
+<tspan x="10" y="11258">apidocCreate - libFile src/lib/moment/to.js</tspan>
+
+<tspan x="10" y="11274">apidocCreate - libFile src/lib/moment/to-type.js</tspan>
+
+<tspan x="10" y="11290">apidocCreate - libFile src/lib/moment/valid.js</tspan>
+
+<tspan x="10" y="11306">apidocCreate - libFile src/lib/parse/regex.js</tspan>
+
+<tspan x="10" y="11322">apidocCreate - libFile src/lib/parse/token.js</tspan>
+
+<tspan x="10" y="11338">apidocCreate - libFile src/lib/units/aliases.js</tspan>
+
+<tspan x="10" y="11354">apidocCreate - libFile src/lib/units/constants.js</tspan>
+
+<tspan x="10" y="11370">apidocCreate - libFile src/lib/units/day-of-month.js</tspan>
+
+<tspan x="10" y="11386">apidocCreate - libFile src/lib/units/day-of-week.js</tspan>
+
+<tspan x="10" y="11402">apidocCreate - libFile src/lib/units/day-of-year.js</tspan>
+
+<tspan x="10" y="11418">apidocCreate - libFile src/lib/units/hour.js</tspan>
+
+<tspan x="10" y="11434">apidocCreate - libFile src/lib/units/millisecond.js</tspan>
+
+<tspan x="10" y="11450">apidocCreate - libFile src/lib/units/minute.js</tspan>
+
+<tspan x="10" y="11466">apidocCreate - libFile src/lib/units/month.js</tspan>
+
+<tspan x="10" y="11482">apidocCreate - libFile src/lib/units/offset.js</tspan>
+
+<tspan x="10" y="11498">apidocCreate - libFile src/lib/units/priorities.js</tspan>
+
+<tspan x="10" y="11514">apidocCreate - libFile src/lib/units/quarter.js</tspan>
+
+<tspan x="10" y="11530">apidocCreate - libFile src/lib/units/second.js</tspan>
+
+<tspan x="10" y="11546">apidocCreate - libFile src/lib/units/timestamp.js</tspan>
+
+<tspan x="10" y="11562">apidocCreate - libFile src/lib/units/timezone.js</tspan>
+
+<tspan x="10" y="11578">apidocCreate - libFile src/lib/units/units.js</tspan>
+
+<tspan x="10" y="11594">apidocCreate - libFile src/lib/units/week-calendar-utils.js</tspan>
+
+<tspan x="10" y="11610">apidocCreate - libFile src/lib/units/week.js</tspan>
+
+<tspan x="10" y="11626">apidocCreate - libFile src/lib/units/week-year.js</tspan>
+
+<tspan x="10" y="11642">apidocCreate - libFile src/lib/units/year.js</tspan>
+
+<tspan x="10" y="11658">apidocCreate - libFile src/lib/utils/abs-ceil.js</tspan>
+
+<tspan x="10" y="11674">apidocCreate - libFile src/lib/utils/abs-floor.js</tspan>
+
+<tspan x="10" y="11690">apidocCreate - libFile src/lib/utils/abs-round.js</tspan>
+
+<tspan x="10" y="11706">apidocCreate - libFile src/lib/utils/compare-arrays.js</tspan>
+
+<tspan x="10" y="11722">apidocCreate - libFile src/lib/utils/defaults.js</tspan>
+
+<tspan x="10" y="11738">apidocCreate - libFile src/lib/utils/deprecate.js</tspan>
+
+<tspan x="10" y="11754">apidocCreate - libFile src/lib/utils/extend.js</tspan>
+
+<tspan x="10" y="11770">apidocCreate - libFile src/lib/utils/has-own-prop.js</tspan>
+
+<tspan x="10" y="11786">apidocCreate - libFile src/lib/utils/hooks.js</tspan>
+
+<tspan x="10" y="11802">apidocCreate - libFile src/lib/utils/index-of.js</tspan>
+
+<tspan x="10" y="11818">apidocCreate - libFile src/lib/utils/is-array.js</tspan>
+
+<tspan x="10" y="11834">apidocCreate - libFile src/lib/utils/is-date.js</tspan>
+
+<tspan x="10" y="11850">apidocCreate - libFile src/lib/utils/is-function.js</tspan>
+
+<tspan x="10" y="11866">apidocCreate - libFile src/lib/utils/is-number.js</tspan>
+
+<tspan x="10" y="11882">apidocCreate - libFile src/lib/utils/is-object-empty.js</tspan>
+
+<tspan x="10" y="11898">apidocCreate - libFile src/lib/utils/is-object.js</tspan>
+
+<tspan x="10" y="11914">apidocCreate - libFile src/lib/utils/is-undefined.js</tspan>
+
+<tspan x="10" y="11930">apidocCreate - libFile src/lib/utils/keys.js</tspan>
+
+<tspan x="10" y="11946">apidocCreate - libFile src/lib/utils/map.js</tspan>
+
+<tspan x="10" y="11962">apidocCreate - libFile src/lib/utils/mod.js</tspan>
+
+<tspan x="10" y="11978">apidocCreate - libFile src/lib/utils/some.js</tspan>
+
+<tspan x="10" y="11994">apidocCreate - libFile src/lib/utils/to-int.js</tspan>
+
+<tspan x="10" y="12010">apidocCreate - libFile src/lib/utils/zero-fill.js</tspan>
+
+<tspan x="10" y="12026">created apidoc file /home/travis/build/npmdoc/node-npmdoc-moment/tmp/build/apidoc.html</tspan>
+
+<tspan x="10" y="12042"></tspan>
+
+<tspan x="10" y="12058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/pack\</tspan>
+<tspan x="10" y="12074">age.json</tspan>
+
+<tspan x="10" y="12090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/CHAN\</tspan>
+<tspan x="10" y="12106">GELOG.md</tspan>
+
+<tspan x="10" y="12122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/ende\</tspan>
+<tspan x="10" y="12138">r.js</tspan>
+
+<tspan x="10" y="12154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/.git\</tspan>
+<tspan x="10" y="12170">ignore</tspan>
+
+<tspan x="10" y="12186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/LICE\</tspan>
+<tspan x="10" y="12202">NSE</tspan>
+
+<tspan x="10" y="12218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/mome\</tspan>
+<tspan x="10" y="12234">nt.d.ts</tspan>
+
+<tspan x="10" y="12250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/mome\</tspan>
+<tspan x="10" y="12266">nt.js</tspan>
+
+<tspan x="10" y="12282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/pack\</tspan>
+<tspan x="10" y="12298">age.js</tspan>
+
+<tspan x="10" y="12314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/pack\</tspan>
+<tspan x="10" y="12330">age.json</tspan>
+
+<tspan x="10" y="12346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/READ\</tspan>
+<tspan x="10" y="12362">ME.md</tspan>
+
+<tspan x="10" y="12378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12394">le/af.js</tspan>
+
+<tspan x="10" y="12410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12426">le/ar-dz.js</tspan>
+
+<tspan x="10" y="12442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12458">le/ar.js</tspan>
+
+<tspan x="10" y="12474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12490">le/ar-kw.js</tspan>
+
+<tspan x="10" y="12506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12522">le/ar-ly.js</tspan>
+
+<tspan x="10" y="12538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12554">le/ar-ma.js</tspan>
+
+<tspan x="10" y="12570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12586">le/ar-sa.js</tspan>
+
+<tspan x="10" y="12602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12618">le/ar-tn.js</tspan>
+
+<tspan x="10" y="12634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12650">le/az.js</tspan>
+
+<tspan x="10" y="12666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12682">le/be.js</tspan>
+
+<tspan x="10" y="12698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12714">le/bg.js</tspan>
+
+<tspan x="10" y="12730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12746">le/bm.js</tspan>
+
+<tspan x="10" y="12762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12778">le/bn.js</tspan>
+
+<tspan x="10" y="12794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12810">le/bo.js</tspan>
+
+<tspan x="10" y="12826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12842">le/br.js</tspan>
+
+<tspan x="10" y="12858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12874">le/bs.js</tspan>
+
+<tspan x="10" y="12890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12906">le/ca.js</tspan>
+
+<tspan x="10" y="12922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12938">le/cs.js</tspan>
+
+<tspan x="10" y="12954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="12970">le/cv.js</tspan>
+
+<tspan x="10" y="12986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13002">le/cy.js</tspan>
+
+<tspan x="10" y="13018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13034">le/da.js</tspan>
+
+<tspan x="10" y="13050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13066">le/de-at.js</tspan>
+
+<tspan x="10" y="13082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13098">le/de-ch.js</tspan>
+
+<tspan x="10" y="13114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13130">le/de.js</tspan>
+
+<tspan x="10" y="13146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13162">le/dv.js</tspan>
+
+<tspan x="10" y="13178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13194">le/el.js</tspan>
+
+<tspan x="10" y="13210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13226">le/en-au.js</tspan>
+
+<tspan x="10" y="13242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13258">le/en-ca.js</tspan>
+
+<tspan x="10" y="13274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13290">le/en-gb.js</tspan>
+
+<tspan x="10" y="13306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13322">le/en-ie.js</tspan>
+
+<tspan x="10" y="13338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13354">le/en-il.js</tspan>
+
+<tspan x="10" y="13370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13386">le/en-nz.js</tspan>
+
+<tspan x="10" y="13402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13418">le/eo.js</tspan>
+
+<tspan x="10" y="13434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13450">le/es-do.js</tspan>
+
+<tspan x="10" y="13466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13482">le/es.js</tspan>
+
+<tspan x="10" y="13498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13514">le/es-us.js</tspan>
+
+<tspan x="10" y="13530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13546">le/et.js</tspan>
+
+<tspan x="10" y="13562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13578">le/eu.js</tspan>
+
+<tspan x="10" y="13594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13610">le/fa.js</tspan>
+
+<tspan x="10" y="13626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13642">le/fi.js</tspan>
+
+<tspan x="10" y="13658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13674">le/fo.js</tspan>
+
+<tspan x="10" y="13690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13706">le/fr-ca.js</tspan>
+
+<tspan x="10" y="13722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13738">le/fr-ch.js</tspan>
+
+<tspan x="10" y="13754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13770">le/fr.js</tspan>
+
+<tspan x="10" y="13786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13802">le/fy.js</tspan>
+
+<tspan x="10" y="13818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13834">le/gd.js</tspan>
+
+<tspan x="10" y="13850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13866">le/gl.js</tspan>
+
+<tspan x="10" y="13882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13898">le/gom-latn.js</tspan>
+
+<tspan x="10" y="13914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13930">le/gu.js</tspan>
+
+<tspan x="10" y="13946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13962">le/he.js</tspan>
+
+<tspan x="10" y="13978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="13994">le/hi.js</tspan>
+
+<tspan x="10" y="14010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14026">le/hr.js</tspan>
+
+<tspan x="10" y="14042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14058">le/hu.js</tspan>
+
+<tspan x="10" y="14074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14090">le/hy-am.js</tspan>
+
+<tspan x="10" y="14106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14122">le/id.js</tspan>
+
+<tspan x="10" y="14138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14154">le/is.js</tspan>
+
+<tspan x="10" y="14170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14186">le/it.js</tspan>
+
+<tspan x="10" y="14202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14218">le/ja.js</tspan>
+
+<tspan x="10" y="14234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14250">le/jv.js</tspan>
+
+<tspan x="10" y="14266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14282">le/ka.js</tspan>
+
+<tspan x="10" y="14298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14314">le/kk.js</tspan>
+
+<tspan x="10" y="14330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14346">le/km.js</tspan>
+
+<tspan x="10" y="14362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14378">le/kn.js</tspan>
+
+<tspan x="10" y="14394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14410">le/ko.js</tspan>
+
+<tspan x="10" y="14426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14442">le/ky.js</tspan>
+
+<tspan x="10" y="14458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14474">le/lb.js</tspan>
+
+<tspan x="10" y="14490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14506">le/lo.js</tspan>
+
+<tspan x="10" y="14522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14538">le/lt.js</tspan>
+
+<tspan x="10" y="14554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14570">le/lv.js</tspan>
+
+<tspan x="10" y="14586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14602">le/me.js</tspan>
+
+<tspan x="10" y="14618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14634">le/mi.js</tspan>
+
+<tspan x="10" y="14650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14666">le/mk.js</tspan>
+
+<tspan x="10" y="14682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14698">le/ml.js</tspan>
+
+<tspan x="10" y="14714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14730">le/mn.js</tspan>
+
+<tspan x="10" y="14746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14762">le/mr.js</tspan>
+
+<tspan x="10" y="14778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14794">le/ms.js</tspan>
+
+<tspan x="10" y="14810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14826">le/ms-my.js</tspan>
+
+<tspan x="10" y="14842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14858">le/mt.js</tspan>
+
+<tspan x="10" y="14874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14890">le/my.js</tspan>
+
+<tspan x="10" y="14906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14922">le/nb.js</tspan>
+
+<tspan x="10" y="14938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14954">le/ne.js</tspan>
+
+<tspan x="10" y="14970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="14986">le/nl-be.js</tspan>
+
+<tspan x="10" y="15002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15018">le/nl.js</tspan>
+
+<tspan x="10" y="15034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15050">le/nn.js</tspan>
+
+<tspan x="10" y="15066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15082">le/pa-in.js</tspan>
+
+<tspan x="10" y="15098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15114">le/pl.js</tspan>
+
+<tspan x="10" y="15130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15146">le/pt-br.js</tspan>
+
+<tspan x="10" y="15162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15178">le/pt.js</tspan>
+
+<tspan x="10" y="15194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15210">le/ro.js</tspan>
+
+<tspan x="10" y="15226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15242">le/ru.js</tspan>
+
+<tspan x="10" y="15258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15274">le/sd.js</tspan>
+
+<tspan x="10" y="15290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15306">le/se.js</tspan>
+
+<tspan x="10" y="15322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15338">le/si.js</tspan>
+
+<tspan x="10" y="15354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15370">le/sk.js</tspan>
+
+<tspan x="10" y="15386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15402">le/sl.js</tspan>
+
+<tspan x="10" y="15418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15434">le/sq.js</tspan>
+
+<tspan x="10" y="15450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15466">le/sr-cyrl.js</tspan>
+
+<tspan x="10" y="15482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15498">le/sr.js</tspan>
+
+<tspan x="10" y="15514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15530">le/ss.js</tspan>
+
+<tspan x="10" y="15546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15562">le/sv.js</tspan>
+
+<tspan x="10" y="15578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15594">le/sw.js</tspan>
+
+<tspan x="10" y="15610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15626">le/ta.js</tspan>
+
+<tspan x="10" y="15642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15658">le/te.js</tspan>
+
+<tspan x="10" y="15674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15690">le/tet.js</tspan>
+
+<tspan x="10" y="15706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15722">le/tg.js</tspan>
+
+<tspan x="10" y="15738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15754">le/th.js</tspan>
+
+<tspan x="10" y="15770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15786">le/tlh.js</tspan>
+
+<tspan x="10" y="15802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15818">le/tl-ph.js</tspan>
+
+<tspan x="10" y="15834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15850">le/tr.js</tspan>
+
+<tspan x="10" y="15866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15882">le/tzl.js</tspan>
+
+<tspan x="10" y="15898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15914">le/tzm.js</tspan>
+
+<tspan x="10" y="15930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15946">le/tzm-latn.js</tspan>
+
+<tspan x="10" y="15962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="15978">le/ug-cn.js</tspan>
+
+<tspan x="10" y="15994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16010">le/uk.js</tspan>
+
+<tspan x="10" y="16026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16042">le/ur.js</tspan>
+
+<tspan x="10" y="16058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16074">le/uz.js</tspan>
+
+<tspan x="10" y="16090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16106">le/uz-latn.js</tspan>
+
+<tspan x="10" y="16122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16138">le/vi.js</tspan>
+
+<tspan x="10" y="16154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16170">le/x-pseudo.js</tspan>
+
+<tspan x="10" y="16186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16202">le/yo.js</tspan>
+
+<tspan x="10" y="16218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16234">le/zh-cn.js</tspan>
+
+<tspan x="10" y="16250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16266">le/zh-hk.js</tspan>
+
+<tspan x="10" y="16282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/loca\</tspan>
+<tspan x="10" y="16298">le/zh-tw.js</tspan>
+
+<tspan x="10" y="16314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16330">moment.js</tspan>
+
+<tspan x="10" y="16346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16362">locale/af.js</tspan>
+
+<tspan x="10" y="16378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16394">locale/ar-dz.js</tspan>
+
+<tspan x="10" y="16410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16426">locale/ar.js</tspan>
+
+<tspan x="10" y="16442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16458">locale/ar-kw.js</tspan>
+
+<tspan x="10" y="16474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16490">locale/ar-ly.js</tspan>
+
+<tspan x="10" y="16506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16522">locale/ar-ma.js</tspan>
+
+<tspan x="10" y="16538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16554">locale/ar-sa.js</tspan>
+
+<tspan x="10" y="16570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16586">locale/ar-tn.js</tspan>
+
+<tspan x="10" y="16602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16618">locale/az.js</tspan>
+
+<tspan x="10" y="16634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16650">locale/be.js</tspan>
+
+<tspan x="10" y="16666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16682">locale/bg.js</tspan>
+
+<tspan x="10" y="16698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16714">locale/bm.js</tspan>
+
+<tspan x="10" y="16730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16746">locale/bn.js</tspan>
+
+<tspan x="10" y="16762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16778">locale/bo.js</tspan>
+
+<tspan x="10" y="16794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16810">locale/br.js</tspan>
+
+<tspan x="10" y="16826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16842">locale/bs.js</tspan>
+
+<tspan x="10" y="16858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16874">locale/ca.js</tspan>
+
+<tspan x="10" y="16890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16906">locale/cs.js</tspan>
+
+<tspan x="10" y="16922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16938">locale/cv.js</tspan>
+
+<tspan x="10" y="16954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="16970">locale/cy.js</tspan>
+
+<tspan x="10" y="16986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17002">locale/da.js</tspan>
+
+<tspan x="10" y="17018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17034">locale/de-at.js</tspan>
+
+<tspan x="10" y="17050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17066">locale/de-ch.js</tspan>
+
+<tspan x="10" y="17082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17098">locale/de.js</tspan>
+
+<tspan x="10" y="17114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17130">locale/dv.js</tspan>
+
+<tspan x="10" y="17146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17162">locale/el.js</tspan>
+
+<tspan x="10" y="17178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17194">locale/en-au.js</tspan>
+
+<tspan x="10" y="17210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17226">locale/en-ca.js</tspan>
+
+<tspan x="10" y="17242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17258">locale/en-gb.js</tspan>
+
+<tspan x="10" y="17274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17290">locale/en-ie.js</tspan>
+
+<tspan x="10" y="17306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17322">locale/en-il.js</tspan>
+
+<tspan x="10" y="17338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17354">locale/en-nz.js</tspan>
+
+<tspan x="10" y="17370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17386">locale/eo.js</tspan>
+
+<tspan x="10" y="17402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17418">locale/es-do.js</tspan>
+
+<tspan x="10" y="17434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17450">locale/es.js</tspan>
+
+<tspan x="10" y="17466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17482">locale/es-us.js</tspan>
+
+<tspan x="10" y="17498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17514">locale/et.js</tspan>
+
+<tspan x="10" y="17530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17546">locale/eu.js</tspan>
+
+<tspan x="10" y="17562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17578">locale/fa.js</tspan>
+
+<tspan x="10" y="17594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17610">locale/fi.js</tspan>
+
+<tspan x="10" y="17626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17642">locale/fo.js</tspan>
+
+<tspan x="10" y="17658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17674">locale/fr-ca.js</tspan>
+
+<tspan x="10" y="17690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17706">locale/fr-ch.js</tspan>
+
+<tspan x="10" y="17722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17738">locale/fr.js</tspan>
+
+<tspan x="10" y="17754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17770">locale/fy.js</tspan>
+
+<tspan x="10" y="17786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17802">locale/gd.js</tspan>
+
+<tspan x="10" y="17818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17834">locale/gl.js</tspan>
+
+<tspan x="10" y="17850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17866">locale/gom-latn.js</tspan>
+
+<tspan x="10" y="17882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17898">locale/gu.js</tspan>
+
+<tspan x="10" y="17914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17930">locale/he.js</tspan>
+
+<tspan x="10" y="17946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17962">locale/hi.js</tspan>
+
+<tspan x="10" y="17978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="17994">locale/hr.js</tspan>
+
+<tspan x="10" y="18010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18026">locale/hu.js</tspan>
+
+<tspan x="10" y="18042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18058">locale/hy-am.js</tspan>
+
+<tspan x="10" y="18074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18090">locale/id.js</tspan>
+
+<tspan x="10" y="18106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18122">locale/is.js</tspan>
+
+<tspan x="10" y="18138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18154">locale/it.js</tspan>
+
+<tspan x="10" y="18170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18186">locale/ja.js</tspan>
+
+<tspan x="10" y="18202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18218">locale/jv.js</tspan>
+
+<tspan x="10" y="18234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18250">locale/ka.js</tspan>
+
+<tspan x="10" y="18266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18282">locale/kk.js</tspan>
+
+<tspan x="10" y="18298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18314">locale/km.js</tspan>
+
+<tspan x="10" y="18330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18346">locale/kn.js</tspan>
+
+<tspan x="10" y="18362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18378">locale/ko.js</tspan>
+
+<tspan x="10" y="18394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18410">locale/ky.js</tspan>
+
+<tspan x="10" y="18426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18442">locale/lb.js</tspan>
+
+<tspan x="10" y="18458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18474">locale/lo.js</tspan>
+
+<tspan x="10" y="18490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18506">locale/lt.js</tspan>
+
+<tspan x="10" y="18522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18538">locale/lv.js</tspan>
+
+<tspan x="10" y="18554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18570">locale/me.js</tspan>
+
+<tspan x="10" y="18586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18602">locale/mi.js</tspan>
+
+<tspan x="10" y="18618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18634">locale/mk.js</tspan>
+
+<tspan x="10" y="18650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18666">locale/ml.js</tspan>
+
+<tspan x="10" y="18682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18698">locale/mn.js</tspan>
+
+<tspan x="10" y="18714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18730">locale/mr.js</tspan>
+
+<tspan x="10" y="18746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18762">locale/ms.js</tspan>
+
+<tspan x="10" y="18778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18794">locale/ms-my.js</tspan>
+
+<tspan x="10" y="18810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18826">locale/mt.js</tspan>
+
+<tspan x="10" y="18842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18858">locale/my.js</tspan>
+
+<tspan x="10" y="18874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18890">locale/nb.js</tspan>
+
+<tspan x="10" y="18906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18922">locale/ne.js</tspan>
+
+<tspan x="10" y="18938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18954">locale/nl-be.js</tspan>
+
+<tspan x="10" y="18970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="18986">locale/nl.js</tspan>
+
+<tspan x="10" y="19002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19018">locale/nn.js</tspan>
+
+<tspan x="10" y="19034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19050">locale/pa-in.js</tspan>
+
+<tspan x="10" y="19066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19082">locale/pl.js</tspan>
+
+<tspan x="10" y="19098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19114">locale/pt-br.js</tspan>
+
+<tspan x="10" y="19130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19146">locale/pt.js</tspan>
+
+<tspan x="10" y="19162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19178">locale/ro.js</tspan>
+
+<tspan x="10" y="19194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19210">locale/ru.js</tspan>
+
+<tspan x="10" y="19226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19242">locale/sd.js</tspan>
+
+<tspan x="10" y="19258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19274">locale/se.js</tspan>
+
+<tspan x="10" y="19290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19306">locale/si.js</tspan>
+
+<tspan x="10" y="19322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19338">locale/sk.js</tspan>
+
+<tspan x="10" y="19354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19370">locale/sl.js</tspan>
+
+<tspan x="10" y="19386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19402">locale/sq.js</tspan>
+
+<tspan x="10" y="19418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19434">locale/sr-cyrl.js</tspan>
+
+<tspan x="10" y="19450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19466">locale/sr.js</tspan>
+
+<tspan x="10" y="19482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19498">locale/ss.js</tspan>
+
+<tspan x="10" y="19514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19530">locale/sv.js</tspan>
+
+<tspan x="10" y="19546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19562">locale/sw.js</tspan>
+
+<tspan x="10" y="19578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19594">locale/ta.js</tspan>
+
+<tspan x="10" y="19610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19626">locale/te.js</tspan>
+
+<tspan x="10" y="19642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19658">locale/tet.js</tspan>
+
+<tspan x="10" y="19674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19690">locale/tg.js</tspan>
+
+<tspan x="10" y="19706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19722">locale/th.js</tspan>
+
+<tspan x="10" y="19738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19754">locale/tlh.js</tspan>
+
+<tspan x="10" y="19770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19786">locale/tl-ph.js</tspan>
+
+<tspan x="10" y="19802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19818">locale/tr.js</tspan>
+
+<tspan x="10" y="19834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19850">locale/tzl.js</tspan>
+
+<tspan x="10" y="19866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19882">locale/tzm.js</tspan>
+
+<tspan x="10" y="19898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19914">locale/tzm-latn.js</tspan>
+
+<tspan x="10" y="19930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19946">locale/ug-cn.js</tspan>
+
+<tspan x="10" y="19962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="19978">locale/uk.js</tspan>
+
+<tspan x="10" y="19994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20010">locale/ur.js</tspan>
+
+<tspan x="10" y="20026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20042">locale/uz.js</tspan>
+
+<tspan x="10" y="20058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20074">locale/uz-latn.js</tspan>
+
+<tspan x="10" y="20090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20106">locale/vi.js</tspan>
+
+<tspan x="10" y="20122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20138">locale/x-pseudo.js</tspan>
+
+<tspan x="10" y="20154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20170">locale/yo.js</tspan>
+
+<tspan x="10" y="20186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20202">locale/zh-cn.js</tspan>
+
+<tspan x="10" y="20218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20234">locale/zh-hk.js</tspan>
+
+<tspan x="10" y="20250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment/src/\</tspan>
+<tspan x="10" y="20266">locale/zh-tw.js</tspan>
+
+<tspan x="10" y="20282">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment ...</tspan>
+
+<tspan x="10" y="20298">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-moment/node_modules/moment</tspan>
+
+<tspan x="10" y="20314">apidocCreate - libFile ender.js</tspan>
+
+<tspan x="10" y="20330">apidocCreate - libFile package.js</tspan>
+
+<tspan x="10" y="20346">apidocCreate - libFile locale/af.js</tspan>
+
+<tspan x="10" y="20362">apidocCreate - libFile locale/ar-dz.js</tspan>
+
+<tspan x="10" y="20378">apidocCreate - libFile locale/ar.js</tspan>
+
+<tspan x="10" y="20394">apidocCreate - libFile locale/ar-kw.js</tspan>
+
+<tspan x="10" y="20410">apidocCreate - libFile locale/ar-ly.js</tspan>
+
+<tspan x="10" y="20426">apidocCreate - libFile locale/ar-ma.js</tspan>
+
+<tspan x="10" y="20442">apidocCreate - libFile locale/ar-sa.js</tspan>
+
+<tspan x="10" y="20458">apidocCreate - libFile locale/ar-tn.js</tspan>
+
+<tspan x="10" y="20474">apidocCreate - libFile locale/az.js</tspan>
+
+<tspan x="10" y="20490">apidocCreate - libFile locale/be.js</tspan>
+
+<tspan x="10" y="20506">apidocCreate - libFile locale/bg.js</tspan>
+
+<tspan x="10" y="20522">apidocCreate - libFile locale/bm.js</tspan>
+
+<tspan x="10" y="20538">apidocCreate - libFile locale/bn.js</tspan>
+
+<tspan x="10" y="20554">apidocCreate - libFile locale/bo.js</tspan>
+
+<tspan x="10" y="20570">apidocCreate - libFile locale/br.js</tspan>
+
+<tspan x="10" y="20586">apidocCreate - libFile locale/bs.js</tspan>
+
+<tspan x="10" y="20602">apidocCreate - libFile locale/ca.js</tspan>
+
+<tspan x="10" y="20618">apidocCreate - libFile locale/cs.js</tspan>
+
+<tspan x="10" y="20634">apidocCreate - libFile locale/cv.js</tspan>
+
+<tspan x="10" y="20650">apidocCreate - libFile locale/cy.js</tspan>
+
+<tspan x="10" y="20666">apidocCreate - libFile locale/da.js</tspan>
+
+<tspan x="10" y="20682">apidocCreate - libFile locale/de-at.js</tspan>
+
+<tspan x="10" y="20698">apidocCreate - libFile locale/de-ch.js</tspan>
+
+<tspan x="10" y="20714">apidocCreate - libFile locale/de.js</tspan>
+
+<tspan x="10" y="20730">apidocCreate - libFile locale/dv.js</tspan>
+
+<tspan x="10" y="20746">apidocCreate - libFile locale/el.js</tspan>
+
+<tspan x="10" y="20762">apidocCreate - libFile locale/en-au.js</tspan>
+
+<tspan x="10" y="20778">apidocCreate - libFile locale/en-ca.js</tspan>
+
+<tspan x="10" y="20794">apidocCreate - libFile locale/en-gb.js</tspan>
+
+<tspan x="10" y="20810">apidocCreate - libFile locale/en-ie.js</tspan>
+
+<tspan x="10" y="20826">apidocCreate - libFile locale/en-il.js</tspan>
+
+<tspan x="10" y="20842">apidocCreate - libFile locale/en-nz.js</tspan>
+
+<tspan x="10" y="20858">apidocCreate - libFile locale/eo.js</tspan>
+
+<tspan x="10" y="20874">apidocCreate - libFile locale/es-do.js</tspan>
+
+<tspan x="10" y="20890">apidocCreate - libFile locale/es.js</tspan>
+
+<tspan x="10" y="20906">apidocCreate - libFile locale/es-us.js</tspan>
+
+<tspan x="10" y="20922">apidocCreate - libFile locale/et.js</tspan>
+
+<tspan x="10" y="20938">apidocCreate - libFile locale/eu.js</tspan>
+
+<tspan x="10" y="20954">apidocCreate - libFile locale/fa.js</tspan>
+
+<tspan x="10" y="20970">apidocCreate - libFile locale/fi.js</tspan>
+
+<tspan x="10" y="20986">apidocCreate - libFile locale/fo.js</tspan>
+
+<tspan x="10" y="21002">apidocCreate - libFile locale/fr-ca.js</tspan>
+
+<tspan x="10" y="21018">apidocCreate - libFile locale/fr-ch.js</tspan>
+
+<tspan x="10" y="21034">apidocCreate - libFile locale/fr.js</tspan>
+
+<tspan x="10" y="21050">apidocCreate - libFile locale/fy.js</tspan>
+
+<tspan x="10" y="21066">apidocCreate - libFile locale/gd.js</tspan>
+
+<tspan x="10" y="21082">apidocCreate - libFile locale/gl.js</tspan>
+
+<tspan x="10" y="21098">apidocCreate - libFile locale/gom-latn.js</tspan>
+
+<tspan x="10" y="21114">apidocCreate - libFile locale/gu.js</tspan>
+
+<tspan x="10" y="21130">apidocCreate - libFile locale/he.js</tspan>
+
+<tspan x="10" y="21146">apidocCreate - libFile locale/hi.js</tspan>
+
+<tspan x="10" y="21162">apidocCreate - libFile locale/hr.js</tspan>
+
+<tspan x="10" y="21178">apidocCreate - libFile locale/hu.js</tspan>
+
+<tspan x="10" y="21194">apidocCreate - libFile locale/hy-am.js</tspan>
+
+<tspan x="10" y="21210">apidocCreate - libFile locale/id.js</tspan>
+
+<tspan x="10" y="21226">apidocCreate - libFile locale/is.js</tspan>
+
+<tspan x="10" y="21242">apidocCreate - libFile locale/it.js</tspan>
+
+<tspan x="10" y="21258">apidocCreate - libFile locale/ja.js</tspan>
+
+<tspan x="10" y="21274">apidocCreate - libFile locale/jv.js</tspan>
+
+<tspan x="10" y="21290">apidocCreate - libFile locale/ka.js</tspan>
+
+<tspan x="10" y="21306">apidocCreate - libFile locale/kk.js</tspan>
+
+<tspan x="10" y="21322">apidocCreate - libFile locale/km.js</tspan>
+
+<tspan x="10" y="21338">apidocCreate - libFile locale/kn.js</tspan>
+
+<tspan x="10" y="21354">apidocCreate - libFile locale/ko.js</tspan>
+
+<tspan x="10" y="21370">apidocCreate - libFile locale/ky.js</tspan>
+
+<tspan x="10" y="21386">apidocCreate - libFile locale/lb.js</tspan>
+
+<tspan x="10" y="21402">apidocCreate - libFile locale/lo.js</tspan>
+
+<tspan x="10" y="21418">apidocCreate - libFile locale/lt.js</tspan>
+
+<tspan x="10" y="21434">apidocCreate - libFile locale/lv.js</tspan>
+
+<tspan x="10" y="21450">apidocCreate - libFile locale/me.js</tspan>
+
+<tspan x="10" y="21466">apidocCreate - libFile locale/mi.js</tspan>
+
+<tspan x="10" y="21482">apidocCreate - libFile locale/mk.js</tspan>
+
+<tspan x="10" y="21498">apidocCreate - libFile locale/ml.js</tspan>
+
+<tspan x="10" y="21514">apidocCreate - libFile locale/mn.js</tspan>
+
+<tspan x="10" y="21530">apidocCreate - libFile locale/mr.js</tspan>
+
+<tspan x="10" y="21546">apidocCreate - libFile locale/ms.js</tspan>
+
+<tspan x="10" y="21562">apidocCreate - libFile locale/ms-my.js</tspan>
+
+<tspan x="10" y="21578">apidocCreate - libFile locale/mt.js</tspan>
+
+<tspan x="10" y="21594">apidocCreate - libFile locale/my.js</tspan>
+
+<tspan x="10" y="21610">apidocCreate - libFile locale/nb.js</tspan>
+
+<tspan x="10" y="21626">apidocCreate - libFile locale/ne.js</tspan>
+
+<tspan x="10" y="21642">apidocCreate - libFile locale/nl-be.js</tspan>
+
+<tspan x="10" y="21658">apidocCreate - libFile locale/nl.js</tspan>
+
+<tspan x="10" y="21674">apidocCreate - libFile locale/nn.js</tspan>
+
+<tspan x="10" y="21690">apidocCreate - libFile locale/pa-in.js</tspan>
+
+<tspan x="10" y="21706">apidocCreate - libFile locale/pl.js</tspan>
+
+<tspan x="10" y="21722">apidocCreate - libFile locale/pt-br.js</tspan>
+
+<tspan x="10" y="21738">apidocCreate - libFile locale/pt.js</tspan>
+
+<tspan x="10" y="21754">apidocCreate - libFile locale/ro.js</tspan>
+
+<tspan x="10" y="21770">apidocCreate - libFile locale/ru.js</tspan>
+
+<tspan x="10" y="21786">apidocCreate - libFile locale/sd.js</tspan>
+
+<tspan x="10" y="21802">apidocCreate - libFile locale/se.js</tspan>
+
+<tspan x="10" y="21818">apidocCreate - libFile locale/si.js</tspan>
+
+<tspan x="10" y="21834">apidocCreate - libFile locale/sk.js</tspan>
+
+<tspan x="10" y="21850">apidocCreate - libFile locale/sl.js</tspan>
+
+<tspan x="10" y="21866">apidocCreate - libFile locale/sq.js</tspan>
+
+<tspan x="10" y="21882">apidocCreate - libFile locale/sr-cyrl.js</tspan>
+
+<tspan x="10" y="21898">apidocCreate - libFile locale/sr.js</tspan>
+
+<tspan x="10" y="21914">apidocCreate - libFile locale/ss.js</tspan>
+
+<tspan x="10" y="21930">apidocCreate - libFile locale/sv.js</tspan>
+
+<tspan x="10" y="21946">apidocCreate - libFile locale/sw.js</tspan>
+
+<tspan x="10" y="21962">apidocCreate - libFile locale/ta.js</tspan>
+
+<tspan x="10" y="21978">apidocCreate - libFile locale/te.js</tspan>
+
+<tspan x="10" y="21994">apidocCreate - libFile locale/tet.js</tspan>
+
+<tspan x="10" y="22010">apidocCreate - libFile locale/tg.js</tspan>
+
+<tspan x="10" y="22026">apidocCreate - libFile locale/th.js</tspan>
+
+<tspan x="10" y="22042">apidocCreate - libFile locale/tlh.js</tspan>
+
+<tspan x="10" y="22058">apidocCreate - libFile locale/tl-ph.js</tspan>
+
+<tspan x="10" y="22074">apidocCreate - libFile locale/tr.js</tspan>
+
+<tspan x="10" y="22090">apidocCreate - libFile locale/tzl.js</tspan>
+
+<tspan x="10" y="22106">apidocCreate - libFile locale/tzm.js</tspan>
+
+<tspan x="10" y="22122">apidocCreate - libFile locale/tzm-latn.js</tspan>
+
+<tspan x="10" y="22138">apidocCreate - libFile locale/ug-cn.js</tspan>
+
+<tspan x="10" y="22154">apidocCreate - libFile locale/uk.js</tspan>
+
+<tspan x="10" y="22170">apidocCreate - libFile locale/ur.js</tspan>
+
+<tspan x="10" y="22186">apidocCreate - libFile locale/uz.js</tspan>
+
+<tspan x="10" y="22202">apidocCreate - libFile locale/uz-latn.js</tspan>
+
+<tspan x="10" y="22218">apidocCreate - libFile locale/vi.js</tspan>
+
+<tspan x="10" y="22234">apidocCreate - libFile locale/x-pseudo.js</tspan>
+
+<tspan x="10" y="22250">apidocCreate - libFile locale/yo.js</tspan>
+
+<tspan x="10" y="22266">apidocCreate - libFile locale/zh-cn.js</tspan>
+
+<tspan x="10" y="22282">apidocCreate - libFile locale/zh-hk.js</tspan>
+
+<tspan x="10" y="22298">apidocCreate - libFile locale/zh-tw.js</tspan>
+
+<tspan x="10" y="22314">apidocCreate - libFile src/moment.js</tspan>
+
+<tspan x="10" y="22330">apidocCreate - libFile src/lib/create/check-overflow.js</tspan>
+
+<tspan x="10" y="22346">apidocCreate - libFile src/lib/create/date-from-array.js</tspan>
+
+<tspan x="10" y="22362">apidocCreate - libFile src/lib/create/from-anything.js</tspan>
+
+<tspan x="10" y="22378">apidocCreate - libFile src/lib/create/from-array.js</tspan>
+
+<tspan x="10" y="22394">apidocCreate - libFile src/lib/create/from-object.js</tspan>
+
+<tspan x="10" y="22410">apidocCreate - libFile src/lib/create/from-string-and-array.js</tspan>
+
+<tspan x="10" y="22426">apidocCreate - libFile src/lib/create/from-string-and-format.js</tspan>
+
+<tspan x="10" y="22442">apidocCreate - libFile src/lib/create/from-string.js</tspan>
+
+<tspan x="10" y="22458">apidocCreate - libFile src/lib/create/local.js</tspan>
+
+<tspan x="10" y="22474">apidocCreate - libFile src/lib/create/parsing-flags.js</tspan>
+
+<tspan x="10" y="22490">apidocCreate - libFile src/lib/create/utc.js</tspan>
+
+<tspan x="10" y="22506">apidocCreate - libFile src/lib/create/valid.js</tspan>
+
+<tspan x="10" y="22522">apidocCreate - libFile src/lib/duration/abs.js</tspan>
+
+<tspan x="10" y="22538">apidocCreate - libFile src/lib/duration/add-subtract.js</tspan>
+
+<tspan x="10" y="22554">apidocCreate - libFile src/lib/duration/as.js</tspan>
+
+<tspan x="10" y="22570">apidocCreate - libFile src/lib/duration/bubble.js</tspan>
+
+<tspan x="10" y="22586">apidocCreate - libFile src/lib/duration/clone.js</tspan>
+
+<tspan x="10" y="22602">apidocCreate - libFile src/lib/duration/create.js</tspan>
+
+<tspan x="10" y="22618">apidocCreate - libFile src/lib/duration/duration.js</tspan>
+
+<tspan x="10" y="22634">apidocCreate - libFile src/lib/duration/get.js</tspan>
+
+<tspan x="10" y="22650">apidocCreate - libFile src/lib/duration/humanize.js</tspan>
+
+<tspan x="10" y="22666">apidocCreate - libFile src/lib/duration/iso-string.js</tspan>
+
+<tspan x="10" y="22682">apidocCreate - libFile src/lib/duration/prototype.js</tspan>
+
+<tspan x="10" y="22698">apidocCreate - libFile src/lib/duration/valid.js</tspan>
+
+<tspan x="10" y="22714">apidocCreate - libFile src/lib/format/format.js</tspan>
+
+<tspan x="10" y="22730">apidocCreate - libFile src/lib/locale/base-config.js</tspan>
+
+<tspan x="10" y="22746">apidocCreate - libFile src/lib/locale/calendar.js</tspan>
+
+<tspan x="10" y="22762">apidocCreate - libFile src/lib/locale/en.js</tspan>
+
+<tspan x="10" y="22778">apidocCreate - libFile src/lib/locale/formats.js</tspan>
+
+<tspan x="10" y="22794">apidocCreate - libFile src/lib/locale/invalid.js</tspan>
+
+<tspan x="10" y="22810">apidocCreate - libFile src/lib/locale/lists.js</tspan>
+
+<tspan x="10" y="22826">apidocCreate - libFile src/lib/locale/locale.js</tspan>
+
+<tspan x="10" y="22842">apidocCreate - libFile src/lib/locale/locales.js</tspan>
+
+<tspan x="10" y="22858">apidocCreate - libFile src/lib/locale/ordinal.js</tspan>
+
+<tspan x="10" y="22874">apidocCreate - libFile src/lib/locale/pre-post-format.js</tspan>
+
+<tspan x="10" y="22890">apidocCreate - libFile src/lib/locale/prototype.js</tspan>
+
+<tspan x="10" y="22906">apidocCreate - libFile src/lib/locale/relative.js</tspan>
+
+<tspan x="10" y="22922">apidocCreate - libFile src/lib/locale/set.js</tspan>
+
+<tspan x="10" y="22938">apidocCreate - libFile src/lib/moment/add-subtract.js</tspan>
+
+<tspan x="10" y="22954">apidocCreate - libFile src/lib/moment/calendar.js</tspan>
+
+<tspan x="10" y="22970">apidocCreate - libFile src/lib/moment/clone.js</tspan>
+
+<tspan x="10" y="22986">apidocCreate - libFile src/lib/moment/compare.js</tspan>
+
+<tspan x="10" y="23002">apidocCreate - libFile src/lib/moment/creation-data.js</tspan>
+
+<tspan x="10" y="23018">apidocCreate - libFile src/lib/moment/diff.js</tspan>
+
+<tspan x="10" y="23034">apidocCreate - libFile src/lib/moment/format.js</tspan>
+
+<tspan x="10" y="23050">apidocCreate - libFile src/lib/moment/from.js</tspan>
+
+<tspan x="10" y="23066">apidocCreate - libFile src/lib/moment/get-set.js</tspan>
+
+<tspan x="10" y="23082">apidocCreate - libFile src/lib/moment/locale.js</tspan>
+
+<tspan x="10" y="23098">apidocCreate - libFile src/lib/moment/moment.js</tspan>
+
+<tspan x="10" y="23114">apidocCreate - libFile src/lib/moment/now.js</tspan>
+
+<tspan x="10" y="23130">apidocCreate - libFile src/lib/moment/prototype.js</tspan>
+
+<tspan x="10" y="23146">apidocCreate - libFile src/lib/moment/start-end-of.js</tspan>
+
+<tspan x="10" y="23162">apidocCreate - libFile src/lib/moment/to.js</tspan>
+
+<tspan x="10" y="23178">apidocCreate - libFile src/lib/moment/to-type.js</tspan>
+
+<tspan x="10" y="23194">apidocCreate - libFile src/lib/moment/valid.js</tspan>
+
+<tspan x="10" y="23210">apidocCreate - libFile src/lib/parse/regex.js</tspan>
+
+<tspan x="10" y="23226">apidocCreate - libFile src/lib/parse/token.js</tspan>
+
+<tspan x="10" y="23242">apidocCreate - libFile src/lib/units/aliases.js</tspan>
+
+<tspan x="10" y="23258">apidocCreate - libFile src/lib/units/constants.js</tspan>
+
+<tspan x="10" y="23274">apidocCreate - libFile src/lib/units/day-of-month.js</tspan>
+
+<tspan x="10" y="23290">apidocCreate - libFile src/lib/units/day-of-week.js</tspan>
+
+<tspan x="10" y="23306">apidocCreate - libFile src/lib/units/day-of-year.js</tspan>
+
+<tspan x="10" y="23322">apidocCreate - libFile src/lib/units/hour.js</tspan>
+
+<tspan x="10" y="23338">apidocCreate - libFile src/lib/units/millisecond.js</tspan>
+
+<tspan x="10" y="23354">apidocCreate - libFile src/lib/units/minute.js</tspan>
+
+<tspan x="10" y="23370">apidocCreate - libFile src/lib/units/month.js</tspan>
+
+<tspan x="10" y="23386">apidocCreate - libFile src/lib/units/offset.js</tspan>
+
+<tspan x="10" y="23402">apidocCreate - libFile src/lib/units/priorities.js</tspan>
+
+<tspan x="10" y="23418">apidocCreate - libFile src/lib/units/quarter.js</tspan>
+
+<tspan x="10" y="23434">apidocCreate - libFile src/lib/units/second.js</tspan>
+
+<tspan x="10" y="23450">apidocCreate - libFile src/lib/units/timestamp.js</tspan>
+
+<tspan x="10" y="23466">apidocCreate - libFile src/lib/units/timezone.js</tspan>
+
+<tspan x="10" y="23482">apidocCreate - libFile src/lib/units/units.js</tspan>
+
+<tspan x="10" y="23498">apidocCreate - libFile src/lib/units/week-calendar-utils.js</tspan>
+
+<tspan x="10" y="23514">apidocCreate - libFile src/lib/units/week.js</tspan>
+
+<tspan x="10" y="23530">apidocCreate - libFile src/lib/units/week-year.js</tspan>
+
+<tspan x="10" y="23546">apidocCreate - libFile src/lib/units/year.js</tspan>
+
+<tspan x="10" y="23562">apidocCreate - libFile src/lib/utils/abs-ceil.js</tspan>
+
+<tspan x="10" y="23578">apidocCreate - libFile src/lib/utils/abs-floor.js</tspan>
+
+<tspan x="10" y="23594">apidocCreate - libFile src/lib/utils/abs-round.js</tspan>
+
+<tspan x="10" y="23610">apidocCreate - libFile src/lib/utils/compare-arrays.js</tspan>
+
+<tspan x="10" y="23626">apidocCreate - libFile src/lib/utils/defaults.js</tspan>
+
+<tspan x="10" y="23642">apidocCreate - libFile src/lib/utils/deprecate.js</tspan>
+
+<tspan x="10" y="23658">apidocCreate - libFile src/lib/utils/extend.js</tspan>
+
+<tspan x="10" y="23674">apidocCreate - libFile src/lib/utils/has-own-prop.js</tspan>
+
+<tspan x="10" y="23690">apidocCreate - libFile src/lib/utils/hooks.js</tspan>
+
+<tspan x="10" y="23706">apidocCreate - libFile src/lib/utils/index-of.js</tspan>
+
+<tspan x="10" y="23722">apidocCreate - libFile src/lib/utils/is-array.js</tspan>
+
+<tspan x="10" y="23738">apidocCreate - libFile src/lib/utils/is-date.js</tspan>
+
+<tspan x="10" y="23754">apidocCreate - libFile src/lib/utils/is-function.js</tspan>
+
+<tspan x="10" y="23770">apidocCreate - libFile src/lib/utils/is-number.js</tspan>
+
+<tspan x="10" y="23786">apidocCreate - libFile src/lib/utils/is-object-empty.js</tspan>
+
+<tspan x="10" y="23802">apidocCreate - libFile src/lib/utils/is-object.js</tspan>
+
+<tspan x="10" y="23818">apidocCreate - libFile src/lib/utils/is-undefined.js</tspan>
+
+<tspan x="10" y="23834">apidocCreate - libFile src/lib/utils/keys.js</tspan>
+
+<tspan x="10" y="23850">apidocCreate - libFile src/lib/utils/map.js</tspan>
+
+<tspan x="10" y="23866">apidocCreate - libFile src/lib/utils/mod.js</tspan>
+
+<tspan x="10" y="23882">apidocCreate - libFile src/lib/utils/some.js</tspan>
+
+<tspan x="10" y="23898">apidocCreate - libFile src/lib/utils/to-int.js</tspan>
+
+<tspan x="10" y="23914">apidocCreate - libFile src/lib/utils/zero-fill.js</tspan>
+
+<tspan x="10" y="23930">created customOrg file /home/travis/build/npmdoc/node-npmdoc-moment/README.md</tspan>
+
+<tspan x="10" y="23946"></tspan>
+
+<tspan x="10" y="23962">(node:7526) DeprecationWarning: _linklist module is deprecated. Please use a userland alternativ\</tspan>
+<tspan x="10" y="23978">e.</tspan>
+
+<tspan x="10" y="23994">(node:7526) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+
+<tspan x="10" y="24010">&gt; server listening on http-port 34352</tspan>
+
+<tspan x="10" y="24026">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="24042"></tspan>
+
+<tspan x="10" y="24058">buildApp - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-moment/tmp/build/t\</tspan>
+<tspan x="10" y="24074">est-report.json</tspan>
+
+<tspan x="10" y="24090"></tspan>
+
+<tspan x="10" y="24106">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="24122">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:27:53.652Z</tspan>
+
+<tspan x="10" y="24138">|   32606 ms            0 failed        1 passed      |</tspan>
+
+<tspan x="10" y="24154">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="24170">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:27:20.560Z</tspan>
+
+<tspan x="10" y="24186">|   30129 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="24202">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="24218">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="24234">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:27:36.053Z</tspan>
+
+<tspan x="10" y="24250">|      58 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="24266">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="24282"></tspan>
+
+<tspan x="10" y="24298">created test-report file /home/travis/build/npmdoc/node-npmdoc-moment/tmp/build/test-report.html</tspan>
+
+<tspan x="10" y="24314"></tspan>
+
+<tspan x="10" y="24330"></tspan>
+
+<tspan x="10" y="24346">buildApp - 0 failed tests</tspan>
+
+<tspan x="10" y="24362"></tspan>
+
+<tspan x="10" y="24378"></tspan>
+
+<tspan x="10" y="24394">[MODE_BUILD=buildApp] - 2018-06-10T18:28:27.783Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>

@@ -27,6 +27,7 @@
     background: #eef;
     border: 1px solid;
     color: #777;
+    overflow-wrap: break-word;
     padding: 5px;
     white-space: pre-wrap;
 }
@@ -51,7 +52,7 @@
 
         href="http://momentjs.com"
 
-    >moment (v2.18.1)</a>
+    >moment (2.22.2)</a>
 </h1>
 <h4>Parse, validate, manipulate, and display dates</h4>
 <div class="apidocSectionDiv"><a
@@ -366,6 +367,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.</span>HTML5_FMT</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">moment.</span>deprecationHandler</span>
 
         </li>
@@ -541,6 +548,15 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.asYears">
             function <span class="apidocSignatureSpan">moment.duration.fn.</span>asYears
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.moment.duration.fn.clone">
+            function <span class="apidocSignatureSpan">moment.duration.fn.</span>clone
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -728,757 +744,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.moment.fn">module moment.fn</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.add">
-            function <span class="apidocSignatureSpan">moment.fn.</span>add
-            <span class="apidocSignatureSpan">(val, period)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.calendar">
-            function <span class="apidocSignatureSpan">moment.fn.</span>calendar
-            <span class="apidocSignatureSpan">(time, formats)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.clone">
-            function <span class="apidocSignatureSpan">moment.fn.</span>clone
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.creationData">
-            function <span class="apidocSignatureSpan">moment.fn.</span>creationData
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.date">
-            function <span class="apidocSignatureSpan">moment.fn.</span>date
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.dates">
-            function <span class="apidocSignatureSpan">moment.fn.</span>dates
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.day">
-            function <span class="apidocSignatureSpan">moment.fn.</span>day
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.dayOfYear">
-            function <span class="apidocSignatureSpan">moment.fn.</span>dayOfYear
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.days">
-            function <span class="apidocSignatureSpan">moment.fn.</span>days
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.daysInMonth">
-            function <span class="apidocSignatureSpan">moment.fn.</span>daysInMonth
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.diff">
-            function <span class="apidocSignatureSpan">moment.fn.</span>diff
-            <span class="apidocSignatureSpan">(input, units, asFloat)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.endOf">
-            function <span class="apidocSignatureSpan">moment.fn.</span>endOf
-            <span class="apidocSignatureSpan">(units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.format">
-            function <span class="apidocSignatureSpan">moment.fn.</span>format
-            <span class="apidocSignatureSpan">(inputString)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.from">
-            function <span class="apidocSignatureSpan">moment.fn.</span>from
-            <span class="apidocSignatureSpan">(time, withoutSuffix)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.fromNow">
-            function <span class="apidocSignatureSpan">moment.fn.</span>fromNow
-            <span class="apidocSignatureSpan">(withoutSuffix)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.get">
-            function <span class="apidocSignatureSpan">moment.fn.</span>get
-            <span class="apidocSignatureSpan">(units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.hasAlignedHourOffset">
-            function <span class="apidocSignatureSpan">moment.fn.</span>hasAlignedHourOffset
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.hour">
-            function <span class="apidocSignatureSpan">moment.fn.</span>hour
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.hours">
-            function <span class="apidocSignatureSpan">moment.fn.</span>hours
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.inspect">
-            function <span class="apidocSignatureSpan">moment.fn.</span>inspect
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.invalidAt">
-            function <span class="apidocSignatureSpan">moment.fn.</span>invalidAt
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isAfter">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isAfter
-            <span class="apidocSignatureSpan">(input, units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isBefore">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isBefore
-            <span class="apidocSignatureSpan">(input, units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isBetween">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isBetween
-            <span class="apidocSignatureSpan">(from, to, units, inclusivity)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isDST">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isDST
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isDSTShifted">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isDSTShifted
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isLeapYear">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isLeapYear
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isLocal">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isLocal
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isSame">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isSame
-            <span class="apidocSignatureSpan">(input, units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isSameOrAfter">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isSameOrAfter
-            <span class="apidocSignatureSpan">(input, units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isSameOrBefore">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isSameOrBefore
-            <span class="apidocSignatureSpan">(input, units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isUTC">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isUTC
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isUtc">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isUtc
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isUtcOffset">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isUtcOffset
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isValid">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isValid
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isoWeek">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isoWeek
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isoWeekYear">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isoWeekYear
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isoWeekday">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isoWeekday
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isoWeeks">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isoWeeks
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.isoWeeksInYear">
-            function <span class="apidocSignatureSpan">moment.fn.</span>isoWeeksInYear
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.lang">
-            function <span class="apidocSignatureSpan">moment.fn.</span>lang
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.local">
-            function <span class="apidocSignatureSpan">moment.fn.</span>local
-            <span class="apidocSignatureSpan">(keepLocalTime)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.locale">
-            function <span class="apidocSignatureSpan">moment.fn.</span>locale
-            <span class="apidocSignatureSpan">(key)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.localeData">
-            function <span class="apidocSignatureSpan">moment.fn.</span>localeData
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.max">
-            function <span class="apidocSignatureSpan">moment.fn.</span>max
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.millisecond">
-            function <span class="apidocSignatureSpan">moment.fn.</span>millisecond
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.milliseconds">
-            function <span class="apidocSignatureSpan">moment.fn.</span>milliseconds
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.min">
-            function <span class="apidocSignatureSpan">moment.fn.</span>min
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.minute">
-            function <span class="apidocSignatureSpan">moment.fn.</span>minute
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.minutes">
-            function <span class="apidocSignatureSpan">moment.fn.</span>minutes
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.month">
-            function <span class="apidocSignatureSpan">moment.fn.</span>month
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.months">
-            function <span class="apidocSignatureSpan">moment.fn.</span>months
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.parseZone">
-            function <span class="apidocSignatureSpan">moment.fn.</span>parseZone
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.parsingFlags">
-            function <span class="apidocSignatureSpan">moment.fn.</span>parsingFlags
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.quarter">
-            function <span class="apidocSignatureSpan">moment.fn.</span>quarter
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.quarters">
-            function <span class="apidocSignatureSpan">moment.fn.</span>quarters
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.second">
-            function <span class="apidocSignatureSpan">moment.fn.</span>second
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.seconds">
-            function <span class="apidocSignatureSpan">moment.fn.</span>seconds
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.set">
-            function <span class="apidocSignatureSpan">moment.fn.</span>set
-            <span class="apidocSignatureSpan">(units, value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.startOf">
-            function <span class="apidocSignatureSpan">moment.fn.</span>startOf
-            <span class="apidocSignatureSpan">(units)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.subtract">
-            function <span class="apidocSignatureSpan">moment.fn.</span>subtract
-            <span class="apidocSignatureSpan">(val, period)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.to">
-            function <span class="apidocSignatureSpan">moment.fn.</span>to
-            <span class="apidocSignatureSpan">(time, withoutSuffix)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toArray">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toArray
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toDate">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toDate
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toISOString">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toISOString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toJSON">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toJSON
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toNow">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toNow
-            <span class="apidocSignatureSpan">(withoutSuffix)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toObject">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toObject
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.toString">
-            function <span class="apidocSignatureSpan">moment.fn.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.unix">
-            function <span class="apidocSignatureSpan">moment.fn.</span>unix
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.utc">
-            function <span class="apidocSignatureSpan">moment.fn.</span>utc
-            <span class="apidocSignatureSpan">(keepLocalTime)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.utcOffset">
-            function <span class="apidocSignatureSpan">moment.fn.</span>utcOffset
-            <span class="apidocSignatureSpan">(input, keepLocalTime, keepMinutes)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.valueOf">
-            function <span class="apidocSignatureSpan">moment.fn.</span>valueOf
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.week">
-            function <span class="apidocSignatureSpan">moment.fn.</span>week
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.weekYear">
-            function <span class="apidocSignatureSpan">moment.fn.</span>weekYear
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.weekday">
-            function <span class="apidocSignatureSpan">moment.fn.</span>weekday
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.weeks">
-            function <span class="apidocSignatureSpan">moment.fn.</span>weeks
-            <span class="apidocSignatureSpan">(input)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.weeksInYear">
-            function <span class="apidocSignatureSpan">moment.fn.</span>weeksInYear
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.year">
-            function <span class="apidocSignatureSpan">moment.fn.</span>year
-            <span class="apidocSignatureSpan">(value)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.years">
-            function <span class="apidocSignatureSpan">moment.fn.</span>years
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.zone">
-            function <span class="apidocSignatureSpan">moment.fn.</span>zone
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.zoneAbbr">
-            function <span class="apidocSignatureSpan">moment.fn.</span>zoneAbbr
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.moment.fn.zoneName">
-            function <span class="apidocSignatureSpan">moment.fn.</span>zoneName
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -1536,25 +801,25 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function getCalendarFormat(myMoment, now) {
-    var diff = myMoment.diff(now, &#x27;days&#x27;, true);
-    return diff &#x3c; -6 ? &#x27;sameElse&#x27; :
-            diff &#x3c; -1 ? &#x27;lastWeek&#x27; :
-            diff &#x3c; 0 ? &#x27;lastDay&#x27; :
-            diff &#x3c; 1 ? &#x27;sameDay&#x27; :
-            diff &#x3c; 2 ? &#x27;nextDay&#x27; :
-            diff &#x3c; 7 ? &#x27;nextWeek&#x27; : &#x27;sameElse&#x27;;
+    var diff = myMoment.diff(now, &apos;days&apos;, true);
+    return diff &lt; -6 ? &apos;sameElse&apos; :
+            diff &lt; -1 ? &apos;lastWeek&apos; :
+            diff &lt; 0 ? &apos;lastDay&apos; :
+            diff &lt; 1 ? &apos;sameDay&apos; :
+            diff &lt; 2 ? &apos;nextDay&apos; :
+            diff &lt; 7 ? &apos;nextWeek&apos; : &apos;sameElse&apos;;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 }
 
 function calendar$1 (time, formats) {
     // We want to compare the start of today, vs this.
-    // Getting start-of-today depends on whether we&#x27;re local/utc/offset or not.
+    // Getting start-of-today depends on whether we&apos;re local/utc/offset or not.
     var now = time || createLocal(),
-        sod = cloneWithOffset(now, this).startOf(&#x27;day&#x27;),
-        format = hooks.<span class="apidocCodeKeywordSpan">calendarFormat</span>(this, sod) || &#x27;sameElse&#x27;;
+        sod = cloneWithOffset(now, this).startOf(&apos;day&apos;),
+        format = hooks.<span class="apidocCodeKeywordSpan">calendarFormat</span>(this, sod) || &apos;sameElse&apos;;
 
-    var output = formats &#x26;&#x26; (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
+    var output = formats &amp;&amp; (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
 
     return this.format(output || this.localeData().calendar(format, this, createLocal(now)));
 }
@@ -1579,12 +844,12 @@ function clone () {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = &apos;&apos;;
+            if (typeof arguments[i] === &apos;object&apos;) {
+                arg += &apos;\n[&apos; + i + &apos;] &apos;;
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + &apos;: &apos; + arguments[0][key] + &apos;, &apos;;
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -1592,27 +857,27 @@ function clone () {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + &apos;\nArguments: &apos; + Array.prototype.slice.call(args).join(&apos;&apos;) + &apos;\n&apos; + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-if (config._isValid === false) {
-    delete config._isValid;
-} else {
-    return;
-}
+    if (config._isValid === false) {
+        delete config._isValid;
+    } else {
+        return;
+    }
 
-// Final attempt, use Input Fallback
-hooks.<span class="apidocCodeKeywordSpan">createFromInputFallback</span>(config);
+    // Final attempt, use Input Fallback
+    hooks.<span class="apidocCodeKeywordSpan">createFromInputFallback</span>(config);
 }
 
 hooks.createFromInputFallback = deprecate(
-&#x27;value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), &#x27; +
-&#x27;which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are &#x27; +
-&#x27;discouraged and will be removed in an upcoming major release. Please refer to &#x27; +
-&#x27;http://momentjs.com/guides/#/warnings/js-date/ for more info.&#x27;,
+    &apos;value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), &apos; +
+    &apos;which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are &apos; +
+    &apos;discouraged and will be removed in an upcoming major release. Please refer to &apos; +
+    &apos;http://momentjs.com/guides/#/warnings/js-date/ for more info.&apos;,
 ...</pre></li>
     </ul>
 
@@ -1627,27 +892,32 @@ hooks.createFromInputFallback = deprecate(
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function defineLocale(name, config) {
     if (config !== null) {
-        var parentConfig = baseConfig;
+        var locale, parentConfig = baseConfig;
         config.abbr = name;
         if (locales[name] != null) {
-            deprecateSimple(&#x27;defineLocaleOverride&#x27;,
-                    &#x27;use moment.updateLocale(localeName, config) to change &#x27; +
-                    &#x27;an existing locale. moment.defineLocale(localeName, &#x27; +
-                    &#x27;config) should only be used for creating a new locale &#x27; +
-                    &#x27;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&#x27;);
+            deprecateSimple(&apos;defineLocaleOverride&apos;,
+                    &apos;use moment.updateLocale(localeName, config) to change &apos; +
+                    &apos;an existing locale. moment.defineLocale(localeName, &apos; +
+                    &apos;config) should only be used for creating a new locale &apos; +
+                    &apos;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&apos;);
             parentConfig = locales[name]._config;
         } else if (config.parentLocale != null) {
             if (locales[config.parentLocale] != null) {
                 parentConfig = locales[config.parentLocale]._config;
             } else {
-                if (!localeFamilies[config.parentLocale]) {
-                    localeFamilies[config.parentLocale] = [];
+                locale = loadLocale(config.parentLocale);
+                if (locale != null) {
+                    parentConfig = locale._config;
+                } else {
+                    if (!localeFamilies[config.parentLocale]) {
+                        localeFamilies[config.parentLocale] = [];
+                    }
+                    localeFamilies[config.parentLocale].push({
+                        name: name,
+                        config: config
+                    });
+                    return null;
                 }
-                localeFamilies[config.parentLocale].push({
-                    name: name,
-                    config: config
-                });
-                return null;
             }
         }
         locales[name] = new Locale(mergeConfigs(parentConfig, config));
@@ -1660,7 +930,7 @@ hooks.createFromInputFallback = deprecate(
 
         // backwards compat for now: also set the locale
         // make sure we set the locale AFTER all child locales have been
-        // created, so we won&#x27;t end up with the child locale set.
+        // created, so we won&apos;t end up with the child locale set.
         getSetGlobalLocale(name);
 
 
@@ -1672,16 +942,16 @@ hooks.createFromInputFallback = deprecate(
     }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-function defineLocale (name, config) {
+    function defineLocale (name, config) {
 if (config !== null) {
-    var parentConfig = baseConfig;
+    var locale, parentConfig = baseConfig;
     config.abbr = name;
     if (locales[name] != null) {
-        deprecateSimple(&#x27;defineLocaleOverride&#x27;,
-                &#x27;use moment.updateLocale(localeName, config) to change &#x27; +
-                &#x27;an existing locale. moment.<span class="apidocCodeKeywordSpan">defineLocale</span>(localeName, &#x27; +
-                &#x27;config) should only be used for creating a new locale &#x27; +
-                &#x27;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&#x27;);
+        deprecateSimple(&apos;defineLocaleOverride&apos;,
+                &apos;use moment.updateLocale(localeName, config) to change &apos; +
+                &apos;an existing locale. moment.<span class="apidocCodeKeywordSpan">defineLocale</span>(localeName, &apos; +
+                &apos;config) should only be used for creating a new locale &apos; +
+                &apos;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&apos;);
         parentConfig = locales[name]._config;
     } else if (config.parentLocale != null) {
         if (locales[config.parentLocale] != null) {
@@ -1721,7 +991,7 @@ if (config !== null) {
             duration.milliseconds = input;
         }
     } else if (!!(match = aspNetRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === &apos;-&apos;) ? -1 : 1;
         duration = {
             y  : 0,
             d  : toInt(match[DATE])                         * sign,
@@ -1731,7 +1001,7 @@ if (config !== null) {
             ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
         };
     } else if (!!(match = isoRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === &apos;-&apos;) ? -1 : (match[1] === &apos;+&apos;) ? 1 : 1;
         duration = {
             y : parseIso(match[2], sign),
             M : parseIso(match[3], sign),
@@ -1743,7 +1013,7 @@ if (config !== null) {
         };
     } else if (duration == null) {// checks for null or undefined
         duration = {};
-    } else if (typeof duration === &#x27;object&#x27; &#x26;&#x26; (&#x27;from&#x27; in duration || &#x27;to&#x27; in duration)) {
+    } else if (typeof duration === &apos;object&apos; &amp;&amp; (&apos;from&apos; in duration || &apos;to&apos; in duration)) {
         diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
 
         duration = {};
@@ -1753,7 +1023,7 @@ if (config !== null) {
 
     ret = new Duration(duration);
 
-    if (isDuration(input) &#x26;&#x26; hasOwnProp(input, &#x27;_locale&#x27;)) {
+    if (isDuration(input) &amp;&amp; hasOwnProp(input, &apos;_locale&apos;)) {
         ret._locale = input._locale;
     }
 
@@ -1804,15 +1074,15 @@ Duplicate `Date` passed to `moment()` instead of referencing it.
  * @link https://nodejs.org/dist/latest/docs/api/util.html#util_custom_inspect_function_on_objects
  */
 function inspect () {
-if (!this.isValid()) {
-    return &#x27;moment.<span class="apidocCodeKeywordSpan">invalid</span>(/* &#x27; + this._i + &#x27; */)&#x27;;
-}
-var func = &#x27;moment&#x27;;
-var zone = &#x27;&#x27;;
-if (!this.isLocal()) {
-    func = this.utcOffset() === 0 ? &#x27;moment.utc&#x27; : &#x27;moment.parseZone&#x27;;
-    zone = &#x27;Z&#x27;;
-}
+    if (!this.isValid()) {
+        return &apos;moment.<span class="apidocCodeKeywordSpan">invalid</span>(/* &apos; + this._i + &apos; */)&apos;;
+    }
+    var func = &apos;moment&apos;;
+    var zone = &apos;&apos;;
+    if (!this.isLocal()) {
+        func = this.utcOffset() === 0 ? &apos;moment.utc&apos; : &apos;moment.parseZone&apos;;
+        zone = &apos;Z&apos;;
+    }
 ...</pre></li>
     </ul>
 
@@ -1826,7 +1096,7 @@ if (!this.isLocal()) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isDate(input) {
-    return input instanceof Date || Object.prototype.toString.call(input) === &#x27;[object Date]&#x27;;
+    return input instanceof Date || Object.prototype.toString.call(input) === &apos;[object Date]&apos;;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1856,7 +1126,7 @@ if (!this.isLocal()) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isMoment(obj) {
-    return obj instanceof Moment || (obj != null &#x26;&#x26; obj._isAMomentObject != null);
+    return obj instanceof Moment || (obj != null &amp;&amp; obj._isAMomentObject != null);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1877,12 +1147,12 @@ if (!this.isLocal()) {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = &apos;&apos;;
+            if (typeof arguments[i] === &apos;object&apos;) {
+                arg += &apos;\n[&apos; + i + &apos;] &apos;;
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + &apos;: &apos; + arguments[0][key] + &apos;, &apos;;
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -1890,13 +1160,13 @@ if (!this.isLocal()) {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + &apos;\nArguments: &apos; + Array.prototype.slice.call(args).join(&apos;&apos;) + &apos;\n&apos; + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-* [#1804](https://github.com/moment/moment/issues/1804) spanish del -&#x3e; de
+* [#1804](https://github.com/moment/moment/issues/1804) spanish del -&gt; de
 * [#1800](https://github.com/moment/moment/issues/1800) korean LT improvement
 
 ### 2.8.1
@@ -1912,7 +1182,7 @@ if (!this.isLocal()) {
 
 * incompatible changes
 * [#1761](https://github.com/moment/moment/issues/1761): moments created without a language are no longer following the global language
-, in case it changes. Only newly created moments take the global language by default. In case you&#x27;re affected by this, wait
+, in case it changes. Only newly created moments take the global language by default. In case you&apos;re affected by this, wait
 , comment on [#1797](https://github.com/moment/moment/issues/1797) and wait for a proper reimplementation
 ...</pre></li>
     </ul>
@@ -1933,12 +1203,12 @@ if (!this.isLocal()) {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = &apos;&apos;;
+            if (typeof arguments[i] === &apos;object&apos;) {
+                arg += &apos;\n[&apos; + i + &apos;] &apos;;
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + &apos;: &apos; + arguments[0][key] + &apos;, &apos;;
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -1946,7 +1216,7 @@ if (!this.isLocal()) {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + &apos;\nArguments: &apos; + Array.prototype.slice.call(args).join(&apos;&apos;) + &apos;\n&apos; + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -1977,27 +1247,33 @@ if (!this.isLocal()) {
             // moment.duration._locale = moment._locale = data;
             globalLocale = data;
         }
+        else {
+            if ((typeof console !==  &apos;undefined&apos;) &amp;&amp; console.warn) {
+                //warn user if arguments are passed but the locale could not be set
+                console.warn(&apos;Locale &apos; + key +  &apos; not found. Did you forget to load it?&apos;);
+            }
+        }
     }
 
     return globalLocale._abbr;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-return -(wholeMonthDiff + adjust) || 0;
+    return -(wholeMonthDiff + adjust) || 0;
 }
 
-hooks.defaultFormat = &#x27;YYYY-MM-DDTHH:mm:ssZ&#x27;;
-hooks.defaultFormatUtc = &#x27;YYYY-MM-DDTHH:mm:ss[Z]&#x27;;
+hooks.defaultFormat = &apos;YYYY-MM-DDTHH:mm:ssZ&apos;;
+hooks.defaultFormatUtc = &apos;YYYY-MM-DDTHH:mm:ss[Z]&apos;;
 
 function toString () {
-return this.clone().<span class="apidocCodeKeywordSpan">locale</span>(&#x27;en&#x27;).format(&#x27;ddd MMM DD YYYY HH:mm:ss [GMT
-]ZZ&#x27;);
+    return this.clone().<span class="apidocCodeKeywordSpan">locale</span>(&apos;en&apos;).format(&apos;ddd MMM DD YYYY HH:mm:ss [
+GMT]ZZ&apos;);
 }
 
-function toISOString() {
-if (!this.isValid()) {
-    return null;
-}
-var m = this.clone().utc();
+function toISOString(keepOffset) {
+    if (!this.isValid()) {
+        return null;
+    }
+    var utc = keepOffset !== true;
 ...</pre></li>
     </ul>
 
@@ -2013,7 +1289,7 @@ var m = this.clone().utc();
     <li>description and source-code<pre class="apidocCodePre">function getLocale(key) {
     var locale;
 
-    if (key &#x26;&#x26; key._locale &#x26;&#x26; key._locale._abbr) {
+    if (key &amp;&amp; key._locale &amp;&amp; key._locale._abbr) {
         key = key._locale._abbr;
     }
 
@@ -2033,21 +1309,21 @@ var m = this.clone().utc();
     return chooseLocale(key);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-if (padded) {
-    formatTokenFunctions[padded[0]] = function () {
-        return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
-    };
-}
-if (ordinal) {
-    formatTokenFunctions[ordinal] = function () {
-        return this.<span class="apidocCodeKeywordSpan">localeData</span>().ordinal(func.apply(this, arguments), token);
-    };
-}
+    if (padded) {
+        formatTokenFunctions[padded[0]] = function () {
+            return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
+        };
+    }
+    if (ordinal) {
+        formatTokenFunctions[ordinal] = function () {
+            return this.<span class="apidocCodeKeywordSpan">localeData</span>().ordinal(func.apply(this, arguments), token);
+        };
+    }
 }
 
 function removeFormattingTokens(input) {
-if (input.match(/\[[\s\S]/)) {
-    return input.replace(/^\[|\]$/g, &#x27;&#x27;);
+    if (input.match(/\[[\s\S]/)) {
+        return input.replace(/^\[|\]$/g, &apos;&apos;);
 ...</pre></li>
     </ul>
 
@@ -2061,7 +1337,7 @@ if (input.match(/\[[\s\S]/)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listLocales() {
-    return keys$1(locales);
+    return keys(locales);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2078,16 +1354,16 @@ if (input.match(/\[[\s\S]/)) {
     <li>description and source-code<pre class="apidocCodePre">function max() {
     var args = [].slice.call(arguments, 0);
 
-    return pickBy(&#x27;isAfter&#x27;, args);
+    return pickBy(&apos;isAfter&apos;, args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 }
 
 function zeroFill(number, targetLength, forceSign) {
-    var absNumber = &#x27;&#x27; + Math.abs(number),
+    var absNumber = &apos;&apos; + Math.abs(number),
         zerosToFill = targetLength - absNumber.length,
-        sign = number &#x3e;= 0;
-    return (sign ? (forceSign ? &#x27;+&#x27; : &#x27;&#x27;) : &#x27;-&#x27;) +
+        sign = number &gt;= 0;
+    return (sign ? (forceSign ? &apos;+&apos; : &apos;&apos;) : &apos;-&apos;) +
         Math.pow(10, Math.<span class="apidocCodeKeywordSpan">max</span>(0, zerosToFill)).toString().substr(1) + absNumber;
 }
 
@@ -2112,24 +1388,24 @@ var formatFunctions = {};
     <li>description and source-code<pre class="apidocCodePre">function min() {
     var args = [].slice.call(arguments, 0);
 
-    return pickBy(&#x27;isBefore&#x27;, args);
+    return pickBy(&apos;isBefore&apos;, args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-}
+    }
 
-return value;
+    return value;
 }
 
 // compare two arrays, return the number of differences
 function compareArrays(array1, array2, dontConvert) {
-var len = Math.<span class="apidocCodeKeywordSpan">min</span>(array1.length, array2.length),
-    lengthDiff = Math.abs(array1.length - array2.length),
-    diffs = 0,
-    i;
-for (i = 0; i &#x3c; len; i++) {
-    if ((dontConvert &#x26;&#x26; array1[i] !== array2[i]) ||
-        (!dontConvert &#x26;&#x26; toInt(array1[i]) !== toInt(array2[i]))) {
-        diffs++;
+    var len = Math.<span class="apidocCodeKeywordSpan">min</span>(array1.length, array2.length),
+        lengthDiff = Math.abs(array1.length - array2.length),
+        diffs = 0,
+        i;
+    for (i = 0; i &lt; len; i++) {
+        if ((dontConvert &amp;&amp; array1[i] !== array2[i]) ||
+            (!dontConvert &amp;&amp; toInt(array1[i]) !== toInt(array2[i]))) {
+            diffs++;
 ...</pre></li>
     </ul>
 
@@ -2143,22 +1419,22 @@ for (i = 0; i &#x3c; len; i++) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listMonths(format, index) {
-    return listMonthsImpl(format, index, &#x27;months&#x27;);
+    return listMonthsImpl(format, index, &apos;months&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 });
 
-addFormatToken(&#x27;MMM&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;MMM&apos;, 0, 0, function (format) {
     return this.localeData().monthsShort(this, format);
 });
 
-addFormatToken(&#x27;MMMM&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;MMMM&apos;, 0, 0, function (format) {
     return this.localeData().<span class="apidocCodeKeywordSpan">months</span>(this, format);
 });
 
 // ALIASES
 
-addUnitAlias(&#x27;month&#x27;, &#x27;M&#x27;);
+addUnitAlias(&apos;month&apos;, &apos;M&apos;);
 
 // PRIORITY
 ...</pre></li>
@@ -2174,20 +1450,20 @@ addUnitAlias(&#x27;month&#x27;, &#x27;M&#x27;);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listMonthsShort(format, index) {
-    return listMonthsImpl(format, index, &#x27;monthsShort&#x27;);
+    return listMonthsImpl(format, index, &apos;monthsShort&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 // FORMATTING
 
-addFormatToken(&#x27;M&#x27;, [&#x27;MM&#x27;, 2], &#x27;Mo&#x27;, function () {
+addFormatToken(&apos;M&apos;, [&apos;MM&apos;, 2], &apos;Mo&apos;, function () {
     return this.month() + 1;
 });
 
-addFormatToken(&#x27;MMM&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;MMM&apos;, 0, 0, function (format) {
     return this.localeData().<span class="apidocCodeKeywordSpan">monthsShort</span>(this, format);
 });
 
-addFormatToken(&#x27;MMMM&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;MMMM&apos;, 0, 0, function (format) {
     return this.localeData().months(this, format);
 });
 
@@ -2205,7 +1481,7 @@ addFormatToken(&#x27;MMMM&#x27;, 0, 0, function (format) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function normalizeUnits(units) {
-    return typeof units === &#x27;string&#x27; ? aliases[units] || aliases[units.toLowerCase()] : undefined;
+    return typeof units === &apos;string&apos; ? aliases[units] || aliases[units.toLowerCase()] : undefined;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2251,22 +1527,22 @@ monthsShort`, and `_date.ordinal` variables instead of the `_date.customize()` f
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">parseTwoDigitYear = function (input) {
-    return toInt(input) + (toInt(input) &#x3e; 68 ? 1900 : 2000);
+    return toInt(input) + (toInt(input) &gt; 68 ? 1900 : 2000);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-addRegexToken(&#x27;YY&#x27;,     match1to2, match2);
-addRegexToken(&#x27;YYYY&#x27;,   match1to4, match4);
-addRegexToken(&#x27;YYYYY&#x27;,  match1to6, match6);
-addRegexToken(&#x27;YYYYYY&#x27;, match1to6, match6);
+addRegexToken(&apos;YY&apos;,     match1to2, match2);
+addRegexToken(&apos;YYYY&apos;,   match1to4, match4);
+addRegexToken(&apos;YYYYY&apos;,  match1to6, match6);
+addRegexToken(&apos;YYYYYY&apos;, match1to6, match6);
 
-addParseToken([&#x27;YYYYY&#x27;, &#x27;YYYYYY&#x27;], YEAR);
-addParseToken(&#x27;YYYY&#x27;, function (input, array) {
+addParseToken([&apos;YYYYY&apos;, &apos;YYYYYY&apos;], YEAR);
+addParseToken(&apos;YYYY&apos;, function (input, array) {
     array[YEAR] = input.length === 2 ? hooks.<span class="apidocCodeKeywordSpan">parseTwoDigitYear</span>(input) : toInt(input);
 });
-addParseToken(&#x27;YY&#x27;, function (input, array) {
+addParseToken(&apos;YY&apos;, function (input, array) {
     array[YEAR] = hooks.parseTwoDigitYear(input);
 });
-addParseToken(&#x27;Y&#x27;, function (input, array) {
+addParseToken(&apos;Y&apos;, function (input, array) {
     array[YEAR] = parseInt(input, 10);
 });
 ...</pre></li>
@@ -2285,8 +1561,8 @@ addParseToken(&#x27;Y&#x27;, function (input, array) {
     return createLocal.apply(null, arguments).parseZone();
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-proto.isDSTShifted = deprecate(&#x27;isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more
- information&#x27;, isDaylightSavingTimeShifted);
+proto.isDSTShifted = deprecate(&apos;isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more
+ information&apos;, isDaylightSavingTimeShifted);
 
 function createUnix (input) {
     return createLocal(input * 1000);
@@ -2317,7 +1593,7 @@ var proto$1 = Locale.prototype;
     if (roundingFunction === undefined) {
         return round;
     }
-    if (typeof(roundingFunction) === &#x27;function&#x27;) {
+    if (typeof(roundingFunction) === &apos;function&apos;) {
         round = roundingFunction;
         return true;
     }
@@ -2343,7 +1619,7 @@ var proto$1 = Locale.prototype;
         return thresholds[threshold];
     }
     thresholds[threshold] = limit;
-    if (threshold === &#x27;s&#x27;) {
+    if (threshold === &apos;s&apos;) {
         thresholds.ss = limit - 1;
     }
     return true;
@@ -2377,10 +1653,11 @@ var proto$1 = Locale.prototype;
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function updateLocale(name, config) {
     if (config != null) {
-        var locale, parentConfig = baseConfig;
+        var locale, tmpLocale, parentConfig = baseConfig;
         // MERGE
-        if (locales[name] != null) {
-            parentConfig = locales[name]._config;
+        tmpLocale = loadLocale(name);
+        if (tmpLocale != null) {
+            parentConfig = tmpLocale._config;
         }
         config = mergeConfigs(parentConfig, config);
         locale = new Locale(config);
@@ -2403,16 +1680,16 @@ var proto$1 = Locale.prototype;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
-function defineLocale (name, config) {
+    function defineLocale (name, config) {
 if (config !== null) {
-    var parentConfig = baseConfig;
+    var locale, parentConfig = baseConfig;
     config.abbr = name;
     if (locales[name] != null) {
-        deprecateSimple(&#x27;defineLocaleOverride&#x27;,
-                &#x27;use moment.<span class="apidocCodeKeywordSpan">updateLocale</span>(localeName, config) to change &#x27; +
-                &#x27;an existing locale. moment.defineLocale(localeName, &#x27; +
-                &#x27;config) should only be used for creating a new locale &#x27; +
-                &#x27;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&#x27;);
+        deprecateSimple(&apos;defineLocaleOverride&apos;,
+                &apos;use moment.<span class="apidocCodeKeywordSpan">updateLocale</span>(localeName, config) to change &apos; +
+                &apos;an existing locale. moment.defineLocale(localeName, &apos; +
+                &apos;config) should only be used for creating a new locale &apos; +
+                &apos;See http://momentjs.com/guides/#/warnings/define-locale/ for more info.&apos;);
         parentConfig = locales[name]._config;
     } else if (config.parentLocale != null) {
         if (locales[config.parentLocale] != null) {
@@ -2444,7 +1721,7 @@ if (config !== null) {
 }
 
 function isMoment (obj) {
-    return obj instanceof Moment || (obj != null &#x26;&#x26; obj._isAMomentObject != null);
+    return obj instanceof Moment || (obj != null &amp;&amp; obj._isAMomentObject != null);
 }
 ...</pre></li>
     </ul>
@@ -2489,21 +1766,21 @@ Removed `moment#sod` and `moment#eod` in favor of `moment#startOf` and `moment#e
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listWeekdays(localeSorted, format, index) {
-    return listWeekdaysImpl(localeSorted, format, index, &#x27;weekdays&#x27;);
+    return listWeekdaysImpl(localeSorted, format, index, &apos;weekdays&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 });
 
-addFormatToken(&#x27;ddd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;ddd&apos;, 0, 0, function (format) {
     return this.localeData().weekdaysShort(this, format);
 });
 
-addFormatToken(&#x27;dddd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;dddd&apos;, 0, 0, function (format) {
     return this.localeData().<span class="apidocCodeKeywordSpan">weekdays</span>(this, format);
 });
 
-addFormatToken(&#x27;e&#x27;, 0, 0, &#x27;weekday&#x27;);
-addFormatToken(&#x27;E&#x27;, 0, 0, &#x27;isoWeekday&#x27;);
+addFormatToken(&apos;e&apos;, 0, 0, &apos;weekday&apos;);
+addFormatToken(&apos;E&apos;, 0, 0, &apos;isoWeekday&apos;);
 
 // ALIASES
 ...</pre></li>
@@ -2519,24 +1796,24 @@ addFormatToken(&#x27;E&#x27;, 0, 0, &#x27;isoWeekday&#x27;);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listWeekdaysMin(localeSorted, format, index) {
-    return listWeekdaysImpl(localeSorted, format, index, &#x27;weekdaysMin&#x27;);
+    return listWeekdaysImpl(localeSorted, format, index, &apos;weekdaysMin&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 }
 
 // FORMATTING
 
-addFormatToken(&#x27;d&#x27;, 0, &#x27;do&#x27;, &#x27;day&#x27;);
+addFormatToken(&apos;d&apos;, 0, &apos;do&apos;, &apos;day&apos;);
 
-addFormatToken(&#x27;dd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;dd&apos;, 0, 0, function (format) {
     return this.localeData().<span class="apidocCodeKeywordSpan">weekdaysMin</span>(this, format);
 });
 
-addFormatToken(&#x27;ddd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;ddd&apos;, 0, 0, function (format) {
     return this.localeData().weekdaysShort(this, format);
 });
 
-addFormatToken(&#x27;dddd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;dddd&apos;, 0, 0, function (format) {
 ...</pre></li>
     </ul>
 
@@ -2550,26 +1827,28 @@ addFormatToken(&#x27;dddd&#x27;, 0, 0, function (format) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function listWeekdaysShort(localeSorted, format, index) {
-    return listWeekdaysImpl(localeSorted, format, index, &#x27;weekdaysShort&#x27;);
+    return listWeekdaysImpl(localeSorted, format, index, &apos;weekdaysShort&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-addFormatToken(&#x27;d&#x27;, 0, &#x27;do&#x27;, &#x27;day&#x27;);
+addFormatToken(&apos;d&apos;, 0, &apos;do&apos;, &apos;day&apos;);
 
-addFormatToken(&#x27;dd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;dd&apos;, 0, 0, function (format) {
     return this.localeData().weekdaysMin(this, format);
 });
 
-addFormatToken(&#x27;ddd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;ddd&apos;, 0, 0, function (format) {
     return this.localeData().<span class="apidocCodeKeywordSpan">weekdaysShort</span>(this, format);
 });
 
-addFormatToken(&#x27;dddd&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;dddd&apos;, 0, 0, function (format) {
     return this.localeData().weekdays(this, format);
 });
 
-addFormatToken(&#x27;e&#x27;, 0, 0, &#x27;weekday&#x27;);
+addFormatToken(&apos;e&apos;, 0, 0, &apos;weekday&apos;);
 ...</pre></li>
     </ul>
+
+
 
 
 
@@ -2621,7 +1900,7 @@ addFormatToken(&#x27;e&#x27;, 0, 0, &#x27;weekday&#x27;);
             duration.milliseconds = input;
         }
     } else if (!!(match = aspNetRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === &apos;-&apos;) ? -1 : 1;
         duration = {
             y  : 0,
             d  : toInt(match[DATE])                         * sign,
@@ -2631,7 +1910,7 @@ addFormatToken(&#x27;e&#x27;, 0, 0, &#x27;weekday&#x27;);
             ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
         };
     } else if (!!(match = isoRegex.exec(input))) {
-        sign = (match[1] === &#x27;-&#x27;) ? -1 : 1;
+        sign = (match[1] === &apos;-&apos;) ? -1 : (match[1] === &apos;+&apos;) ? 1 : 1;
         duration = {
             y : parseIso(match[2], sign),
             M : parseIso(match[3], sign),
@@ -2643,7 +1922,7 @@ addFormatToken(&#x27;e&#x27;, 0, 0, &#x27;weekday&#x27;);
         };
     } else if (duration == null) {// checks for null or undefined
         duration = {};
-    } else if (typeof duration === &#x27;object&#x27; &#x26;&#x26; (&#x27;from&#x27; in duration || &#x27;to&#x27; in duration)) {
+    } else if (typeof duration === &apos;object&apos; &amp;&amp; (&apos;from&apos; in duration || &apos;to&apos; in duration)) {
         diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
 
         duration = {};
@@ -2653,7 +1932,7 @@ addFormatToken(&#x27;e&#x27;, 0, 0, &#x27;weekday&#x27;);
 
     ret = new Duration(duration);
 
-    if (isDuration(input) &#x26;&#x26; hasOwnProp(input, &#x27;_locale&#x27;)) {
+    if (isDuration(input) &amp;&amp; hasOwnProp(input, &apos;_locale&apos;)) {
         ret._locale = input._locale;
     }
 
@@ -2696,15 +1975,15 @@ Duplicate `Date` passed to `moment()` instead of referencing it.
  * @link https://nodejs.org/dist/latest/docs/api/util.html#util_custom_inspect_function_on_objects
  */
 function inspect () {
-if (!this.isValid()) {
-    return &#x27;moment.<span class="apidocCodeKeywordSpan">invalid</span>(/* &#x27; + this._i + &#x27; */)&#x27;;
-}
-var func = &#x27;moment&#x27;;
-var zone = &#x27;&#x27;;
-if (!this.isLocal()) {
-    func = this.utcOffset() === 0 ? &#x27;moment.utc&#x27; : &#x27;moment.parseZone&#x27;;
-    zone = &#x27;Z&#x27;;
-}
+    if (!this.isValid()) {
+        return &apos;moment.<span class="apidocCodeKeywordSpan">invalid</span>(/* &apos; + this._i + &apos; */)&apos;;
+    }
+    var func = &apos;moment&apos;;
+    var zone = &apos;&apos;;
+    if (!this.isLocal()) {
+        func = this.utcOffset() === 0 ? &apos;moment.utc&apos; : &apos;moment.parseZone&apos;;
+        zone = &apos;Z&apos;;
+    }
 ...</pre></li>
     </ul>
 
@@ -2733,8 +2012,8 @@ if (!this.isLocal()) {
 
     // if we have a mix of positive and negative values, bubble down first
     // check: https://github.com/moment/moment/issues/2166
-    if (!((milliseconds &#x3e;= 0 &#x26;&#x26; days &#x3e;= 0 &#x26;&#x26; months &#x3e;= 0) ||
-            (milliseconds &#x3c;= 0 &#x26;&#x26; days &#x3c;= 0 &#x26;&#x26; months &#x3c;= 0))) {
+    if (!((milliseconds &gt;= 0 &amp;&amp; days &gt;= 0 &amp;&amp; months &gt;= 0) ||
+            (milliseconds &lt;= 0 &amp;&amp; days &lt;= 0 &amp;&amp; months &lt;= 0))) {
         milliseconds += absCeil(monthsToDays(months) + days) * 864e5;
         days = 0;
         months = 0;
@@ -2760,7 +2039,7 @@ if (!this.isLocal()) {
     months += monthsFromDays;
     days -= absCeil(monthsToDays(monthsFromDays));
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years = absFloor(months / 12);
     months %= 12;
 
@@ -2816,20 +2095,20 @@ function absRound (number) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
-return value;
+    return value;
 }
 
 // compare two arrays, return the number of differences
 function compareArrays(array1, array2, dontConvert) {
-var len = Math.min(array1.length, array2.length),
-    lengthDiff = Math.<span class="apidocCodeKeywordSpan">abs</span>(array1.length - array2.length),
-    diffs = 0,
-    i;
-for (i = 0; i &#x3c; len; i++) {
-    if ((dontConvert &#x26;&#x26; array1[i] !== array2[i]) ||
-        (!dontConvert &#x26;&#x26; toInt(array1[i]) !== toInt(array2[i]))) {
-        diffs++;
-    }
+    var len = Math.min(array1.length, array2.length),
+        lengthDiff = Math.<span class="apidocCodeKeywordSpan">abs</span>(array1.length - array2.length),
+        diffs = 0,
+        i;
+    for (i = 0; i &lt; len; i++) {
+        if ((dontConvert &amp;&amp; array1[i] !== array2[i]) ||
+            (!dontConvert &amp;&amp; toInt(array1[i]) !== toInt(array2[i]))) {
+            diffs++;
+        }
 ...</pre></li>
     </ul>
 
@@ -2882,41 +2161,41 @@ Renamed library from underscore.date to Moment.js
 
     units = normalizeUnits(units);
 
-    if (units === &#x27;month&#x27; || units === &#x27;year&#x27;) {
+    if (units === &apos;month&apos; || units === &apos;year&apos;) {
         days   = this._days   + milliseconds / 864e5;
         months = this._months + daysToMonths(days);
-        return units === &#x27;month&#x27; ? months : months / 12;
+        return units === &apos;month&apos; ? months : months / 12;
     } else {
         // handle milliseconds separately because of floating point math errors (issue #1867)
         days = this._days + Math.round(monthsToDays(this._months));
         switch (units) {
-            case &#x27;week&#x27;   : return days / 7     + milliseconds / 6048e5;
-            case &#x27;day&#x27;    : return days         + milliseconds / 864e5;
-            case &#x27;hour&#x27;   : return days * 24    + milliseconds / 36e5;
-            case &#x27;minute&#x27; : return days * 1440  + milliseconds / 6e4;
-            case &#x27;second&#x27; : return days * 86400 + milliseconds / 1000;
+            case &apos;week&apos;   : return days / 7     + milliseconds / 6048e5;
+            case &apos;day&apos;    : return days         + milliseconds / 864e5;
+            case &apos;hour&apos;   : return days * 24    + milliseconds / 36e5;
+            case &apos;minute&apos; : return days * 1440  + milliseconds / 6e4;
+            case &apos;second&apos; : return days * 86400 + milliseconds / 1000;
             // Math.floor prevents floating point math errors here
-            case &#x27;millisecond&#x27;: return Math.floor(days * 864e5) + milliseconds;
-            default: throw new Error(&#x27;Unknown unit &#x27; + units);
+            case &apos;millisecond&apos;: return Math.floor(days * 864e5) + milliseconds;
+            default: throw new Error(&apos;Unknown unit &apos; + units);
         }
     }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-        // Math.floor prevents floating point math errors here
-        case &#x27;millisecond&#x27;: return Math.floor(days * 864e5) + milliseconds;
-        default: throw new Error(&#x27;Unknown unit &#x27; + units);
+            // Math.floor prevents floating point math errors here
+            case &apos;millisecond&apos;: return Math.floor(days * 864e5) + milliseconds;
+            default: throw new Error(&apos;Unknown unit &apos; + units);
+        }
     }
 }
-}
 
-// TODO: Use this.<span class="apidocCodeKeywordSpan">as</span>(&#x27;ms&#x27;)?
+// TODO: Use this.<span class="apidocCodeKeywordSpan">as</span>(&apos;ms&apos;)?
 function valueOf$1 () {
-if (!this.isValid()) {
-    return NaN;
-}
-return (
-    this._milliseconds +
-    this._days * 864e5 +
+    if (!this.isValid()) {
+        return NaN;
+    }
+    return (
+        this._milliseconds +
+        this._days * 864e5 +
 ...</pre></li>
     </ul>
 
@@ -3014,13 +2293,13 @@ var M = months;
 var D = days;
 var h = hours;
 var m = minutes;
-var s = seconds;
+var s = seconds ? seconds.toFixed(3).replace(/\.?0+$/, &apos;&apos;) : &apos;&apos;;
 var total = this.<span class="apidocCodeKeywordSpan">asSeconds</span>();
 
 if (!total) {
-    // this is the same as C#&#x27;s (Noda) and python (isodate)...
+    // this is the same as C#&apos;s (Noda) and python (isodate)...
     // but not other JS (goog.date)
-    return &#x27;P0D&#x27;;
+    return &apos;P0D&apos;;
 }
 ...</pre></li>
     </ul>
@@ -3058,6 +2337,39 @@ if (!total) {
 
 
     <h2>
+        <a href="#apidoc.element.moment.duration.fn.clone" id="apidoc.element.moment.duration.fn.clone">
+        function <span class="apidocSignatureSpan">moment.duration.fn.</span>clone
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function clone$1() {
+    return createDuration(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  [#4213](https://github.com/moment/moment/issues/4213)
+
+## Features
+
+* [#3735](https://github.com/moment/moment/pull/3735) [feature] Ignore NaN values in setters
+* [#4106](https://github.com/moment/moment/pull/4106) [fixup] Drop isNumeric utility fn, fixes [#3735](https://github.com/moment
+/moment/issues/3735)
+* [#4080](https://github.com/moment/moment/pull/4080) [feature] Implement a clone method for durations, fixes [#4078](https://github
+.com/moment/moment/issues/4078)
+* [#4215](https://github.com/moment/moment/pull/4215) [misc] TS: Add duration.<span class="apidocCodeKeywordSpan">clone</span>(),
+for [#4080](https://github.com/moment/moment/issues/4080)
+
+## Packaging
+
+* [#4003](https://github.com/moment/moment/pull/4003) [pkg] bower: Remove tests from package
+* [#3904](https://github.com/moment/moment/pull/3904) [pkg] jsnext:main -&gt; module in package.json
+* [#4060](https://github.com/moment/moment/pull/4060) [pkg] Account for new rollup interface
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.moment.duration.fn.days" id="apidoc.element.moment.duration.fn.days">
         function <span class="apidocSignatureSpan">moment.duration.fn.</span>days
         <span class="apidocSignatureSpan">()</span>
@@ -3068,21 +2380,21 @@ if (!total) {
     return this.isValid() ? this._data[name] : NaN;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-var minutes      = makeGetter(&#x27;minutes&#x27;);
-var hours        = makeGetter(&#x27;hours&#x27;);
-var days         = makeGetter(&#x27;days&#x27;);
-var months       = makeGetter(&#x27;months&#x27;);
-var years        = makeGetter(&#x27;years&#x27;);
+var minutes      = makeGetter(&apos;minutes&apos;);
+var hours        = makeGetter(&apos;hours&apos;);
+var days         = makeGetter(&apos;days&apos;);
+var months       = makeGetter(&apos;months&apos;);
+var years        = makeGetter(&apos;years&apos;);
 
 function weeks () {
-return absFloor(this.<span class="apidocCodeKeywordSpan">days</span>() / 7);
+    return absFloor(this.<span class="apidocCodeKeywordSpan">days</span>() / 7);
 }
 
 var round = Math.round;
 var thresholds = {
-ss: 44,         // a few seconds to seconds
-s : 45,         // seconds to minute
-m : 45,         // minutes to hour
+    ss: 44,         // a few seconds to seconds
+    s : 45,         // seconds to minute
+    m : 45,         // minutes to hour
 ...</pre></li>
     </ul>
 
@@ -3097,7 +2409,7 @@ m : 45,         // minutes to hour
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function get$2(units) {
     units = normalizeUnits(units);
-    return this.isValid() ? this[units + &#x27;s&#x27;]() : NaN;
+    return this.isValid() ? this[units + &apos;s&apos;]() : NaN;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -3115,8 +2427,8 @@ m : 45,         // minutes to hour
     return this.isValid() ? this._data[name] : NaN;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    this._weekdaysShortStrictRegex = new RegExp(&#x27;^(&#x27; + shortPieces.join(&#x27;|&#x27;) + &#x27;)&#x27;, &#x27;i&#x27;);
-    this._weekdaysMinStrictRegex = new RegExp(&#x27;^(&#x27; + minPieces.join(&#x27;|&#x27;) + &#x27;)&#x27;, &#x27;i&#x27;);
+    this._weekdaysShortStrictRegex = new RegExp(&apos;^(&apos; + shortPieces.join(&apos;|&apos;) + &apos;)&apos;, &apos;i&apos;);
+    this._weekdaysMinStrictRegex = new RegExp(&apos;^(&apos; + minPieces.join(&apos;|&apos;) + &apos;)&apos;, &apos;i&apos;);
 }
 
 // FORMATTING
@@ -3129,7 +2441,7 @@ function kFormat() {
     return this.hours() || 24;
 }
 
-addFormatToken(&#x27;H&#x27;, [&#x27;HH&#x27;, 2], 0, &#x27;hour&#x27;);
+addFormatToken(&apos;H&apos;, [&apos;HH&apos;, 2], 0, &apos;hour&apos;);
 ...</pre></li>
     </ul>
 
@@ -3220,12 +2532,12 @@ Added instance specific languages.
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = &apos;&apos;;
+            if (typeof arguments[i] === &apos;object&apos;) {
+                arg += &apos;\n[&apos; + i + &apos;] &apos;;
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + &apos;: &apos; + arguments[0][key] + &apos;, &apos;;
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -3233,13 +2545,13 @@ Added instance specific languages.
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + &apos;\nArguments: &apos; + Array.prototype.slice.call(args).join(&apos;&apos;) + &apos;\n&apos; + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-* [#1804](https://github.com/moment/moment/issues/1804) spanish del -&#x3e; de
+* [#1804](https://github.com/moment/moment/issues/1804) spanish del -&gt; de
 * [#1800](https://github.com/moment/moment/issues/1800) korean LT improvement
 
 ### 2.8.1
@@ -3255,7 +2567,7 @@ Added instance specific languages.
 
 * incompatible changes
 * [#1761](https://github.com/moment/moment/issues/1761): moments created without a language are no longer following the global language
-, in case it changes. Only newly created moments take the global language by default. In case you&#x27;re affected by this, wait
+, in case it changes. Only newly created moments take the global language by default. In case you&apos;re affected by this, wait
 , comment on [#1797](https://github.com/moment/moment/issues/1797) and wait for a proper reimplementation
 ...</pre></li>
     </ul>
@@ -3283,22 +2595,22 @@ Added instance specific languages.
     }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-return -(wholeMonthDiff + adjust) || 0;
+    return -(wholeMonthDiff + adjust) || 0;
 }
 
-hooks.defaultFormat = &#x27;YYYY-MM-DDTHH:mm:ssZ&#x27;;
-hooks.defaultFormatUtc = &#x27;YYYY-MM-DDTHH:mm:ss[Z]&#x27;;
+hooks.defaultFormat = &apos;YYYY-MM-DDTHH:mm:ssZ&apos;;
+hooks.defaultFormatUtc = &apos;YYYY-MM-DDTHH:mm:ss[Z]&apos;;
 
 function toString () {
-return this.clone().<span class="apidocCodeKeywordSpan">locale</span>(&#x27;en&#x27;).format(&#x27;ddd MMM DD YYYY HH:mm:ss [GMT
-]ZZ&#x27;);
+    return this.clone().<span class="apidocCodeKeywordSpan">locale</span>(&apos;en&apos;).format(&apos;ddd MMM DD YYYY HH:mm:ss [
+GMT]ZZ&apos;);
 }
 
-function toISOString() {
-if (!this.isValid()) {
-    return null;
-}
-var m = this.clone().utc();
+function toISOString(keepOffset) {
+    if (!this.isValid()) {
+        return null;
+    }
+    var utc = keepOffset !== true;
 ...</pre></li>
     </ul>
 
@@ -3315,21 +2627,21 @@ var m = this.clone().utc();
     return this._locale;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-if (padded) {
-    formatTokenFunctions[padded[0]] = function () {
-        return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
-    };
-}
-if (ordinal) {
-    formatTokenFunctions[ordinal] = function () {
-        return this.<span class="apidocCodeKeywordSpan">localeData</span>().ordinal(func.apply(this, arguments), token);
-    };
-}
+    if (padded) {
+        formatTokenFunctions[padded[0]] = function () {
+            return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
+        };
+    }
+    if (ordinal) {
+        formatTokenFunctions[ordinal] = function () {
+            return this.<span class="apidocCodeKeywordSpan">localeData</span>().ordinal(func.apply(this, arguments), token);
+        };
+    }
 }
 
 function removeFormattingTokens(input) {
-if (input.match(/\[[\s\S]/)) {
-    return input.replace(/^\[|\]$/g, &#x27;&#x27;);
+    if (input.match(/\[[\s\S]/)) {
+        return input.replace(/^\[|\]$/g, &apos;&apos;);
 ...</pre></li>
     </ul>
 
@@ -3346,21 +2658,21 @@ if (input.match(/\[[\s\S]/)) {
     return this.isValid() ? this._data[name] : NaN;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    case &#x27;hour&#x27;:
+    case &apos;hour&apos;:
         this.minutes(0);
         /* falls through */
-    case &#x27;minute&#x27;:
+    case &apos;minute&apos;:
         this.seconds(0);
         /* falls through */
-    case &#x27;second&#x27;:
+    case &apos;second&apos;:
         this.<span class="apidocCodeKeywordSpan">milliseconds</span>(0);
 }
 
 // weeks are a special case
-if (units === &#x27;week&#x27;) {
+if (units === &apos;week&apos;) {
     this.weekday(0);
 }
-if (units === &#x27;isoWeek&#x27;) {
+if (units === &apos;isoWeek&apos;) {
 ...</pre></li>
     </ul>
 
@@ -3379,16 +2691,16 @@ if (units === &#x27;isoWeek&#x27;) {
     <li>example usage<pre class="apidocCodePre">...
 }
 
-addFormatToken(&#x27;H&#x27;, [&#x27;HH&#x27;, 2], 0, &#x27;hour&#x27;);
-addFormatToken(&#x27;h&#x27;, [&#x27;hh&#x27;, 2], 0, hFormat);
-addFormatToken(&#x27;k&#x27;, [&#x27;kk&#x27;, 2], 0, kFormat);
+addFormatToken(&apos;H&apos;, [&apos;HH&apos;, 2], 0, &apos;hour&apos;);
+addFormatToken(&apos;h&apos;, [&apos;hh&apos;, 2], 0, hFormat);
+addFormatToken(&apos;k&apos;, [&apos;kk&apos;, 2], 0, kFormat);
 
-addFormatToken(&#x27;hmm&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.<span class="apidocCodeKeywordSpan">minutes</span>(), 2);
+addFormatToken(&apos;hmm&apos;, 0, 0, function () {
+    return &apos;&apos; + hFormat.apply(this) + zeroFill(this.<span class="apidocCodeKeywordSpan">minutes</span>(), 2);
 });
 
-addFormatToken(&#x27;hmmss&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
+addFormatToken(&apos;hmmss&apos;, 0, 0, function () {
+    return &apos;&apos; + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
         zeroFill(this.seconds(), 2);
 });
 ...</pre></li>
@@ -3409,17 +2721,17 @@ addFormatToken(&#x27;hmmss&#x27;, 0, 0, function () {
     <li>example usage<pre class="apidocCodePre">...
 });
 
-addFormatToken(&#x27;MMM&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;MMM&apos;, 0, 0, function (format) {
     return this.localeData().monthsShort(this, format);
 });
 
-addFormatToken(&#x27;MMMM&#x27;, 0, 0, function (format) {
+addFormatToken(&apos;MMMM&apos;, 0, 0, function (format) {
     return this.localeData().<span class="apidocCodeKeywordSpan">months</span>(this, format);
 });
 
 // ALIASES
 
-addUnitAlias(&#x27;month&#x27;, &#x27;M&#x27;);
+addUnitAlias(&apos;month&apos;, &apos;M&apos;);
 
 // PRIORITY
 ...</pre></li>
@@ -3439,20 +2751,20 @@ addUnitAlias(&#x27;month&#x27;, &#x27;M&#x27;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
-addFormatToken(&#x27;hmm&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.minutes(), 2);
+addFormatToken(&apos;hmm&apos;, 0, 0, function () {
+    return &apos;&apos; + hFormat.apply(this) + zeroFill(this.minutes(), 2);
 });
 
-addFormatToken(&#x27;hmmss&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
+addFormatToken(&apos;hmmss&apos;, 0, 0, function () {
+    return &apos;&apos; + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
         zeroFill(this.<span class="apidocCodeKeywordSpan">seconds</span>(), 2);
 });
 
-addFormatToken(&#x27;Hmm&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + this.hours() + zeroFill(this.minutes(), 2);
+addFormatToken(&apos;Hmm&apos;, 0, 0, function () {
+    return &apos;&apos; + this.hours() + zeroFill(this.minutes(), 2);
 });
 
-addFormatToken(&#x27;Hmmss&#x27;, 0, 0, function () {
+addFormatToken(&apos;Hmmss&apos;, 0, 0, function () {
 ...</pre></li>
     </ul>
 
@@ -3471,19 +2783,19 @@ addFormatToken(&#x27;Hmmss&#x27;, 0, 0, function () {
     <li>example usage<pre class="apidocCodePre">...
 
 function setOffsetToLocal (keepLocalTime) {
-if (this._isUTC) {
-    this.utcOffset(0, keepLocalTime);
-    this._isUTC = false;
+    if (this._isUTC) {
+        this.utcOffset(0, keepLocalTime);
+        this._isUTC = false;
 
-    if (keepLocalTime) {
-        this.<span class="apidocCodeKeywordSpan">subtract</span>(getDateOffset(this), &#x27;m&#x27;);
+        if (keepLocalTime) {
+            this.<span class="apidocCodeKeywordSpan">subtract</span>(getDateOffset(this), &apos;m&apos;);
+        }
     }
-}
-return this;
+    return this;
 }
 
 function setOffsetToParsedOffset () {
-if (this._tzm != null) {
+    if (this._tzm != null) {
 ...</pre></li>
     </ul>
 
@@ -3513,13 +2825,13 @@ if (this._tzm != null) {
     var months       = abs$1(this._months);
     var minutes, hours, years;
 
-    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    // 3600 seconds -&gt; 60 minutes -&gt; 1 hour
     minutes           = absFloor(seconds / 60);
     hours             = absFloor(minutes / 60);
     seconds %= 60;
     minutes %= 60;
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years  = absFloor(months / 12);
     months %= 12;
 
@@ -3530,41 +2842,45 @@ if (this._tzm != null) {
     var D = days;
     var h = hours;
     var m = minutes;
-    var s = seconds;
+    var s = seconds ? seconds.toFixed(3).replace(/\.?0+$/, &apos;&apos;) : &apos;&apos;;
     var total = this.asSeconds();
 
     if (!total) {
-        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // this is the same as C#&apos;s (Noda) and python (isodate)...
         // but not other JS (goog.date)
-        return &#x27;P0D&#x27;;
+        return &apos;P0D&apos;;
     }
 
-    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
-        &#x27;P&#x27; +
-        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
-        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
-        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
-        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
-        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
-        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
-        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+    var totalSign = total &lt; 0 ? &apos;-&apos; : &apos;&apos;;
+    var ymSign = sign(this._months) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+    var daysSign = sign(this._days) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+    var hmsSign = sign(this._milliseconds) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+
+    return totalSign + &apos;P&apos; +
+        (Y ? ymSign + Y + &apos;Y&apos; : &apos;&apos;) +
+        (M ? ymSign + M + &apos;M&apos; : &apos;&apos;) +
+        (D ? daysSign + D + &apos;D&apos; : &apos;&apos;) +
+        ((h || m || s) ? &apos;T&apos; : &apos;&apos;) +
+        (h ? hmsSign + h + &apos;H&apos; : &apos;&apos;) +
+        (m ? hmsSign + m + &apos;M&apos; : &apos;&apos;) +
+        (s ? hmsSign + s + &apos;S&apos; : &apos;&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-   }
-   var m = this.clone().utc();
-   if (m.year() &#x3c; 0 || m.year() &#x3e; 9999) {
-       return formatMoment(m, &#x27;YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-   }
-   if (isFunction(Date.prototype.toISOString)) {
-       // native implementation is ~50x faster, use it when we can
-       return this.toDate().<span class="apidocCodeKeywordSpan">toISOString</span>();
-   }
-   return formatMoment(m, &#x27;YYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
+    var m = utc ? this.clone().utc() : this;
+    if (m.year() &lt; 0 || m.year() &gt; 9999) {
+        return formatMoment(m, utc ? &apos;YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]&apos; : &apos;YYYYYY-MM-DD[T]HH:mm:ss.SSSZ&apos;);
+    }
+    if (isFunction(Date.prototype.toISOString)) {
+        // native implementation is ~50x faster, use it when we can
+        if (utc) {
+            return this.toDate().<span class="apidocCodeKeywordSpan">toISOString</span>();
+        } else {
+            return new Date(this.valueOf() + this.utcOffset() * 60 * 1000).toISOString().replace(&apos;Z&apos;, formatMoment(m, &
+apos;Z&apos;));
+        }
+    }
+    return formatMoment(m, utc ? &apos;YYYY-MM-DD[T]HH:mm:ss.SSS[Z]&apos; : &apos;YYYY-MM-DD[T]HH:mm:ss.SSSZ&apos;);
 }
-
-/**
-* Return a human readable representation of a moment that can
-* also be evaluated to get a new moment which is the same
 ...</pre></li>
     </ul>
 
@@ -3584,12 +2900,12 @@ if (this._tzm != null) {
     if (firstTime) {
         var args = [];
         var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
+        for (var i = 0; i &lt; arguments.length; i++) {
+            arg = &apos;&apos;;
+            if (typeof arguments[i] === &apos;object&apos;) {
+                arg += &apos;\n[&apos; + i + &apos;] &apos;;
                 for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
+                    arg += key + &apos;: &apos; + arguments[0][key] + &apos;, &apos;;
                 }
                 arg = arg.slice(0, -2); // Remove trailing comma and space
             } else {
@@ -3597,7 +2913,7 @@ if (this._tzm != null) {
             }
             args.push(arg);
         }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
+        warn(msg + &apos;\nArguments: &apos; + Array.prototype.slice.call(args).join(&apos;&apos;) + &apos;\n&apos; + (new Error()).stack);
         firstTime = false;
     }
     return fn.apply(this, arguments);
@@ -3631,13 +2947,13 @@ if (this._tzm != null) {
     var months       = abs$1(this._months);
     var minutes, hours, years;
 
-    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    // 3600 seconds -&gt; 60 minutes -&gt; 1 hour
     minutes           = absFloor(seconds / 60);
     hours             = absFloor(minutes / 60);
     seconds %= 60;
     minutes %= 60;
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years  = absFloor(months / 12);
     months %= 12;
 
@@ -3648,24 +2964,28 @@ if (this._tzm != null) {
     var D = days;
     var h = hours;
     var m = minutes;
-    var s = seconds;
+    var s = seconds ? seconds.toFixed(3).replace(/\.?0+$/, &apos;&apos;) : &apos;&apos;;
     var total = this.asSeconds();
 
     if (!total) {
-        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // this is the same as C#&apos;s (Noda) and python (isodate)...
         // but not other JS (goog.date)
-        return &#x27;P0D&#x27;;
+        return &apos;P0D&apos;;
     }
 
-    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
-        &#x27;P&#x27; +
-        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
-        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
-        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
-        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
-        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
-        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
-        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+    var totalSign = total &lt; 0 ? &apos;-&apos; : &apos;&apos;;
+    var ymSign = sign(this._months) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+    var daysSign = sign(this._days) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+    var hmsSign = sign(this._milliseconds) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+
+    return totalSign + &apos;P&apos; +
+        (Y ? ymSign + Y + &apos;Y&apos; : &apos;&apos;) +
+        (M ? ymSign + M + &apos;M&apos; : &apos;&apos;) +
+        (D ? daysSign + D + &apos;D&apos; : &apos;&apos;) +
+        ((h || m || s) ? &apos;T&apos; : &apos;&apos;) +
+        (h ? hmsSign + h + &apos;H&apos; : &apos;&apos;) +
+        (m ? hmsSign + m + &apos;M&apos; : &apos;&apos;) +
+        (s ? hmsSign + s + &apos;S&apos; : &apos;&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
         minutes: m.minutes(),
@@ -3711,13 +3031,13 @@ function isValid$2 () {
     var months       = abs$1(this._months);
     var minutes, hours, years;
 
-    // 3600 seconds -&#x3e; 60 minutes -&#x3e; 1 hour
+    // 3600 seconds -&gt; 60 minutes -&gt; 1 hour
     minutes           = absFloor(seconds / 60);
     hours             = absFloor(minutes / 60);
     seconds %= 60;
     minutes %= 60;
 
-    // 12 months -&#x3e; 1 year
+    // 12 months -&gt; 1 year
     years  = absFloor(months / 12);
     months %= 12;
 
@@ -3728,33 +3048,37 @@ function isValid$2 () {
     var D = days;
     var h = hours;
     var m = minutes;
-    var s = seconds;
+    var s = seconds ? seconds.toFixed(3).replace(/\.?0+$/, &apos;&apos;) : &apos;&apos;;
     var total = this.asSeconds();
 
     if (!total) {
-        // this is the same as C#&#x27;s (Noda) and python (isodate)...
+        // this is the same as C#&apos;s (Noda) and python (isodate)...
         // but not other JS (goog.date)
-        return &#x27;P0D&#x27;;
+        return &apos;P0D&apos;;
     }
 
-    return (total &#x3c; 0 ? &#x27;-&#x27; : &#x27;&#x27;) +
-        &#x27;P&#x27; +
-        (Y ? Y + &#x27;Y&#x27; : &#x27;&#x27;) +
-        (M ? M + &#x27;M&#x27; : &#x27;&#x27;) +
-        (D ? D + &#x27;D&#x27; : &#x27;&#x27;) +
-        ((h || m || s) ? &#x27;T&#x27; : &#x27;&#x27;) +
-        (h ? h + &#x27;H&#x27; : &#x27;&#x27;) +
-        (m ? m + &#x27;M&#x27; : &#x27;&#x27;) +
-        (s ? s + &#x27;S&#x27; : &#x27;&#x27;);
+    var totalSign = total &lt; 0 ? &apos;-&apos; : &apos;&apos;;
+    var ymSign = sign(this._months) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+    var daysSign = sign(this._days) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+    var hmsSign = sign(this._milliseconds) !== sign(total) ? &apos;-&apos; : &apos;&apos;;
+
+    return totalSign + &apos;P&apos; +
+        (Y ? ymSign + Y + &apos;Y&apos; : &apos;&apos;) +
+        (M ? ymSign + M + &apos;M&apos; : &apos;&apos;) +
+        (D ? daysSign + D + &apos;D&apos; : &apos;&apos;) +
+        ((h || m || s) ? &apos;T&apos; : &apos;&apos;) +
+        (h ? hmsSign + h + &apos;H&apos; : &apos;&apos;) +
+        (m ? hmsSign + m + &apos;M&apos; : &apos;&apos;) +
+        (s ? hmsSign + s + &apos;S&apos; : &apos;&apos;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 }
 
 function zeroFill(number, targetLength, forceSign) {
-    var absNumber = &#x27;&#x27; + Math.abs(number),
+    var absNumber = &apos;&apos; + Math.abs(number),
         zerosToFill = targetLength - absNumber.length,
-        sign = number &#x3e;= 0;
-    return (sign ? (forceSign ? &#x27;+&#x27; : &#x27;&#x27;) : &#x27;-&#x27;) +
+        sign = number &gt;= 0;
+    return (sign ? (forceSign ? &apos;+&apos; : &apos;&apos;) : &apos;-&apos;) +
         Math.pow(10, Math.max(0, zerosToFill)).<span class="apidocCodeKeywordSpan">toString</span>().substr(1) + absNumber;
 }
 
@@ -3796,7 +3120,7 @@ safe issue on server side.
 /3020))
 * [#2995](https://github.com/moment/moment/pull/2995) Fix floating point rounding errors in durations
 * [#3059](https://github.com/moment/moment/pull/3059) fix bug where diff returns -0 in month-related diffs
-* [#3045](https://github.com/moment/moment/pull/3045) Fix mistaking any input for &#x27;a&#x27; token
+* [#3045](https://github.com/moment/moment/pull/3045) Fix mistaking any input for &apos;a&apos; token
 * [#2877](https://github.com/moment/moment/pull/2877) Use explicit .<span class="apidocCodeKeywordSpan">valueOf</span>() calls instead
  of coercion
 * [#3036](https://github.com/moment/moment/pull/3036) Year setter should keep time when DST changes
@@ -3835,2709 +3159,6 @@ Plus 3 new locales and locale fixes.
     <ul>
     <li>description and source-code<pre class="apidocCodePre">years = function () {
     return this.isValid() ? this._data[name] : NaN;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.moment.fn" id="apidoc.module.moment.fn">module moment.fn</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.add" id="apidoc.element.moment.fn.add">
-        function <span class="apidocSignatureSpan">moment.fn.</span>add
-        <span class="apidocSignatureSpan">(val, period)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">add = function (val, period) {
-    var dur, tmp;
-    //invert the arguments, but complain about it
-    if (period !== null &#x26;&#x26; !isNaN(+period)) {
-        deprecateSimple(name, &#x27;moment().&#x27; + name  + &#x27;(period, number) is deprecated. Please use moment().&#x27; + name + &#x27;(number, period
-). &#x27; +
-        &#x27;See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info.&#x27;);
-        tmp = val; val = period; period = tmp;
-    }
-
-    val = typeof val === &#x27;string&#x27; ? +val : val;
-    dur = createDuration(val, period);
-    addSubtract(this, dur, direction);
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-### 1.0.0
-
-- Release
-
-Added convenience methods for getting and setting date parts.
-
-Added better support for `moment.<span class="apidocCodeKeywordSpan">add</span>()`.
-
-Added better lang support in NodeJS.
-
-Renamed library from underscore.date to Moment.js
-
-### 0.6.1
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.calendar" id="apidoc.element.moment.fn.calendar">
-        function <span class="apidocSignatureSpan">moment.fn.</span>calendar
-        <span class="apidocSignatureSpan">(time, formats)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function calendar$1(time, formats) {
-    // We want to compare the start of today, vs this.
-    // Getting start-of-today depends on whether we&#x27;re local/utc/offset or not.
-    var now = time || createLocal(),
-        sod = cloneWithOffset(now, this).startOf(&#x27;day&#x27;),
-        format = hooks.calendarFormat(this, sod) || &#x27;sameElse&#x27;;
-
-    var output = formats &#x26;&#x26; (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
-
-    return this.format(output || this.localeData().calendar(format, this, createLocal(now)));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    // Getting start-of-today depends on whether we&#x27;re local/utc/offset or not.
-    var now = time || createLocal(),
-        sod = cloneWithOffset(now, this).startOf(&#x27;day&#x27;),
-        format = hooks.calendarFormat(this, sod) || &#x27;sameElse&#x27;;
-
-    var output = formats &#x26;&#x26; (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
-
-    return this.format(output || this.localeData().<span class="apidocCodeKeywordSpan">calendar</span>(format, this, createLocal
-(now)));
-}
-
-function clone () {
-    return new Moment(this);
-}
-
-function isAfter (input, units) {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.clone" id="apidoc.element.moment.fn.clone">
-        function <span class="apidocSignatureSpan">moment.fn.</span>clone
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function clone() {
-    return new Moment(this);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  parts[0] === &#x27;+&#x27; ? minutes : -minutes;
-}
-
-// Return a moment from input, that is local/utc/zone equivalent to model.
-function cloneWithOffset(input, model) {
-var res, diff;
-if (model._isUTC) {
-    res = model.<span class="apidocCodeKeywordSpan">clone</span>();
-    diff = (isMoment(input) || isDate(input) ? input.valueOf() : createLocal(input).valueOf()) - res.valueOf();
-    // Use low-level api, because this fn is low-level api.
-    res._d.setTime(res._d.valueOf() + diff);
-    hooks.updateOffset(res, false);
-    return res;
-} else {
-    return createLocal(input).local();
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.creationData" id="apidoc.element.moment.fn.creationData">
-        function <span class="apidocSignatureSpan">moment.fn.</span>creationData
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function creationData() {
-    return {
-        input: this._i,
-        format: this._f,
-        locale: this._locale,
-        isUTC: this._isUTC,
-        strict: this._strict
-    };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.date" id="apidoc.element.moment.fn.date">
-        function <span class="apidocSignatureSpan">moment.fn.</span>date
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">date = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-Bugfix for [issue 5](https://github.com/timrwood/underscore.date/pull/5).
-
-### 0.5.0
-
-- Release Jun 13, 2011
-
-Dropped the redundant `_date.<span class="apidocCodeKeywordSpan">date</span>()` in favor of `_date()`.
-Removed `_date.now()`, as it is a duplicate of `_date()` with no parameters.
-Removed `_date.isLeapYear(yearNumber)`. Use `_date([yearNumber]).isLeapYear()` instead.
-Exposed customization options through the `_date.relativeTime`, `_date.weekdays`, `_date.weekdaysShort`, `_date.months`, `_date.
-monthsShort`, and `_date.ordinal` variables instead of the `_date.customize()` function.
-
-### 0.4.1
-
-- Release May 9, 2011
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.dates" id="apidoc.element.moment.fn.dates">
-        function <span class="apidocSignatureSpan">moment.fn.</span>dates
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">dates = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.day" id="apidoc.element.moment.fn.day">
-        function <span class="apidocSignatureSpan">moment.fn.</span>day
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetDayOfWeek(input) {
-    if (!this.isValid()) {
-        return input != null ? this : NaN;
-    }
-    var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
-    if (input != null) {
-        input = parseWeekday(input, this.localeData());
-        return this.add(input - day, &#x27;d&#x27;);
-    } else {
-        return day;
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-var defaultLocaleWeekdays = &#x27;Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday&#x27;.split(&#x27;_&#x27;);
-function localeWeekdays (m, format) {
-    if (!m) {
-        return isArray(this._weekdays) ? this._weekdays :
-            this._weekdays[&#x27;standalone&#x27;];
-    }
-    return isArray(this._weekdays) ? this._weekdays[m.<span class="apidocCodeKeywordSpan">day</span>()] :
-        this._weekdays[this._weekdays.isFormat.test(format) ? &#x27;format&#x27; : &#x27;standalone&#x27;][m.day()];
-}
-
-var defaultLocaleWeekdaysShort = &#x27;Sun_Mon_Tue_Wed_Thu_Fri_Sat&#x27;.split(&#x27;_&#x27;);
-function localeWeekdaysShort (m) {
-    return (m) ? this._weekdaysShort[m.day()] : this._weekdaysShort;
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.dayOfYear" id="apidoc.element.moment.fn.dayOfYear">
-        function <span class="apidocSignatureSpan">moment.fn.</span>dayOfYear
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetDayOfYear(input) {
-    var dayOfYear = Math.round((this.clone().startOf(&#x27;day&#x27;) - this.clone().startOf(&#x27;year&#x27;)) / 864e5) + 1;
-    return input == null ? dayOfYear : this.add((input - dayOfYear), &#x27;d&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    year: resYear,
-    dayOfYear: resDayOfYear
-};
-}
-
-function weekOfYear(mom, dow, doy) {
-var weekOffset = firstWeekOffset(mom.year(), dow, doy),
-    week = Math.floor((mom.<span class="apidocCodeKeywordSpan">dayOfYear</span>() - weekOffset - 1) / 7) + 1,
-    resWeek, resYear;
-
-if (week &#x3c; 1) {
-    resYear = mom.year() - 1;
-    resWeek = week + weeksInYear(resYear, dow, doy);
-} else if (week &#x3e; weeksInYear(mom.year(), dow, doy)) {
-    resWeek = week - weeksInYear(mom.year(), dow, doy);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.days" id="apidoc.element.moment.fn.days">
-        function <span class="apidocSignatureSpan">moment.fn.</span>days
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetDayOfWeek(input) {
-    if (!this.isValid()) {
-        return input != null ? this : NaN;
-    }
-    var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
-    if (input != null) {
-        input = parseWeekday(input, this.localeData());
-        return this.add(input - day, &#x27;d&#x27;);
-    } else {
-        return day;
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-var minutes      = makeGetter(&#x27;minutes&#x27;);
-var hours        = makeGetter(&#x27;hours&#x27;);
-var days         = makeGetter(&#x27;days&#x27;);
-var months       = makeGetter(&#x27;months&#x27;);
-var years        = makeGetter(&#x27;years&#x27;);
-
-function weeks () {
-return absFloor(this.<span class="apidocCodeKeywordSpan">days</span>() / 7);
-}
-
-var round = Math.round;
-var thresholds = {
-ss: 44,         // a few seconds to seconds
-s : 45,         // seconds to minute
-m : 45,         // minutes to hour
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.daysInMonth" id="apidoc.element.moment.fn.daysInMonth">
-        function <span class="apidocSignatureSpan">moment.fn.</span>daysInMonth
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getDaysInMonth() {
-    return daysInMonth(this.year(), this.month());
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.diff" id="apidoc.element.moment.fn.diff">
-        function <span class="apidocSignatureSpan">moment.fn.</span>diff
-        <span class="apidocSignatureSpan">(input, units, asFloat)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function diff(input, units, asFloat) {
-    var that,
-        zoneDelta,
-        delta, output;
-
-    if (!this.isValid()) {
-        return NaN;
-    }
-
-    that = cloneWithOffset(input, this);
-
-    if (!that.isValid()) {
-        return NaN;
-    }
-
-    zoneDelta = (that.utcOffset() - this.utcOffset()) * 6e4;
-
-    units = normalizeUnits(units);
-
-    if (units === &#x27;year&#x27; || units === &#x27;month&#x27; || units === &#x27;quarter&#x27;) {
-        output = monthDiff(this, that);
-        if (units === &#x27;quarter&#x27;) {
-            output = output / 3;
-        } else if (units === &#x27;year&#x27;) {
-            output = output / 12;
-        }
-    } else {
-        delta = this - that;
-        output = units === &#x27;second&#x27; ? delta / 1e3 : // 1000
-            units === &#x27;minute&#x27; ? delta / 6e4 : // 1000 * 60
-            units === &#x27;hour&#x27; ? delta / 36e5 : // 1000 * 60 * 60
-            units === &#x27;day&#x27; ? (delta - zoneDelta) / 864e5 : // 1000 * 60 * 60 * 24, negate dst
-            units === &#x27;week&#x27; ? (delta - zoneDelta) / 6048e5 : // 1000 * 60 * 60 * 24 * 7, negate dst
-            delta;
-    }
-    return asFloat ? output : absFloor(output);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    }
-}
-
-var add      = createAdder(1, &#x27;add&#x27;);
-var subtract = createAdder(-1, &#x27;subtract&#x27;);
-
-function getCalendarFormat(myMoment, now) {
-    var diff = myMoment.<span class="apidocCodeKeywordSpan">diff</span>(now, &#x27;days&#x27;, true);
-    return diff &#x3c; -6 ? &#x27;sameElse&#x27; :
-            diff &#x3c; -1 ? &#x27;lastWeek&#x27; :
-            diff &#x3c; 0 ? &#x27;lastDay&#x27; :
-            diff &#x3c; 1 ? &#x27;sameDay&#x27; :
-            diff &#x3c; 2 ? &#x27;nextDay&#x27; :
-            diff &#x3c; 7 ? &#x27;nextWeek&#x27; : &#x27;sameElse&#x27;;
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.endOf" id="apidoc.element.moment.fn.endOf">
-        function <span class="apidocSignatureSpan">moment.fn.</span>endOf
-        <span class="apidocSignatureSpan">(units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function endOf(units) {
-    units = normalizeUnits(units);
-    if (units === undefined || units === &#x27;millisecond&#x27;) {
-        return this;
-    }
-
-    // &#x27;date&#x27; is an alias for &#x27;day&#x27;, so it should be considered as such.
-    if (units === &#x27;date&#x27;) {
-        units = &#x27;day&#x27;;
-    }
-
-    return this.startOf(units).add(1, (units === &#x27;isoWeek&#x27; ? &#x27;week&#x27; : units)).subtract(1, &#x27;ms&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-Bugfixes
-
-### 1.7.0 [See discussion](https://github.com/timrwood/moment/issues/288)
-
-- Release Jul 26, 2012
-
-Added `moment.fn.<span class="apidocCodeKeywordSpan">endOf</span>()` and `moment.fn.startOf()`.
-
-Added validation via `moment.fn.isValid()`.
-
-Made formatting method 3x faster. http://jsperf.com/momentjs-cached-format-functions
-
-Add support for month/weekday callbacks in `moment.fn.format()`
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.format" id="apidoc.element.moment.fn.format">
-        function <span class="apidocSignatureSpan">moment.fn.</span>format
-        <span class="apidocSignatureSpan">(inputString)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function format(inputString) {
-    if (!inputString) {
-        inputString = this.isUtc() ? hooks.defaultFormatUtc : hooks.defaultFormat;
-    }
-    var output = formatMoment(this, inputString);
-    return this.localeData().postformat(output);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-Added `moment.fn.endOf()` and `moment.fn.startOf()`.
-
-Added validation via `moment.fn.isValid()`.
-
-Made formatting method 3x faster. http://jsperf.com/momentjs-cached-format-functions
-
-Add support for month/weekday callbacks in `moment.fn.<span class="apidocCodeKeywordSpan">format</span>()`
-
-Added instance specific languages.
-
-Added two letter weekday abbreviations with the formatting token `dd`.
-
-Various language updates.
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.from" id="apidoc.element.moment.fn.from">
-        function <span class="apidocSignatureSpan">moment.fn.</span>from
-        <span class="apidocSignatureSpan">(time, withoutSuffix)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function from(time, withoutSuffix) {
-    if (this.isValid() &#x26;&#x26;
-            ((isMoment(time) &#x26;&#x26; time.isValid()) ||
-             createLocal(time).isValid())) {
-        return createDuration({to: this, from: time}).locale(this.locale()).humanize(!withoutSuffix);
-    } else {
-        return this.localeData().invalidDate();
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    return createDuration({to: this, from: time}).locale(this.locale()).humanize(!withoutSuffix);
-} else {
-    return this.localeData().invalidDate();
-}
-}
-
-function fromNow (withoutSuffix) {
-return this.<span class="apidocCodeKeywordSpan">from</span>(createLocal(), withoutSuffix);
-}
-
-function to (time, withoutSuffix) {
-if (this.isValid() &#x26;&#x26;
-        ((isMoment(time) &#x26;&#x26; time.isValid()) ||
-         createLocal(time).isValid())) {
-    return createDuration({from: this, to: time}).locale(this.locale()).humanize(!withoutSuffix);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.fromNow" id="apidoc.element.moment.fn.fromNow">
-        function <span class="apidocSignatureSpan">moment.fn.</span>fromNow
-        <span class="apidocSignatureSpan">(withoutSuffix)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function fromNow(withoutSuffix) {
-    return this.from(createLocal(), withoutSuffix);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.get" id="apidoc.element.moment.fn.get">
-        function <span class="apidocSignatureSpan">moment.fn.</span>get
-        <span class="apidocSignatureSpan">(units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function stringGet(units) {
-    units = normalizeUnits(units);
-    if (isFunction(this[units])) {
-        return this[units]();
-    }
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.hasAlignedHourOffset" id="apidoc.element.moment.fn.hasAlignedHourOffset">
-        function <span class="apidocSignatureSpan">moment.fn.</span>hasAlignedHourOffset
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function hasAlignedHourOffset(input) {
-    if (!this.isValid()) {
-        return false;
-    }
-    input = input ? createLocal(input).utcOffset() : 0;
-
-    return (this.utcOffset() - input) % 60 === 0;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.hour" id="apidoc.element.moment.fn.hour">
-        function <span class="apidocSignatureSpan">moment.fn.</span>hour
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">hour = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-function toDate () {
-return new Date(this.valueOf());
-}
-
-function toArray () {
-var m = this;
-return [m.year(), m.month(), m.date(), m.<span class="apidocCodeKeywordSpan">hour</span>(), m.minute(), m.second(), m.millisecond
-()];
-}
-
-function toObject () {
-var m = this;
-return {
-    years: m.year(),
-    months: m.month(),
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.hours" id="apidoc.element.moment.fn.hours">
-        function <span class="apidocSignatureSpan">moment.fn.</span>hours
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">hours = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    this._weekdaysShortStrictRegex = new RegExp(&#x27;^(&#x27; + shortPieces.join(&#x27;|&#x27;) + &#x27;)&#x27;, &#x27;i&#x27;);
-    this._weekdaysMinStrictRegex = new RegExp(&#x27;^(&#x27; + minPieces.join(&#x27;|&#x27;) + &#x27;)&#x27;, &#x27;i&#x27;);
-}
-
-// FORMATTING
-
-function hFormat() {
-    return this.<span class="apidocCodeKeywordSpan">hours</span>() % 12 || 12;
-}
-
-function kFormat() {
-    return this.hours() || 24;
-}
-
-addFormatToken(&#x27;H&#x27;, [&#x27;HH&#x27;, 2], 0, &#x27;hour&#x27;);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.inspect" id="apidoc.element.moment.fn.inspect">
-        function <span class="apidocSignatureSpan">moment.fn.</span>inspect
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function inspect() {
-    if (!this.isValid()) {
-        return &#x27;moment.invalid(/* &#x27; + this._i + &#x27; */)&#x27;;
-    }
-    var func = &#x27;moment&#x27;;
-    var zone = &#x27;&#x27;;
-    if (!this.isLocal()) {
-        func = this.utcOffset() === 0 ? &#x27;moment.utc&#x27; : &#x27;moment.parseZone&#x27;;
-        zone = &#x27;Z&#x27;;
-    }
-    var prefix = &#x27;[&#x27; + func + &#x27;(&#x22;]&#x27;;
-    var year = (0 &#x3c;= this.year() &#x26;&#x26; this.year() &#x3c;= 9999) ? &#x27;YYYY&#x27; : &#x27;YYYYYY&#x27;;
-    var datetime = &#x27;-MM-DD[T]HH:mm:ss.SSS&#x27;;
-    var suffix = zone + &#x27;[&#x22;)]&#x27;;
-
-    return this.format(prefix + year + datetime + suffix);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.invalidAt" id="apidoc.element.moment.fn.invalidAt">
-        function <span class="apidocSignatureSpan">moment.fn.</span>invalidAt
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function invalidAt() {
-    return getParsingFlags(this).overflow;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isAfter" id="apidoc.element.moment.fn.isAfter">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isAfter
-        <span class="apidocSignatureSpan">(input, units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isAfter(input, units) {
-    var localInput = isMoment(input) ? input : createLocal(input);
-    if (!(this.isValid() &#x26;&#x26; localInput.isValid())) {
-        return false;
-    }
-    units = normalizeUnits(!isUndefined(units) ? units : &#x27;millisecond&#x27;);
-    if (units === &#x27;millisecond&#x27;) {
-        return this.valueOf() &#x3e; localInput.valueOf();
-    } else {
-        return localInput.valueOf() &#x3c; this.clone().startOf(units).valueOf();
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-function positiveMomentsDifference(base, other) {
-    var res = {milliseconds: 0, months: 0};
-
-    res.months = other.month() - base.month() +
-        (other.year() - base.year()) * 12;
-    if (base.clone().add(res.months, &#x27;M&#x27;).<span class="apidocCodeKeywordSpan">isAfter</span>(other)) {
-        --res.months;
-    }
-
-    res.milliseconds = +other - +(base.clone().add(res.months, &#x27;M&#x27;));
-
-    return res;
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isBefore" id="apidoc.element.moment.fn.isBefore">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isBefore
-        <span class="apidocSignatureSpan">(input, units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isBefore(input, units) {
-    var localInput = isMoment(input) ? input : createLocal(input);
-    if (!(this.isValid() &#x26;&#x26; localInput.isValid())) {
-        return false;
-    }
-    units = normalizeUnits(!isUndefined(units) ? units : &#x27;millisecond&#x27;);
-    if (units === &#x27;millisecond&#x27;) {
-        return this.valueOf() &#x3c; localInput.valueOf();
-    } else {
-        return this.clone().endOf(units).valueOf() &#x3c; localInput.valueOf();
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-function momentsDifference(base, other) {
-var res;
-if (!(base.isValid() &#x26;&#x26; other.isValid())) {
-    return {milliseconds: 0, months: 0};
-}
-
-other = cloneWithOffset(other, base);
-if (base.<span class="apidocCodeKeywordSpan">isBefore</span>(other)) {
-    res = positiveMomentsDifference(base, other);
-} else {
-    res = positiveMomentsDifference(other, base);
-    res.milliseconds = -res.milliseconds;
-    res.months = -res.months;
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isBetween" id="apidoc.element.moment.fn.isBetween">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isBetween
-        <span class="apidocSignatureSpan">(from, to, units, inclusivity)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isBetween(from, to, units, inclusivity) {
-    inclusivity = inclusivity || &#x27;()&#x27;;
-    return (inclusivity[0] === &#x27;(&#x27; ? this.isAfter(from, units) : !this.isBefore(from, units)) &#x26;&#x26;
-        (inclusivity[1] === &#x27;)&#x27; ? this.isBefore(to, units) : !this.isAfter(to, units));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isDST" id="apidoc.element.moment.fn.isDST">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isDST
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isDaylightSavingTime() {
-    return (
-        this.utcOffset() &#x3e; this.clone().month(0).utcOffset() ||
-        this.utcOffset() &#x3e; this.clone().month(5).utcOffset()
-    );
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isDSTShifted" id="apidoc.element.moment.fn.isDSTShifted">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isDSTShifted
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">isDSTShifted = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isLeapYear" id="apidoc.element.moment.fn.isLeapYear">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isLeapYear
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getIsLeapYear() {
-    return isLeapYear(this.year());
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-### 0.5.0
-
-- Release Jun 13, 2011
-
-Dropped the redundant `_date.date()` in favor of `_date()`.
-Removed `_date.now()`, as it is a duplicate of `_date()` with no parameters.
-Removed `_date.<span class="apidocCodeKeywordSpan">isLeapYear</span>(yearNumber)`. Use `_date([yearNumber]).isLeapYear()` instead
-.
-Exposed customization options through the `_date.relativeTime`, `_date.weekdays`, `_date.weekdaysShort`, `_date.months`, `_date.
-monthsShort`, and `_date.ordinal` variables instead of the `_date.customize()` function.
-
-### 0.4.1
-
-- Release May 9, 2011
-
-Added date input formats for input strings.
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isLocal" id="apidoc.element.moment.fn.isLocal">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isLocal
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isLocal() {
-    return this.isValid() ? !this._isUTC : false;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
- */
-function inspect () {
-if (!this.isValid()) {
-    return &#x27;moment.invalid(/* &#x27; + this._i + &#x27; */)&#x27;;
-}
-var func = &#x27;moment&#x27;;
-var zone = &#x27;&#x27;;
-if (!this.<span class="apidocCodeKeywordSpan">isLocal</span>()) {
-    func = this.utcOffset() === 0 ? &#x27;moment.utc&#x27; : &#x27;moment.parseZone&#x27;;
-    zone = &#x27;Z&#x27;;
-}
-var prefix = &#x27;[&#x27; + func + &#x27;(&#x22;]&#x27;;
-var year = (0 &#x3c;= this.year() &#x26;&#x26; this.year() &#x3c;= 9999) ? &#x27;YYYY&#x27; : &#x27;YYYYYY&#x27;;
-var datetime = &#x27;-MM-DD[T]HH:mm:ss.SSS&#x27;;
-var suffix = zone + &#x27;[&#x22;)]&#x27;;
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isSame" id="apidoc.element.moment.fn.isSame">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isSame
-        <span class="apidocSignatureSpan">(input, units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isSame(input, units) {
-    var localInput = isMoment(input) ? input : createLocal(input),
-        inputMs;
-    if (!(this.isValid() &#x26;&#x26; localInput.isValid())) {
-        return false;
-    }
-    units = normalizeUnits(units || &#x27;millisecond&#x27;);
-    if (units === &#x27;millisecond&#x27;) {
-        return this.valueOf() === localInput.valueOf();
-    } else {
-        inputMs = localInput.valueOf();
-        return this.clone().startOf(units).valueOf() &#x3c;= inputMs &#x26;&#x26; inputMs &#x3c;= this.clone().endOf(units).valueOf();
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    } else {
-        inputMs = localInput.valueOf();
-        return this.clone().startOf(units).valueOf() &#x3c;= inputMs &#x26;&#x26; inputMs &#x3c;= this.clone().endOf(units).valueOf
-();
-    }
-}
-
-function isSameOrAfter (input, units) {
-    return this.<span class="apidocCodeKeywordSpan">isSame</span>(input, units) || this.isAfter(input,units);
-}
-
-function isSameOrBefore (input, units) {
-    return this.isSame(input, units) || this.isBefore(input,units);
-}
-
-function diff (input, units, asFloat) {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isSameOrAfter" id="apidoc.element.moment.fn.isSameOrAfter">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isSameOrAfter
-        <span class="apidocSignatureSpan">(input, units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isSameOrAfter(input, units) {
-    return this.isSame(input, units) || this.isAfter(input,units);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isSameOrBefore" id="apidoc.element.moment.fn.isSameOrBefore">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isSameOrBefore
-        <span class="apidocSignatureSpan">(input, units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isSameOrBefore(input, units) {
-    return this.isSame(input, units) || this.isBefore(input,units);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isUTC" id="apidoc.element.moment.fn.isUTC">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isUTC
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isUtc() {
-    return this.isValid() ? this._isUTC &#x26;&#x26; this._offset === 0 : false;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isUtc" id="apidoc.element.moment.fn.isUtc">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isUtc
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isUtc() {
-    return this.isValid() ? this._isUTC &#x26;&#x26; this._offset === 0 : false;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-var suffix = zone + &#x27;[&#x22;)]&#x27;;
-
-return this.format(prefix + year + datetime + suffix);
-}
-
-function format (inputString) {
-if (!inputString) {
-    inputString = this.<span class="apidocCodeKeywordSpan">isUtc</span>() ? hooks.defaultFormatUtc : hooks.defaultFormat;
-}
-var output = formatMoment(this, inputString);
-return this.localeData().postformat(output);
-}
-
-function from (time, withoutSuffix) {
-if (this.isValid() &#x26;&#x26;
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isUtcOffset" id="apidoc.element.moment.fn.isUtcOffset">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isUtcOffset
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isUtcOffset() {
-    return this.isValid() ? this._isUTC : false;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isValid" id="apidoc.element.moment.fn.isValid">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isValid
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function isValid$2() {
-    return isValid(this);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-### 1.7.0 [See discussion](https://github.com/timrwood/moment/issues/288)
-
-- Release Jul 26, 2012
-
-Added `moment.fn.endOf()` and `moment.fn.startOf()`.
-
-Added validation via `moment.fn.<span class="apidocCodeKeywordSpan">isValid</span>()`.
-
-Made formatting method 3x faster. http://jsperf.com/momentjs-cached-format-functions
-
-Add support for month/weekday callbacks in `moment.fn.format()`
-
-Added instance specific languages.
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isoWeek" id="apidoc.element.moment.fn.isoWeek">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isoWeek
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetISOWeek(input) {
-    var week = weekOfYear(this, 1, 4).week;
-    return input == null ? week : this.add((input - week) * 7, &#x27;d&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-            this.weekday(),
-            this.localeData()._week.dow,
-            this.localeData()._week.doy);
-}
-
-function getSetISOWeekYear (input) {
-    return getSetWeekYearHelper.call(this,
-            input, this.<span class="apidocCodeKeywordSpan">isoWeek</span>(), this.isoWeekday(), 1, 4);
-}
-
-function getISOWeeksInYear () {
-    return weeksInYear(this.year(), 1, 4);
-}
-
-function getWeeksInYear () {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isoWeekYear" id="apidoc.element.moment.fn.isoWeekYear">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isoWeekYear
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetISOWeekYear(input) {
-    return getSetWeekYearHelper.call(this,
-            input, this.isoWeek(), this.isoWeekday(), 1, 4);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-// FORMATTING
-
-addFormatToken(0, [&#x27;gg&#x27;, 2], 0, function () {
-    return this.weekYear() % 100;
-});
-
-addFormatToken(0, [&#x27;GG&#x27;, 2], 0, function () {
-    return this.<span class="apidocCodeKeywordSpan">isoWeekYear</span>() % 100;
-});
-
-function addWeekYearFormatToken (token, getter) {
-    addFormatToken(0, [token, token.length], 0, getter);
-}
-
-addWeekYearFormatToken(&#x27;gggg&#x27;,     &#x27;weekYear&#x27;);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isoWeekday" id="apidoc.element.moment.fn.isoWeekday">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isoWeekday
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetISODayOfWeek(input) {
-    if (!this.isValid()) {
-        return input != null ? this : NaN;
-    }
-
-    // behaves the same as moment#day except
-    // as a getter, returns 7 instead of 0 (1-7 range instead of 0-6)
-    // as a setter, sunday should belong to the previous week.
-
-    if (input != null) {
-        var weekday = parseIsoWeekday(input, this.localeData());
-        return this.day(this.day() % 7 ? weekday : weekday - 7);
-    } else {
-        return this.day() || 7;
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-// weeks are a special case
-if (units === &#x27;week&#x27;) {
-    this.weekday(0);
-}
-if (units === &#x27;isoWeek&#x27;) {
-    this.<span class="apidocCodeKeywordSpan">isoWeekday</span>(1);
-}
-
-// quarters are also special
-if (units === &#x27;quarter&#x27;) {
-    this.month(Math.floor(this.month() / 3) * 3);
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isoWeeks" id="apidoc.element.moment.fn.isoWeeks">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isoWeeks
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetISOWeek(input) {
-    var week = weekOfYear(this, 1, 4).week;
-    return input == null ? week : this.add((input - week) * 7, &#x27;d&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.isoWeeksInYear" id="apidoc.element.moment.fn.isoWeeksInYear">
-        function <span class="apidocSignatureSpan">moment.fn.</span>isoWeeksInYear
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getISOWeeksInYear() {
-    return weeksInYear(this.year(), 1, 4);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.lang" id="apidoc.element.moment.fn.lang">
-        function <span class="apidocSignatureSpan">moment.fn.</span>lang
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">lang = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-* [#1804](https://github.com/moment/moment/issues/1804) spanish del -&#x3e; de
-* [#1800](https://github.com/moment/moment/issues/1800) korean LT improvement
-
-### 2.8.1
-
-- Release August 1, 2014
-
-* bugfix [#1813](https://github.com/moment/moment/issues/1813): fix moment().<span class="apidocCodeKeywordSpan">lang</span>([key
-]) incompatibility
-
-### 2.8.0 [See changelog](https://gist.github.com/ichernev/ac3899324a5fa6c8c9b4)
-
-- Release July 31, 2014
-
-* incompatible changes
-* [#1761](https://github.com/moment/moment/issues/1761): moments created without a language are no longer following the global language
-, in case it changes. Only newly created moments take the global language by default. In case you&#x27;re affected by this, wait
-, comment on [#1797](https://github.com/moment/moment/issues/1797) and wait for a proper reimplementation
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.local" id="apidoc.element.moment.fn.local">
-        function <span class="apidocSignatureSpan">moment.fn.</span>local
-        <span class="apidocSignatureSpan">(keepLocalTime)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function setOffsetToLocal(keepLocalTime) {
-    if (this._isUTC) {
-        this.utcOffset(0, keepLocalTime);
-        this._isUTC = false;
-
-        if (keepLocalTime) {
-            this.subtract(getDateOffset(this), &#x27;m&#x27;);
-        }
-    }
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    res = model.clone();
-    diff = (isMoment(input) || isDate(input) ? input.valueOf() : createLocal(input).valueOf()) - res.valueOf();
-    // Use low-level api, because this fn is low-level api.
-    res._d.setTime(res._d.valueOf() + diff);
-    hooks.updateOffset(res, false);
-    return res;
-} else {
-    return createLocal(input).<span class="apidocCodeKeywordSpan">local</span>();
-}
-}
-
-function getDateOffset (m) {
-// On Firefox.24 Date#getTimezoneOffset returns a floating point.
-// https://github.com/moment/moment/pull/1871
-return -Math.round(m._d.getTimezoneOffset() / 15) * 15;
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.locale" id="apidoc.element.moment.fn.locale">
-        function <span class="apidocSignatureSpan">moment.fn.</span>locale
-        <span class="apidocSignatureSpan">(key)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function locale(key) {
-    var newLocaleData;
-
-    if (key === undefined) {
-        return this._locale._abbr;
-    } else {
-        newLocaleData = getLocale(key);
-        if (newLocaleData != null) {
-            this._locale = newLocaleData;
-        }
-        return this;
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-return -(wholeMonthDiff + adjust) || 0;
-}
-
-hooks.defaultFormat = &#x27;YYYY-MM-DDTHH:mm:ssZ&#x27;;
-hooks.defaultFormatUtc = &#x27;YYYY-MM-DDTHH:mm:ss[Z]&#x27;;
-
-function toString () {
-return this.clone().<span class="apidocCodeKeywordSpan">locale</span>(&#x27;en&#x27;).format(&#x27;ddd MMM DD YYYY HH:mm:ss [GMT
-]ZZ&#x27;);
-}
-
-function toISOString() {
-if (!this.isValid()) {
-    return null;
-}
-var m = this.clone().utc();
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.localeData" id="apidoc.element.moment.fn.localeData">
-        function <span class="apidocSignatureSpan">moment.fn.</span>localeData
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function localeData() {
-    return this._locale;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-if (padded) {
-    formatTokenFunctions[padded[0]] = function () {
-        return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
-    };
-}
-if (ordinal) {
-    formatTokenFunctions[ordinal] = function () {
-        return this.<span class="apidocCodeKeywordSpan">localeData</span>().ordinal(func.apply(this, arguments), token);
-    };
-}
-}
-
-function removeFormattingTokens(input) {
-if (input.match(/\[[\s\S]/)) {
-    return input.replace(/^\[|\]$/g, &#x27;&#x27;);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.max" id="apidoc.element.moment.fn.max">
-        function <span class="apidocSignatureSpan">moment.fn.</span>max
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">max = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-function zeroFill(number, targetLength, forceSign) {
-    var absNumber = &#x27;&#x27; + Math.abs(number),
-        zerosToFill = targetLength - absNumber.length,
-        sign = number &#x3e;= 0;
-    return (sign ? (forceSign ? &#x27;+&#x27; : &#x27;&#x27;) : &#x27;-&#x27;) +
-        Math.pow(10, Math.<span class="apidocCodeKeywordSpan">max</span>(0, zerosToFill)).toString().substr(1) + absNumber;
-}
-
-var formattingTokens = /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY
-|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g;
-
-var localFormattingTokens = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g;
-
-var formatFunctions = {};
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.millisecond" id="apidoc.element.moment.fn.millisecond">
-        function <span class="apidocSignatureSpan">moment.fn.</span>millisecond
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">millisecond = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-function toDate () {
-return new Date(this.valueOf());
-}
-
-function toArray () {
-var m = this;
-return [m.year(), m.month(), m.date(), m.hour(), m.minute(), m.second(), m.<span class="apidocCodeKeywordSpan">millisecond</span
->()];
-}
-
-function toObject () {
-var m = this;
-return {
-    years: m.year(),
-    months: m.month(),
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.milliseconds" id="apidoc.element.moment.fn.milliseconds">
-        function <span class="apidocSignatureSpan">moment.fn.</span>milliseconds
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">milliseconds = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    case &#x27;hour&#x27;:
-        this.minutes(0);
-        /* falls through */
-    case &#x27;minute&#x27;:
-        this.seconds(0);
-        /* falls through */
-    case &#x27;second&#x27;:
-        this.<span class="apidocCodeKeywordSpan">milliseconds</span>(0);
-}
-
-// weeks are a special case
-if (units === &#x27;week&#x27;) {
-    this.weekday(0);
-}
-if (units === &#x27;isoWeek&#x27;) {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.min" id="apidoc.element.moment.fn.min">
-        function <span class="apidocSignatureSpan">moment.fn.</span>min
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">min = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-return value;
-}
-
-// compare two arrays, return the number of differences
-function compareArrays(array1, array2, dontConvert) {
-var len = Math.<span class="apidocCodeKeywordSpan">min</span>(array1.length, array2.length),
-    lengthDiff = Math.abs(array1.length - array2.length),
-    diffs = 0,
-    i;
-for (i = 0; i &#x3c; len; i++) {
-    if ((dontConvert &#x26;&#x26; array1[i] !== array2[i]) ||
-        (!dontConvert &#x26;&#x26; toInt(array1[i]) !== toInt(array2[i]))) {
-        diffs++;
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.minute" id="apidoc.element.moment.fn.minute">
-        function <span class="apidocSignatureSpan">moment.fn.</span>minute
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">minute = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-function toDate () {
-return new Date(this.valueOf());
-}
-
-function toArray () {
-var m = this;
-return [m.year(), m.month(), m.date(), m.hour(), m.<span class="apidocCodeKeywordSpan">minute</span>(), m.second(), m.millisecond
-()];
-}
-
-function toObject () {
-var m = this;
-return {
-    years: m.year(),
-    months: m.month(),
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.minutes" id="apidoc.element.moment.fn.minutes">
-        function <span class="apidocSignatureSpan">moment.fn.</span>minutes
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">minutes = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-addFormatToken(&#x27;H&#x27;, [&#x27;HH&#x27;, 2], 0, &#x27;hour&#x27;);
-addFormatToken(&#x27;h&#x27;, [&#x27;hh&#x27;, 2], 0, hFormat);
-addFormatToken(&#x27;k&#x27;, [&#x27;kk&#x27;, 2], 0, kFormat);
-
-addFormatToken(&#x27;hmm&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.<span class="apidocCodeKeywordSpan">minutes</span>(), 2);
-});
-
-addFormatToken(&#x27;hmmss&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
-        zeroFill(this.seconds(), 2);
-});
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.month" id="apidoc.element.moment.fn.month">
-        function <span class="apidocSignatureSpan">moment.fn.</span>month
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetMonth(value) {
-    if (value != null) {
-        setMonth(this, value);
-        hooks.updateOffset(this, true);
-        return this;
-    } else {
-        return get(this, &#x27;Month&#x27;);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-var formatFunctions = {};
-
-var formatTokenFunctions = {};
-
-// token:    &#x27;M&#x27;
-// padded:   [&#x27;MM&#x27;, 2]
-// ordinal:  &#x27;Mo&#x27;
-// callback: function () { this.<span class="apidocCodeKeywordSpan">month</span>() + 1 }
-function addFormatToken (token, padded, ordinal, callback) {
-var func = callback;
-if (typeof callback === &#x27;string&#x27;) {
-    func = function () {
-        return this[callback]();
-    };
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.months" id="apidoc.element.moment.fn.months">
-        function <span class="apidocSignatureSpan">moment.fn.</span>months
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">months = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-});
-
-addFormatToken(&#x27;MMM&#x27;, 0, 0, function (format) {
-    return this.localeData().monthsShort(this, format);
-});
-
-addFormatToken(&#x27;MMMM&#x27;, 0, 0, function (format) {
-    return this.localeData().<span class="apidocCodeKeywordSpan">months</span>(this, format);
-});
-
-// ALIASES
-
-addUnitAlias(&#x27;month&#x27;, &#x27;M&#x27;);
-
-// PRIORITY
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.parseZone" id="apidoc.element.moment.fn.parseZone">
-        function <span class="apidocSignatureSpan">moment.fn.</span>parseZone
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function setOffsetToParsedOffset() {
-    if (this._tzm != null) {
-        this.utcOffset(this._tzm, false, true);
-    } else if (typeof this._i === &#x27;string&#x27;) {
-        var tZone = offsetFromString(matchOffset, this._i);
-        if (tZone != null) {
-            this.utcOffset(tZone);
-        }
-        else {
-            this.utcOffset(0, true);
-        }
-    }
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-proto.isDSTShifted = deprecate(&#x27;isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more
- information&#x27;, isDaylightSavingTimeShifted);
-
-function createUnix (input) {
-    return createLocal(input * 1000);
-}
-
-function createInZone () {
-    return createLocal.apply(null, arguments).<span class="apidocCodeKeywordSpan">parseZone</span>();
-}
-
-function preParsePostFormat (string) {
-    return string;
-}
-
-var proto$1 = Locale.prototype;
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.parsingFlags" id="apidoc.element.moment.fn.parsingFlags">
-        function <span class="apidocSignatureSpan">moment.fn.</span>parsingFlags
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function parsingFlags() {
-    return extend({}, getParsingFlags(this));
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.quarter" id="apidoc.element.moment.fn.quarter">
-        function <span class="apidocSignatureSpan">moment.fn.</span>quarter
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetQuarter(input) {
-    return input == null ? Math.ceil((this.month() + 1) / 3) : this.month((input - 1) * 3 + this.month() % 3);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.quarters" id="apidoc.element.moment.fn.quarters">
-        function <span class="apidocSignatureSpan">moment.fn.</span>quarters
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetQuarter(input) {
-    return input == null ? Math.ceil((this.month() + 1) / 3) : this.month((input - 1) * 3 + this.month() % 3);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.second" id="apidoc.element.moment.fn.second">
-        function <span class="apidocSignatureSpan">moment.fn.</span>second
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">second = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-function toDate () {
-return new Date(this.valueOf());
-}
-
-function toArray () {
-var m = this;
-return [m.year(), m.month(), m.date(), m.hour(), m.minute(), m.<span class="apidocCodeKeywordSpan">second</span>(), m.millisecond
-()];
-}
-
-function toObject () {
-var m = this;
-return {
-    years: m.year(),
-    months: m.month(),
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.seconds" id="apidoc.element.moment.fn.seconds">
-        function <span class="apidocSignatureSpan">moment.fn.</span>seconds
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">seconds = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-addFormatToken(&#x27;hmm&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.minutes(), 2);
-});
-
-addFormatToken(&#x27;hmmss&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
-        zeroFill(this.<span class="apidocCodeKeywordSpan">seconds</span>(), 2);
-});
-
-addFormatToken(&#x27;Hmm&#x27;, 0, 0, function () {
-    return &#x27;&#x27; + this.hours() + zeroFill(this.minutes(), 2);
-});
-
-addFormatToken(&#x27;Hmmss&#x27;, 0, 0, function () {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.set" id="apidoc.element.moment.fn.set">
-        function <span class="apidocSignatureSpan">moment.fn.</span>set
-        <span class="apidocSignatureSpan">(units, value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function stringSet(units, value) {
-    if (typeof units === &#x27;object&#x27;) {
-        units = normalizeObjectUnits(units);
-        var prioritized = getPrioritizedUnits(units);
-        for (var i = 0; i &#x3c; prioritized.length; i++) {
-            this[prioritized[i].unit](units[prioritized[i].unit]);
-        }
-    } else {
-        units = normalizeUnits(units);
-        if (isFunction(this[units])) {
-            return this[units](value);
-        }
-    }
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-features:
-* [2088](https://github.com/moment/moment/issues/2088) add moment.fn.isBetween
-* [2054](https://github.com/moment/moment/issues/2054) Call updateOffset when creating moment (needed for default timezone in
-  moment-timezone)
-* [1893](https://github.com/moment/moment/issues/1893) Add moment.isDate method
-* [1825](https://github.com/moment/moment/issues/1825) Implement toJSON function on Duration
-* [1809](https://github.com/moment/moment/issues/1809) Allowing moment.<span class="apidocCodeKeywordSpan">set</span>() to accept
- a hash of units
-* [2128](https://github.com/moment/moment/issues/2128) Add firstDayOfWeek, firstDayOfYear locale getters
-* [2131](https://github.com/moment/moment/issues/2131) Add quarter diff support
-
-Some bugfixes and language improvements -- [full changelog](https://gist.github.com/ichernev/0c9a9b49951111a27ce7)
-
-### 2.8.4 [See full changelog](https://gist.github.com/ichernev/a4fcb0a46d74e4b9b996)
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.startOf" id="apidoc.element.moment.fn.startOf">
-        function <span class="apidocSignatureSpan">moment.fn.</span>startOf
-        <span class="apidocSignatureSpan">(units)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function startOf(units) {
-    units = normalizeUnits(units);
-    // the following switch intentionally omits break keywords
-    // to utilize falling through the cases.
-    switch (units) {
-        case &#x27;year&#x27;:
-            this.month(0);
-<span class="apidocCodeCommentSpan">            /* falls through */
-</span>        case &#x27;quarter&#x27;:
-        case &#x27;month&#x27;:
-            this.date(1);
-            /* falls through */
-        case &#x27;week&#x27;:
-        case &#x27;isoWeek&#x27;:
-        case &#x27;day&#x27;:
-        case &#x27;date&#x27;:
-            this.hours(0);
-            /* falls through */
-        case &#x27;hour&#x27;:
-            this.minutes(0);
-            /* falls through */
-        case &#x27;minute&#x27;:
-            this.seconds(0);
-            /* falls through */
-        case &#x27;second&#x27;:
-            this.milliseconds(0);
-    }
-
-    // weeks are a special case
-    if (units === &#x27;week&#x27;) {
-        this.weekday(0);
-    }
-    if (units === &#x27;isoWeek&#x27;) {
-        this.isoWeekday(1);
-    }
-
-    // quarters are also special
-    if (units === &#x27;quarter&#x27;) {
-        this.month(Math.floor(this.month() / 3) * 3);
-    }
-
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-Bugfixes
-
-### 1.7.0 [See discussion](https://github.com/timrwood/moment/issues/288)
-
-- Release Jul 26, 2012
-
-Added `moment.fn.endOf()` and `moment.fn.<span class="apidocCodeKeywordSpan">startOf</span>()`.
-
-Added validation via `moment.fn.isValid()`.
-
-Made formatting method 3x faster. http://jsperf.com/momentjs-cached-format-functions
-
-Add support for month/weekday callbacks in `moment.fn.format()`
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.subtract" id="apidoc.element.moment.fn.subtract">
-        function <span class="apidocSignatureSpan">moment.fn.</span>subtract
-        <span class="apidocSignatureSpan">(val, period)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">subtract = function (val, period) {
-    var dur, tmp;
-    //invert the arguments, but complain about it
-    if (period !== null &#x26;&#x26; !isNaN(+period)) {
-        deprecateSimple(name, &#x27;moment().&#x27; + name  + &#x27;(period, number) is deprecated. Please use moment().&#x27; + name + &#x27;(number, period
-). &#x27; +
-        &#x27;See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info.&#x27;);
-        tmp = val; val = period; period = tmp;
-    }
-
-    val = typeof val === &#x27;string&#x27; ? +val : val;
-    dur = createDuration(val, period);
-    addSubtract(this, dur, direction);
-    return this;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-function setOffsetToLocal (keepLocalTime) {
-if (this._isUTC) {
-    this.utcOffset(0, keepLocalTime);
-    this._isUTC = false;
-
-    if (keepLocalTime) {
-        this.<span class="apidocCodeKeywordSpan">subtract</span>(getDateOffset(this), &#x27;m&#x27;);
-    }
-}
-return this;
-}
-
-function setOffsetToParsedOffset () {
-if (this._tzm != null) {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.to" id="apidoc.element.moment.fn.to">
-        function <span class="apidocSignatureSpan">moment.fn.</span>to
-        <span class="apidocSignatureSpan">(time, withoutSuffix)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function to(time, withoutSuffix) {
-    if (this.isValid() &#x26;&#x26;
-            ((isMoment(time) &#x26;&#x26; time.isValid()) ||
-             createLocal(time).isValid())) {
-        return createDuration({from: this, to: time}).locale(this.locale()).humanize(!withoutSuffix);
-    } else {
-        return this.localeData().invalidDate();
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-    return createDuration({from: this, to: time}).locale(this.locale()).humanize(!withoutSuffix);
-} else {
-    return this.localeData().invalidDate();
-}
-}
-
-function toNow (withoutSuffix) {
-return this.<span class="apidocCodeKeywordSpan">to</span>(createLocal(), withoutSuffix);
-}
-
-// If passed a locale key, it will set the locale for this
-// instance.  Otherwise, it will return the locale configuration
-// variables for this instance.
-function locale (key) {
-var newLocaleData;
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toArray" id="apidoc.element.moment.fn.toArray">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toArray
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toArray() {
-    var m = this;
-    return [m.year(), m.month(), m.date(), m.hour(), m.minute(), m.second(), m.millisecond()];
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-    copyConfig(c, this);
-    c = prepareConfig(c);
-
-    if (c._a) {
-        var other = c._isUTC ? createUTC(c._a) : createLocal(c._a);
-        this._isDSTShifted = this.isValid() &#x26;&#x26;
-            compareArrays(c._a, other.<span class="apidocCodeKeywordSpan">toArray</span>()) &#x3e; 0;
-    } else {
-        this._isDSTShifted = false;
-    }
-
-    return this._isDSTShifted;
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toDate" id="apidoc.element.moment.fn.toDate">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toDate
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toDate() {
-    return new Date(this.valueOf());
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-   }
-   var m = this.clone().utc();
-   if (m.year() &#x3c; 0 || m.year() &#x3e; 9999) {
-       return formatMoment(m, &#x27;YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-   }
-   if (isFunction(Date.prototype.toISOString)) {
-       // native implementation is ~50x faster, use it when we can
-       return this.<span class="apidocCodeKeywordSpan">toDate</span>().toISOString();
-   }
-   return formatMoment(m, &#x27;YYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-}
-
-/**
-* Return a human readable representation of a moment that can
-* also be evaluated to get a new moment which is the same
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toISOString" id="apidoc.element.moment.fn.toISOString">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toISOString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toISOString() {
-    if (!this.isValid()) {
-        return null;
-    }
-    var m = this.clone().utc();
-    if (m.year() &#x3c; 0 || m.year() &#x3e; 9999) {
-        return formatMoment(m, &#x27;YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-    }
-    if (isFunction(Date.prototype.toISOString)) {
-        // native implementation is ~50x faster, use it when we can
-        return this.toDate().toISOString();
-    }
-    return formatMoment(m, &#x27;YYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-   }
-   var m = this.clone().utc();
-   if (m.year() &#x3c; 0 || m.year() &#x3e; 9999) {
-       return formatMoment(m, &#x27;YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-   }
-   if (isFunction(Date.prototype.toISOString)) {
-       // native implementation is ~50x faster, use it when we can
-       return this.toDate().<span class="apidocCodeKeywordSpan">toISOString</span>();
-   }
-   return formatMoment(m, &#x27;YYYY-MM-DD[T]HH:mm:ss.SSS[Z]&#x27;);
-}
-
-/**
-* Return a human readable representation of a moment that can
-* also be evaluated to get a new moment which is the same
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toJSON" id="apidoc.element.moment.fn.toJSON">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toJSON
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toJSON() {
-    // new Date(NaN).toJSON() === null
-    return this.isValid() ? this.toISOString() : null;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-        minutes: m.minutes(),
-        seconds: m.seconds(),
-        milliseconds: m.milliseconds()
-    };
-}
-
-function toJSON () {
-    // new Date(NaN).<span class="apidocCodeKeywordSpan">toJSON</span>() === null
-    return this.isValid() ? this.toISOString() : null;
-}
-
-function isValid$2 () {
-    return isValid(this);
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toNow" id="apidoc.element.moment.fn.toNow">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toNow
-        <span class="apidocSignatureSpan">(withoutSuffix)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toNow(withoutSuffix) {
-    return this.to(createLocal(), withoutSuffix);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toObject" id="apidoc.element.moment.fn.toObject">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toObject
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toObject() {
-    var m = this;
-    return {
-        years: m.year(),
-        months: m.month(),
-        date: m.date(),
-        hours: m.hours(),
-        minutes: m.minutes(),
-        seconds: m.seconds(),
-        milliseconds: m.milliseconds()
-    };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.toString" id="apidoc.element.moment.fn.toString">
-        function <span class="apidocSignatureSpan">moment.fn.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() {
-    return this.clone().locale(&#x27;en&#x27;).format(&#x27;ddd MMM DD YYYY HH:mm:ss [GMT]ZZ&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-
-function zeroFill(number, targetLength, forceSign) {
-    var absNumber = &#x27;&#x27; + Math.abs(number),
-        zerosToFill = targetLength - absNumber.length,
-        sign = number &#x3e;= 0;
-    return (sign ? (forceSign ? &#x27;+&#x27; : &#x27;&#x27;) : &#x27;-&#x27;) +
-        Math.pow(10, Math.max(0, zerosToFill)).<span class="apidocCodeKeywordSpan">toString</span>().substr(1) + absNumber;
-}
-
-var formattingTokens = /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY
-|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g;
-
-var localFormattingTokens = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g;
-
-var formatFunctions = {};
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.unix" id="apidoc.element.moment.fn.unix">
-        function <span class="apidocSignatureSpan">moment.fn.</span>unix
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function unix() {
-    return Math.floor(this.valueOf() / 1000);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.utc" id="apidoc.element.moment.fn.utc">
-        function <span class="apidocSignatureSpan">moment.fn.</span>utc
-        <span class="apidocSignatureSpan">(keepLocalTime)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function setOffsetToUTC(keepLocalTime) {
-    return this.utcOffset(0, keepLocalTime);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-Added `moment#toJSON`
-
-Bugfix: Fixed parsing of first century dates
-
-Bugfix: Parsing 10Sep2001 should work as expected
-
-Bugfix: Fixed weirdness with `moment.<span class="apidocCodeKeywordSpan">utc</span>()` parsing.
-
-Changed language ordinal method to return the number + ordinal instead of just the ordinal.
-
-Changed two digit year parsing cutoff to match strptime.
-
-Removed `moment#sod` and `moment#eod` in favor of `moment#startOf` and `moment#endOf`.
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.utcOffset" id="apidoc.element.moment.fn.utcOffset">
-        function <span class="apidocSignatureSpan">moment.fn.</span>utcOffset
-        <span class="apidocSignatureSpan">(input, keepLocalTime, keepMinutes)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetOffset(input, keepLocalTime, keepMinutes) {
-    var offset = this._offset || 0,
-        localAdjust;
-    if (!this.isValid()) {
-        return input != null ? this : NaN;
-    }
-    if (input != null) {
-        if (typeof input === &#x27;string&#x27;) {
-            input = offsetFromString(matchShortOffset, input);
-            if (input === null) {
-                return this;
-            }
-        } else if (Math.abs(input) &#x3c; 16 &#x26;&#x26; !keepMinutes) {
-            input = input * 60;
-        }
-        if (!this._isUTC &#x26;&#x26; keepLocalTime) {
-            localAdjust = getDateOffset(this);
-        }
-        this._offset = input;
-        this._isUTC = true;
-        if (localAdjust != null) {
-            this.add(localAdjust, &#x27;m&#x27;);
-        }
-        if (offset !== input) {
-            if (!keepLocalTime || this._changeInProgress) {
-                addSubtract(this, createDuration(input - offset, &#x27;m&#x27;), 1, false);
-            } else if (!this._changeInProgress) {
-                this._changeInProgress = true;
-                hooks.updateOffset(this, true);
-                this._changeInProgress = null;
-            }
-        }
-        return this;
-    } else {
-        return this._isUTC ? offset : getDateOffset(this);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-}
-
-// FORMATTING
-
-function offset (token, separator) {
-addFormatToken(token, 0, 0, function () {
-    var offset = this.<span class="apidocCodeKeywordSpan">utcOffset</span>();
-    var sign = &#x27;+&#x27;;
-    if (offset &#x3c; 0) {
-        offset = -offset;
-        sign = &#x27;-&#x27;;
-    }
-    return sign + zeroFill(~~(offset / 60), 2) + separator + zeroFill(~~(offset) % 60, 2);
-});
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.valueOf" id="apidoc.element.moment.fn.valueOf">
-        function <span class="apidocSignatureSpan">moment.fn.</span>valueOf
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function valueOf() {
-    return this._d.valueOf() - ((this._offset || 0) * 60000);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-## Bugfixes
-* [#3109](https://github.com/moment/moment/pull/3109) Fix [#1756](https://github.com/moment/moment/issues/1756) Resolved thread-
-safe issue on server side.
-* [#3078](https://github.com/moment/moment/pull/3078) Fix parsing for months/weekdays with weird characters
-* [#3098](https://github.com/moment/moment/pull/3098) Use Z suffix when in UTC mode ([#3020](https://github.com/moment/moment/issues
-/3020))
-* [#2995](https://github.com/moment/moment/pull/2995) Fix floating point rounding errors in durations
-* [#3059](https://github.com/moment/moment/pull/3059) fix bug where diff returns -0 in month-related diffs
-* [#3045](https://github.com/moment/moment/pull/3045) Fix mistaking any input for &#x27;a&#x27; token
-* [#2877](https://github.com/moment/moment/pull/2877) Use explicit .<span class="apidocCodeKeywordSpan">valueOf</span>() calls instead
- of coercion
-* [#3036](https://github.com/moment/moment/pull/3036) Year setter should keep time when DST changes
-
-Plus 3 new locales and locale fixes.
-
-### 2.12.0 [See full changelog](https://gist.github.com/ichernev/6e5bfdf8d6522fc4ac73)
-
-- Release March 7, 2016
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.week" id="apidoc.element.moment.fn.week">
-        function <span class="apidocSignatureSpan">moment.fn.</span>week
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetWeek(input) {
-    var week = this.localeData().week(this);
-    return input == null ? week : this.add((input - week) * 7, &#x27;d&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-function localeFirstDayOfYear () {
-    return this._week.doy;
-}
-
-// MOMENTS
-
-function getSetWeek (input) {
-    var week = this.localeData().<span class="apidocCodeKeywordSpan">week</span>(this);
-    return input == null ? week : this.add((input - week) * 7, &#x27;d&#x27;);
-}
-
-function getSetISOWeek (input) {
-    var week = weekOfYear(this, 1, 4).week;
-    return input == null ? week : this.add((input - week) * 7, &#x27;d&#x27;);
-}
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.weekYear" id="apidoc.element.moment.fn.weekYear">
-        function <span class="apidocSignatureSpan">moment.fn.</span>weekYear
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetWeekYear(input) {
-    return getSetWeekYearHelper.call(this,
-            input,
-            this.week(),
-            this.weekday(),
-            this.localeData()._week.dow,
-            this.localeData()._week.doy);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-        strict: this._strict
-    };
-}
-
-// FORMATTING
-
-addFormatToken(0, [&#x27;gg&#x27;, 2], 0, function () {
-    return this.<span class="apidocCodeKeywordSpan">weekYear</span>() % 100;
-});
-
-addFormatToken(0, [&#x27;GG&#x27;, 2], 0, function () {
-    return this.isoWeekYear() % 100;
-});
-
-function addWeekYearFormatToken (token, getter) {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.weekday" id="apidoc.element.moment.fn.weekday">
-        function <span class="apidocSignatureSpan">moment.fn.</span>weekday
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetLocaleDayOfWeek(input) {
-    if (!this.isValid()) {
-        return input != null ? this : NaN;
-    }
-    var weekday = (this.day() + 7 - this.localeData()._week.dow) % 7;
-    return input == null ? weekday : this.add(input - weekday, &#x27;d&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-        /* falls through */
-    case &#x27;second&#x27;:
-        this.milliseconds(0);
-}
-
-// weeks are a special case
-if (units === &#x27;week&#x27;) {
-    this.<span class="apidocCodeKeywordSpan">weekday</span>(0);
-}
-if (units === &#x27;isoWeek&#x27;) {
-    this.isoWeekday(1);
-}
-
-// quarters are also special
-if (units === &#x27;quarter&#x27;) {
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.weeks" id="apidoc.element.moment.fn.weeks">
-        function <span class="apidocSignatureSpan">moment.fn.</span>weeks
-        <span class="apidocSignatureSpan">(input)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSetWeek(input) {
-    var week = this.localeData().week(this);
-    return input == null ? week : this.add((input - week) * 7, &#x27;d&#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.weeksInYear" id="apidoc.element.moment.fn.weeksInYear">
-        function <span class="apidocSignatureSpan">moment.fn.</span>weeksInYear
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getWeeksInYear() {
-    var weekInfo = this.localeData()._week;
-    return weeksInYear(this.year(), weekInfo.dow, weekInfo.doy);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.year" id="apidoc.element.moment.fn.year">
-        function <span class="apidocSignatureSpan">moment.fn.</span>year
-        <span class="apidocSignatureSpan">(value)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">year = function (value) {
-    if (value != null) {
-        set$1(this, unit, value);
-        hooks.updateOffset(this, keepTime);
-        return this;
-    } else {
-        return get(this, unit);
-    }
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-        // TODO: Another silent failure?
-        if (!isNumber(value)) {
-            return mom;
-        }
-    }
-}
-
-dayOfMonth = Math.min(mom.date(), daysInMonth(mom.<span class="apidocCodeKeywordSpan">year</span>(), value));
-mom._d[&#x27;set&#x27; + (mom._isUTC ? &#x27;UTC&#x27; : &#x27;&#x27;) + &#x27;Month&#x27;](value, dayOfMonth);
-return mom;
-}
-
-function getSetMonth (value) {
-if (value != null) {
-    setMonth(this, value);
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.years" id="apidoc.element.moment.fn.years">
-        function <span class="apidocSignatureSpan">moment.fn.</span>years
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">years = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.zone" id="apidoc.element.moment.fn.zone">
-        function <span class="apidocSignatureSpan">moment.fn.</span>zone
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">zone = function () {
-    if (hooks.deprecationHandler != null) {
-        hooks.deprecationHandler(null, msg);
-    }
-    if (firstTime) {
-        var args = [];
-        var arg;
-        for (var i = 0; i &#x3c; arguments.length; i++) {
-            arg = &#x27;&#x27;;
-            if (typeof arguments[i] === &#x27;object&#x27;) {
-                arg += &#x27;\n[&#x27; + i + &#x27;] &#x27;;
-                for (var key in arguments[0]) {
-                    arg += key + &#x27;: &#x27; + arguments[0][key] + &#x27;, &#x27;;
-                }
-                arg = arg.slice(0, -2); // Remove trailing comma and space
-            } else {
-                arg = arguments[i];
-            }
-            args.push(arg);
-        }
-        warn(msg + &#x27;\nArguments: &#x27; + Array.prototype.slice.call(args).join(&#x27;&#x27;) + &#x27;\n&#x27; + (new Error()).stack);
-        firstTime = false;
-    }
-    return fn.apply(this, arguments);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.zoneAbbr" id="apidoc.element.moment.fn.zoneAbbr">
-        function <span class="apidocSignatureSpan">moment.fn.</span>zoneAbbr
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getZoneAbbr() {
-    return this._isUTC ? &#x27;UTC&#x27; : &#x27;&#x27;;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.moment.fn.zoneName" id="apidoc.element.moment.fn.zoneName">
-        function <span class="apidocSignatureSpan">moment.fn.</span>zoneName
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getZoneName() {
-    return this._isUTC ? &#x27;Coordinated Universal Time&#x27; : &#x27;&#x27;;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
