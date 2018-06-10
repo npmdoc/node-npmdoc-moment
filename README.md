@@ -1,6 +1,6 @@
 # npmdoc-moment
 
-#### basic api documentation for  [moment (v2.18.1)](http://momentjs.com)  [![npm package](https://img.shields.io/npm/v/npmdoc-moment.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-moment) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-moment.svg)](https://travis-ci.org/npmdoc/node-npmdoc-moment)
+#### basic api documentation for  [moment (2.22.2)](http://momentjs.com)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-moment.svg)](https://travis-ci.org/npmdoc/node-npmdoc-moment)
 
 #### Parse, validate, manipulate, and display dates
 
@@ -8,11 +8,11 @@
 
 - [https://npmdoc.github.io/node-npmdoc-moment/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-moment/build/apidoc.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-moment/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-moment/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-moment/build/screenshot.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-moment/build/apidoc.html)
 
-![npmPackageListing](https://npmdoc.github.io/node-npmdoc-moment/build/screenCapture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-moment/build/screenshot.npmPackageListing.svg)
 
-![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-moment/build/screenCapture.npmPackageDependencyTree.svg)
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-moment/build/screenshot.npmPackageDependencyTree.svg)
 
 
 
@@ -76,10 +76,10 @@
         "karma-firefox-launcher": "latest",
         "karma-qunit": "latest",
         "karma-sauce-launcher": "latest",
-        "load-grunt-tasks": "latest",
+        "load-grunt-tasks": "~3.5.2",
+        "node-qunit": "^1.0.0",
         "nyc": "^2.1.4",
-        "qunit": "^0.7.5",
-        "qunit-cli": "^0.1.4",
+        "qunit": "^2.6.0",
         "rollup": "latest",
         "spacejam": "latest",
         "typescript": "^1.8.10",
@@ -87,8 +87,11 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f",
-        "tarball": "https://registry.npmjs.org/moment/-/moment-2.18.1.tgz"
+        "shasum": "3c257f9839fc0e93ff53149632239eb90783ff66",
+        "tarball": "https://registry.npmjs.org/moment/-/moment-2.22.2.tgz",
+        "fileCount": 364,
+        "unpackedSize": 2714826,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbEO6iCRA9TVsSAnZWagAA0UMQAKGHBnBzmDFFPcPNCaf2\nhLhTPtZ8BGfomqj1dFeSp+8dwxyiroMTJ8qRkAxKOaatayXwop7ez+kBxnMg\nPP0zoSBsX3M4ZX4FTTpH5ltvM+oBGOJT9kbMES8jeYAJBBSjD+qc9X+AmE88\nM1qGAbmSaAw6Wzu03eQ+MZ9xy9GbqeIhPkVTH2fcp1zFpoAZZYdTF+unTGv8\nGmUj7Nxwt5TlGgJS09eeivMSVOB+07YWaJc8A+bxIGAEIVfAwbbIpvItS69r\n0YnRmE4DaFg13PZJvL4gw9quCxqPpyvn7tf2C3hCyQKA+Mb2q+89wfPrBIQI\nxkKd4QM9pdNfj1f6MLGNe56E925WydQ6GatEx3RUBSgFNFwT6KmVbmhIU9Gn\nflz2Rx6zi3c9XbdvVffhw7xZtUtgWmCtBbg5nTIUBreafjGATb/RFDmJEPk+\nPTYLaf5SzHioaiPR1iFSEpgAvqU1A/a85396IhuCJ/9m3rw2fASVoYwLvfct\nD1BGqzNlctyLNThywa5h1TozFHaqtwFVSt/U5B9Fvn29zG+SYu2NOW6lcvg9\n8ip3mWjSZLkDCRawHsxVxvbTpLU2ZInnC/ym+kG/jwopd9SMcLwmLyiOXL0N\nBOHXUto0MffamsfrB/Kb0zmJHodl/y8gu7NjdzESBAQX/090cbgneXLMm9Pb\nT8lS\r\n=UATQ\r\n-----END PGP SIGNATURE-----\r\n"
     },
     "dojoBuild": "package.js",
     "ender": "./ender.js",
@@ -131,6 +134,9 @@
             "name": "maggiepint"
         },
         {
+            "name": "marwahaha"
+        },
+        {
             "name": "mj1856"
         },
         {
@@ -156,7 +162,7 @@
         ]
     },
     "typings": "./moment.d.ts",
-    "version": "2.18.1",
+    "version": "2.22.2",
     "bin": {}
 }
 ```
